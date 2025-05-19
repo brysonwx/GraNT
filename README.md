@@ -4,7 +4,7 @@
 
 [[`Paper`](https://chen2hang.github.io/_publications/nonparametric_teaching_for_graph_proerty_learners/ICML_2025_Paper.pdf)] | [[`Project Page`](https://chen2hang.github.io/_publications/nonparametric_teaching_for_graph_proerty_learners/grant.html)]
 
-This is the official PyTorch implementation of the paper: **[Nonparametric Teaching for Graph Property Learners](https://chen2hang.github.io/_publications/nonparametric_teaching_for_graph_proerty_learners/ICML_2025_Paper.pdf)** (ICML'2025).
+This is the official PyTorch implementation of the paper: **[Nonparametric Teaching for Graph Property Learners](https://chen2hang.github.io/_publications/nonparametric_teaching_for_graph_proerty_learners/ICML_2025_Paper.pdf)** (ICML'2025 Spotlight).
 
 # Guide for the start-up
 
