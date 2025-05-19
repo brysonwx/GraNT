@@ -1,10 +1,10 @@
-# GraNT
+# Nonparametric Teaching for Graph Property Learners
 
 [Chen Zhang*](https://chen2hang.github.io), [Weixin Bu*](https://brysonwx.github.io), [Zeyi Ren](https://zeyi0827.github.io/zeyi.github.io), [Zhengwu Liu](https://www.eee.hku.hk/people/zhengwu-liu), [Yik-Chung Wu](https://www.eee.hku.hk/~ycwu), [Ngai Wong](https://www.eee.hku.hk/~nwong)
 
 [[`Paper`](https://chen2hang.github.io/_publications/nonparametric_teaching_for_graph_proerty_learners/ICML_2025_Paper.pdf)] | [[`Project Page`](https://chen2hang.github.io/_publications/nonparametric_teaching_for_graph_proerty_learners/grant.html)]
 
-This is the official PyTorch implementation of the paper: **[Nonparametric Teaching for Graph Property Learners](https://chen2hang.github.io/_publications/nonparametric_teaching_for_graph_proerty_learners/ICML_2025_Paper.pdf)** (ICML'2025 Spotlight).
+This is the official PyTorch implementation of the **[ICML 2025 Spotlight]** paper: **[Nonparametric Teaching for Graph Property Learners](https://chen2hang.github.io/_publications/nonparametric_teaching_for_graph_proerty_learners/ICML_2025_Paper.pdf)**.
 
 # Guide for the start-up
 
@@ -144,5 +144,24 @@ This guide outlines the steps to start up GraNT, e.g.,
 
 ---
 
+## Related works
+Related works for developing a deeper understanding of GraNT are: <br>
+<p class="indented">[ICML 2024] <a href="https://arxiv.org/pdf/2405.10531">Nonparametric Teaching of Implicit Neural Representations</a>,</p>
+<p class="indented">[NeurIPS 2023] <a href="https://arxiv.org/pdf/2311.10318">Nonparametric Teaching for Multiple Learners</a>,</p>
+<p class="indented">[ICML 2023] <a href="https://arxiv.org/pdf/2306.03007">Nonparametric Iterative Machine Teaching</a>.<br></p>
+
+## Citation
+If you find our work useful in your research, please cite:
+```
+@inproceedings{zhang2025nonparametric,
+  title={Nonparametric Teaching  for Graph Property Learners},
+  author={Zhang, Chen and Bu, Weixin and Ren, Zeyi and Liu, Zhengwu and Wu, Yik-Chung and Wong, Ngai},
+  booktitle={ICML},
+  year={2025}
+}
+```
+
+---
+
 ## Contact Us
-Please feel free to contact us: [Weixin Bu](bwxhhjy@gmail.com) or [Chen Zhang](u3567831@connect.hku.hk) if you have any questions while starting up GraNT.
+Please feel free to contact us: [Weixin Bu](https://brysonwx.github.io) or [Chen Zhang](https://chen2hang.github.io) if you have any questions while starting up GraNT.
