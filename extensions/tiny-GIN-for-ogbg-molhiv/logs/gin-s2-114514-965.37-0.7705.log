@@ -1,0 +1,1233 @@
+1900-01-01 18:02:09,167 - INFO - config: {'device': 'cuda:1', 'dataset_id': 'ogbg-molhiv', 'num_layers': 2, 'hidden_dim': 64, 'dropout': 0.5, 'learning_rate': 0.001, 'epochs': 600, 'batch_size': 500, 'weight_decay': 1e-06, 'start_ratio': 0.1, 'scheduler_type': 'step', 'strategy_type': 'simple_curriculum', 'target_index': 0, 'sampling_type': 2, 'log_file': 'gin-s2-114514-r1.log', 'random_seed': 114514}
+1900-01-01 18:02:09,167 - INFO - sampling_flag: True
+1900-01-01 18:02:13,412 - INFO - epoch: 1, sampling_ratio: 0.1, mt_flag: True, train_total_len: 3290
+1900-01-01 18:02:14,642 - INFO - New best validation score: 0.4514746227709191 (rocauc) without training score regression
+1900-01-01 18:02:14,647 - INFO - Dataset ogbg-molhiv, Epoch: 1, Train: 0.400146 (rocauc), Valid: 0.451475 (rocauc), Test: 0.360959 (rocauc)
+1900-01-01 18:02:15,892 - INFO - epoch: 2, sampling_ratio: 0.1, mt_flag: True, train_total_len: 3290
+1900-01-01 18:02:16,314 - INFO - Dataset ogbg-molhiv, Epoch: 2, Train: 0.489991 (rocauc), Valid: 0.420687 (rocauc), Test: 0.323867 (rocauc)
+1900-01-01 18:02:17,677 - INFO - epoch: 3, sampling_ratio: 0.1, mt_flag: True, train_total_len: 3290
+1900-01-01 18:02:18,101 - INFO - Dataset ogbg-molhiv, Epoch: 3, Train: 0.519467 (rocauc), Valid: 0.428190 (rocauc), Test: 0.348676 (rocauc)
+1900-01-01 18:02:19,330 - INFO - epoch: 4, sampling_ratio: 0.1, mt_flag: True, train_total_len: 3290
+1900-01-01 18:02:19,919 - INFO - Dataset ogbg-molhiv, Epoch: 4, Train: 0.537457 (rocauc), Valid: 0.444270 (rocauc), Test: 0.367538 (rocauc)
+1900-01-01 18:02:21,163 - INFO - epoch: 5, sampling_ratio: 0.1, mt_flag: True, train_total_len: 3290
+1900-01-01 18:02:21,595 - INFO - New best validation score: 0.4674303106016069 (rocauc) without training score regression
+1900-01-01 18:02:21,600 - INFO - Dataset ogbg-molhiv, Epoch: 5, Train: 0.507998 (rocauc), Valid: 0.467430 (rocauc), Test: 0.394326 (rocauc)
+1900-01-01 18:02:22,831 - INFO - epoch: 6, sampling_ratio: 0.1, mt_flag: True, train_total_len: 3290
+1900-01-01 18:02:23,438 - INFO - Dataset ogbg-molhiv, Epoch: 6, Train: 0.500136 (rocauc), Valid: 0.516733 (rocauc), Test: 0.436158 (rocauc)
+1900-01-01 18:02:24,690 - INFO - epoch: 7, sampling_ratio: 0.1, mt_flag: True, train_total_len: 3290
+1900-01-01 18:02:25,125 - INFO - New best validation score: 0.539299799137762 (rocauc) without training score regression
+1900-01-01 18:02:25,129 - INFO - Dataset ogbg-molhiv, Epoch: 7, Train: 0.548437 (rocauc), Valid: 0.539300 (rocauc), Test: 0.487929 (rocauc)
+1900-01-01 18:02:26,533 - INFO - epoch: 8, sampling_ratio: 0.1, mt_flag: True, train_total_len: 3290
+1900-01-01 18:02:26,963 - INFO - New best validation score: 0.5484365814226925 (rocauc) without training score regression
+1900-01-01 18:02:26,967 - INFO - Dataset ogbg-molhiv, Epoch: 8, Train: 0.577711 (rocauc), Valid: 0.548437 (rocauc), Test: 0.492931 (rocauc)
+1900-01-01 18:02:28,200 - INFO - epoch: 9, sampling_ratio: 0.1, mt_flag: True, train_total_len: 3290
+1900-01-01 18:02:28,670 - INFO - Dataset ogbg-molhiv, Epoch: 9, Train: 0.555549 (rocauc), Valid: 0.528087 (rocauc), Test: 0.466890 (rocauc)
+1900-01-01 18:02:30,089 - INFO - epoch: 10, sampling_ratio: 0.1, mt_flag: True, train_total_len: 3290
+1900-01-01 18:02:30,539 - INFO - Dataset ogbg-molhiv, Epoch: 10, Train: 0.563167 (rocauc), Valid: 0.513650 (rocauc), Test: 0.484996 (rocauc)
+1900-01-01 18:02:31,813 - INFO - epoch: 11, sampling_ratio: 0.1, mt_flag: True, train_total_len: 3290
+1900-01-01 18:02:32,240 - INFO - Dataset ogbg-molhiv, Epoch: 11, Train: 0.578022 (rocauc), Valid: 0.515784 (rocauc), Test: 0.492422 (rocauc)
+1900-01-01 18:02:33,643 - INFO - epoch: 12, sampling_ratio: 0.11800000000000001, mt_flag: True, train_total_len: 3882
+1900-01-01 18:02:34,116 - INFO - Dataset ogbg-molhiv, Epoch: 12, Train: 0.617125 (rocauc), Valid: 0.526409 (rocauc), Test: 0.483992 (rocauc)
+1900-01-01 18:02:35,375 - INFO - epoch: 13, sampling_ratio: 0.11800000000000001, mt_flag: True, train_total_len: 3882
+1900-01-01 18:02:36,005 - INFO - New best validation score: 0.562582671957672 (rocauc) without training score regression
+1900-01-01 18:02:36,009 - INFO - Dataset ogbg-molhiv, Epoch: 13, Train: 0.643115 (rocauc), Valid: 0.562583 (rocauc), Test: 0.512275 (rocauc)
+1900-01-01 18:02:37,265 - INFO - epoch: 14, sampling_ratio: 0.11800000000000001, mt_flag: True, train_total_len: 3882
+1900-01-01 18:02:37,734 - INFO - New best validation score: 0.6090106310013718 (rocauc) without training score regression
+1900-01-01 18:02:37,738 - INFO - Dataset ogbg-molhiv, Epoch: 14, Train: 0.681539 (rocauc), Valid: 0.609011 (rocauc), Test: 0.547567 (rocauc)
+1900-01-01 18:02:39,157 - INFO - epoch: 15, sampling_ratio: 0.11800000000000001, mt_flag: True, train_total_len: 3882
+1900-01-01 18:02:39,662 - INFO - Dataset ogbg-molhiv, Epoch: 15, Train: 0.659960 (rocauc), Valid: 0.615646 (rocauc), Test: 0.549004 (rocauc)
+1900-01-01 18:02:40,937 - INFO - epoch: 16, sampling_ratio: 0.11800000000000001, mt_flag: True, train_total_len: 3882
+1900-01-01 18:02:41,444 - INFO - Dataset ogbg-molhiv, Epoch: 16, Train: 0.665169 (rocauc), Valid: 0.616332 (rocauc), Test: 0.570904 (rocauc)
+1900-01-01 18:02:42,891 - INFO - epoch: 17, sampling_ratio: 0.11800000000000001, mt_flag: True, train_total_len: 3882
+1900-01-01 18:02:43,357 - INFO - Dataset ogbg-molhiv, Epoch: 17, Train: 0.628763 (rocauc), Valid: 0.611528 (rocauc), Test: 0.582292 (rocauc)
+1900-01-01 18:02:44,595 - INFO - epoch: 18, sampling_ratio: 0.11800000000000001, mt_flag: True, train_total_len: 3882
+1900-01-01 18:02:45,267 - INFO - Dataset ogbg-molhiv, Epoch: 18, Train: 0.647557 (rocauc), Valid: 0.612063 (rocauc), Test: 0.591842 (rocauc)
+1900-01-01 18:02:46,512 - INFO - epoch: 19, sampling_ratio: 0.11800000000000001, mt_flag: True, train_total_len: 3882
+1900-01-01 18:02:46,980 - INFO - Dataset ogbg-molhiv, Epoch: 19, Train: 0.667712 (rocauc), Valid: 0.615771 (rocauc), Test: 0.604374 (rocauc)
+1900-01-01 18:02:48,398 - INFO - epoch: 20, sampling_ratio: 0.11800000000000001, mt_flag: True, train_total_len: 3882
+1900-01-01 18:02:48,865 - INFO - Dataset ogbg-molhiv, Epoch: 20, Train: 0.672148 (rocauc), Valid: 0.620037 (rocauc), Test: 0.583938 (rocauc)
+1900-01-01 18:02:50,109 - INFO - epoch: 21, sampling_ratio: 0.11800000000000001, mt_flag: True, train_total_len: 3882
+1900-01-01 18:02:50,614 - INFO - New best validation score: 0.653362605330198 (rocauc) without training score regression
+1900-01-01 18:02:50,618 - INFO - Dataset ogbg-molhiv, Epoch: 21, Train: 0.707336 (rocauc), Valid: 0.653363 (rocauc), Test: 0.598273 (rocauc)
+1900-01-01 18:02:52,031 - INFO - epoch: 22, sampling_ratio: 0.11800000000000001, mt_flag: True, train_total_len: 3882
+1900-01-01 18:02:52,531 - INFO - Dataset ogbg-molhiv, Epoch: 22, Train: 0.638735 (rocauc), Valid: 0.630276 (rocauc), Test: 0.526111 (rocauc)
+1900-01-01 18:02:53,760 - INFO - epoch: 23, sampling_ratio: 0.11800000000000001, mt_flag: True, train_total_len: 3882
+1900-01-01 18:02:54,246 - INFO - Dataset ogbg-molhiv, Epoch: 23, Train: 0.708162 (rocauc), Valid: 0.624620 (rocauc), Test: 0.515947 (rocauc)
+1900-01-01 18:02:55,686 - INFO - epoch: 24, sampling_ratio: 0.136, mt_flag: True, train_total_len: 4475
+1900-01-01 18:02:56,193 - INFO - New best validation score: 0.6566419263178521 (rocauc) without training score regression
+1900-01-01 18:02:56,197 - INFO - Dataset ogbg-molhiv, Epoch: 24, Train: 0.733344 (rocauc), Valid: 0.656642 (rocauc), Test: 0.589067 (rocauc)
+1900-01-01 18:02:57,453 - INFO - epoch: 25, sampling_ratio: 0.136, mt_flag: True, train_total_len: 4475
+1900-01-01 18:02:58,126 - INFO - Dataset ogbg-molhiv, Epoch: 25, Train: 0.670711 (rocauc), Valid: 0.630282 (rocauc), Test: 0.601049 (rocauc)
+1900-01-01 18:02:59,390 - INFO - epoch: 26, sampling_ratio: 0.136, mt_flag: True, train_total_len: 4475
+1900-01-01 18:02:59,934 - INFO - Dataset ogbg-molhiv, Epoch: 26, Train: 0.677627 (rocauc), Valid: 0.604243 (rocauc), Test: 0.539184 (rocauc)
+1900-01-01 18:03:01,353 - INFO - epoch: 27, sampling_ratio: 0.136, mt_flag: True, train_total_len: 4475
+1900-01-01 18:03:01,862 - INFO - Dataset ogbg-molhiv, Epoch: 27, Train: 0.671300 (rocauc), Valid: 0.660129 (rocauc), Test: 0.623289 (rocauc)
+1900-01-01 18:03:03,079 - INFO - epoch: 28, sampling_ratio: 0.136, mt_flag: True, train_total_len: 4475
+1900-01-01 18:03:03,635 - INFO - Dataset ogbg-molhiv, Epoch: 28, Train: 0.700121 (rocauc), Valid: 0.649131 (rocauc), Test: 0.606140 (rocauc)
+1900-01-01 18:03:05,168 - INFO - epoch: 29, sampling_ratio: 0.136, mt_flag: True, train_total_len: 4475
+1900-01-01 18:03:05,678 - INFO - Dataset ogbg-molhiv, Epoch: 29, Train: 0.699243 (rocauc), Valid: 0.641841 (rocauc), Test: 0.581209 (rocauc)
+1900-01-01 18:03:06,980 - INFO - epoch: 30, sampling_ratio: 0.136, mt_flag: True, train_total_len: 4475
+1900-01-01 18:03:07,652 - INFO - Dataset ogbg-molhiv, Epoch: 30, Train: 0.663625 (rocauc), Valid: 0.669000 (rocauc), Test: 0.594862 (rocauc)
+1900-01-01 18:03:08,918 - INFO - epoch: 31, sampling_ratio: 0.136, mt_flag: True, train_total_len: 4475
+1900-01-01 18:03:09,458 - INFO - Dataset ogbg-molhiv, Epoch: 31, Train: 0.684995 (rocauc), Valid: 0.663461 (rocauc), Test: 0.613318 (rocauc)
+1900-01-01 18:03:10,896 - INFO - epoch: 32, sampling_ratio: 0.136, mt_flag: True, train_total_len: 4475
+1900-01-01 18:03:11,430 - INFO - Dataset ogbg-molhiv, Epoch: 32, Train: 0.696476 (rocauc), Valid: 0.624896 (rocauc), Test: 0.569777 (rocauc)
+1900-01-01 18:03:12,691 - INFO - epoch: 33, sampling_ratio: 0.136, mt_flag: True, train_total_len: 4475
+1900-01-01 18:03:13,210 - INFO - Dataset ogbg-molhiv, Epoch: 33, Train: 0.680058 (rocauc), Valid: 0.630741 (rocauc), Test: 0.578151 (rocauc)
+1900-01-01 18:03:14,701 - INFO - epoch: 34, sampling_ratio: 0.136, mt_flag: True, train_total_len: 4475
+1900-01-01 18:03:15,237 - INFO - Dataset ogbg-molhiv, Epoch: 34, Train: 0.690757 (rocauc), Valid: 0.659033 (rocauc), Test: 0.620244 (rocauc)
+1900-01-01 18:03:16,527 - INFO - epoch: 35, sampling_ratio: 0.136, mt_flag: True, train_total_len: 4475
+1900-01-01 18:03:17,209 - INFO - Dataset ogbg-molhiv, Epoch: 35, Train: 0.693940 (rocauc), Valid: 0.651017 (rocauc), Test: 0.597497 (rocauc)
+1900-01-01 18:03:18,503 - INFO - epoch: 36, sampling_ratio: 0.15400000000000003, mt_flag: True, train_total_len: 5067
+1900-01-01 18:03:19,084 - INFO - Dataset ogbg-molhiv, Epoch: 36, Train: 0.702616 (rocauc), Valid: 0.673446 (rocauc), Test: 0.602260 (rocauc)
+1900-01-01 18:03:20,533 - INFO - epoch: 37, sampling_ratio: 0.15400000000000003, mt_flag: True, train_total_len: 5067
+1900-01-01 18:03:21,090 - INFO - Dataset ogbg-molhiv, Epoch: 37, Train: 0.681431 (rocauc), Valid: 0.644305 (rocauc), Test: 0.633025 (rocauc)
+1900-01-01 18:03:22,351 - INFO - epoch: 38, sampling_ratio: 0.15400000000000003, mt_flag: True, train_total_len: 5067
+1900-01-01 18:03:22,955 - INFO - Dataset ogbg-molhiv, Epoch: 38, Train: 0.636452 (rocauc), Valid: 0.542138 (rocauc), Test: 0.568790 (rocauc)
+1900-01-01 18:03:24,425 - INFO - epoch: 39, sampling_ratio: 0.15400000000000003, mt_flag: True, train_total_len: 5067
+1900-01-01 18:03:24,979 - INFO - Dataset ogbg-molhiv, Epoch: 39, Train: 0.667107 (rocauc), Valid: 0.529094 (rocauc), Test: 0.561975 (rocauc)
+1900-01-01 18:03:26,238 - INFO - epoch: 40, sampling_ratio: 0.15400000000000003, mt_flag: True, train_total_len: 5067
+1900-01-01 18:03:26,986 - INFO - Dataset ogbg-molhiv, Epoch: 40, Train: 0.709906 (rocauc), Valid: 0.593866 (rocauc), Test: 0.571612 (rocauc)
+1900-01-01 18:03:28,263 - INFO - epoch: 41, sampling_ratio: 0.15400000000000003, mt_flag: True, train_total_len: 5067
+1900-01-01 18:03:28,822 - INFO - Dataset ogbg-molhiv, Epoch: 41, Train: 0.712401 (rocauc), Valid: 0.622961 (rocauc), Test: 0.593737 (rocauc)
+1900-01-01 18:03:30,281 - INFO - epoch: 42, sampling_ratio: 0.15400000000000003, mt_flag: True, train_total_len: 5067
+1900-01-01 18:03:30,874 - INFO - Dataset ogbg-molhiv, Epoch: 42, Train: 0.688732 (rocauc), Valid: 0.618601 (rocauc), Test: 0.580365 (rocauc)
+1900-01-01 18:03:32,125 - INFO - epoch: 43, sampling_ratio: 0.15400000000000003, mt_flag: True, train_total_len: 5067
+1900-01-01 18:03:32,688 - INFO - Dataset ogbg-molhiv, Epoch: 43, Train: 0.729824 (rocauc), Valid: 0.661584 (rocauc), Test: 0.587165 (rocauc)
+1900-01-01 18:03:34,124 - INFO - epoch: 44, sampling_ratio: 0.15400000000000003, mt_flag: True, train_total_len: 5067
+1900-01-01 18:03:34,710 - INFO - Dataset ogbg-molhiv, Epoch: 44, Train: 0.687376 (rocauc), Valid: 0.614819 (rocauc), Test: 0.528531 (rocauc)
+1900-01-01 18:03:35,966 - INFO - epoch: 45, sampling_ratio: 0.15400000000000003, mt_flag: True, train_total_len: 5067
+1900-01-01 18:03:36,718 - INFO - Dataset ogbg-molhiv, Epoch: 45, Train: 0.665699 (rocauc), Valid: 0.694585 (rocauc), Test: 0.632392 (rocauc)
+1900-01-01 18:03:37,993 - INFO - epoch: 46, sampling_ratio: 0.15400000000000003, mt_flag: True, train_total_len: 5067
+1900-01-01 18:03:38,539 - INFO - Dataset ogbg-molhiv, Epoch: 46, Train: 0.706028 (rocauc), Valid: 0.665632 (rocauc), Test: 0.615896 (rocauc)
+1900-01-01 18:03:39,971 - INFO - epoch: 47, sampling_ratio: 0.15400000000000003, mt_flag: True, train_total_len: 5067
+1900-01-01 18:03:40,521 - INFO - Dataset ogbg-molhiv, Epoch: 47, Train: 0.707878 (rocauc), Valid: 0.634666 (rocauc), Test: 0.624494 (rocauc)
+1900-01-01 18:03:41,800 - INFO - epoch: 48, sampling_ratio: 0.17200000000000001, mt_flag: True, train_total_len: 5659
+1900-01-01 18:03:42,595 - INFO - Dataset ogbg-molhiv, Epoch: 48, Train: 0.696989 (rocauc), Valid: 0.597234 (rocauc), Test: 0.611889 (rocauc)
+1900-01-01 18:03:43,841 - INFO - epoch: 49, sampling_ratio: 0.17200000000000001, mt_flag: True, train_total_len: 5659
+1900-01-01 18:03:44,442 - INFO - Dataset ogbg-molhiv, Epoch: 49, Train: 0.753563 (rocauc), Valid: 0.635273 (rocauc), Test: 0.609344 (rocauc)
+1900-01-01 18:03:45,869 - INFO - epoch: 50, sampling_ratio: 0.17200000000000001, mt_flag: True, train_total_len: 5659
+1900-01-01 18:03:46,462 - INFO - Dataset ogbg-molhiv, Epoch: 50, Train: 0.737266 (rocauc), Valid: 0.621702 (rocauc), Test: 0.593872 (rocauc)
+1900-01-01 18:03:47,720 - INFO - epoch: 51, sampling_ratio: 0.17200000000000001, mt_flag: True, train_total_len: 5659
+1900-01-01 18:03:48,302 - INFO - Dataset ogbg-molhiv, Epoch: 51, Train: 0.727512 (rocauc), Valid: 0.628230 (rocauc), Test: 0.595189 (rocauc)
+1900-01-01 18:03:49,749 - INFO - epoch: 52, sampling_ratio: 0.17200000000000001, mt_flag: True, train_total_len: 5659
+1900-01-01 18:03:50,382 - INFO - New best validation score: 0.6777569566921419 (rocauc) without training score regression
+1900-01-01 18:03:50,386 - INFO - Dataset ogbg-molhiv, Epoch: 52, Train: 0.745097 (rocauc), Valid: 0.677757 (rocauc), Test: 0.643074 (rocauc)
+1900-01-01 18:03:51,665 - INFO - epoch: 53, sampling_ratio: 0.17200000000000001, mt_flag: True, train_total_len: 5659
+1900-01-01 18:03:52,461 - INFO - Dataset ogbg-molhiv, Epoch: 53, Train: 0.719615 (rocauc), Valid: 0.653396 (rocauc), Test: 0.622366 (rocauc)
+1900-01-01 18:03:53,746 - INFO - epoch: 54, sampling_ratio: 0.17200000000000001, mt_flag: True, train_total_len: 5659
+1900-01-01 18:03:54,329 - INFO - Dataset ogbg-molhiv, Epoch: 54, Train: 0.704915 (rocauc), Valid: 0.603579 (rocauc), Test: 0.581008 (rocauc)
+1900-01-01 18:03:55,793 - INFO - epoch: 55, sampling_ratio: 0.17200000000000001, mt_flag: True, train_total_len: 5659
+1900-01-01 18:03:56,393 - INFO - Dataset ogbg-molhiv, Epoch: 55, Train: 0.732046 (rocauc), Valid: 0.687221 (rocauc), Test: 0.680311 (rocauc)
+1900-01-01 18:03:57,672 - INFO - epoch: 56, sampling_ratio: 0.17200000000000001, mt_flag: True, train_total_len: 5659
+1900-01-01 18:03:58,437 - INFO - Dataset ogbg-molhiv, Epoch: 56, Train: 0.718643 (rocauc), Valid: 0.723447 (rocauc), Test: 0.710269 (rocauc)
+1900-01-01 18:03:59,743 - INFO - epoch: 57, sampling_ratio: 0.17200000000000001, mt_flag: True, train_total_len: 5659
+1900-01-01 18:04:00,374 - INFO - New best validation score: 0.6778273809523809 (rocauc) without training score regression
+1900-01-01 18:04:00,378 - INFO - Dataset ogbg-molhiv, Epoch: 57, Train: 0.763082 (rocauc), Valid: 0.677827 (rocauc), Test: 0.641250 (rocauc)
+1900-01-01 18:04:01,801 - INFO - epoch: 58, sampling_ratio: 0.17200000000000001, mt_flag: True, train_total_len: 5659
+1900-01-01 18:04:02,390 - INFO - Dataset ogbg-molhiv, Epoch: 58, Train: 0.736688 (rocauc), Valid: 0.599081 (rocauc), Test: 0.581288 (rocauc)
+1900-01-01 18:04:03,662 - INFO - epoch: 59, sampling_ratio: 0.17200000000000001, mt_flag: True, train_total_len: 5659
+1900-01-01 18:04:04,254 - INFO - Dataset ogbg-molhiv, Epoch: 59, Train: 0.774901 (rocauc), Valid: 0.670958 (rocauc), Test: 0.636590 (rocauc)
+1900-01-01 18:04:05,698 - INFO - epoch: 60, sampling_ratio: 0.19, mt_flag: True, train_total_len: 6252
+1900-01-01 18:04:06,355 - INFO - Dataset ogbg-molhiv, Epoch: 60, Train: 0.736517 (rocauc), Valid: 0.643093 (rocauc), Test: 0.633324 (rocauc)
+1900-01-01 18:04:07,605 - INFO - epoch: 61, sampling_ratio: 0.19, mt_flag: True, train_total_len: 6252
+1900-01-01 18:04:08,422 - INFO - Dataset ogbg-molhiv, Epoch: 61, Train: 0.763258 (rocauc), Valid: 0.654489 (rocauc), Test: 0.654222 (rocauc)
+1900-01-01 18:04:09,681 - INFO - epoch: 62, sampling_ratio: 0.19, mt_flag: True, train_total_len: 6252
+1900-01-01 18:04:10,346 - INFO - Dataset ogbg-molhiv, Epoch: 62, Train: 0.758472 (rocauc), Valid: 0.651871 (rocauc), Test: 0.643674 (rocauc)
+1900-01-01 18:04:11,799 - INFO - epoch: 63, sampling_ratio: 0.19, mt_flag: True, train_total_len: 6252
+1900-01-01 18:04:12,459 - INFO - Dataset ogbg-molhiv, Epoch: 63, Train: 0.783757 (rocauc), Valid: 0.670666 (rocauc), Test: 0.651955 (rocauc)
+1900-01-01 18:04:13,717 - INFO - epoch: 64, sampling_ratio: 0.19, mt_flag: True, train_total_len: 6252
+1900-01-01 18:04:14,546 - INFO - Dataset ogbg-molhiv, Epoch: 64, Train: 0.757771 (rocauc), Valid: 0.668348 (rocauc), Test: 0.690510 (rocauc)
+1900-01-01 18:04:15,814 - INFO - epoch: 65, sampling_ratio: 0.19, mt_flag: True, train_total_len: 6252
+1900-01-01 18:04:16,459 - INFO - Dataset ogbg-molhiv, Epoch: 65, Train: 0.756665 (rocauc), Valid: 0.673810 (rocauc), Test: 0.668064 (rocauc)
+1900-01-01 18:04:17,870 - INFO - epoch: 66, sampling_ratio: 0.19, mt_flag: True, train_total_len: 6252
+1900-01-01 18:04:18,497 - INFO - Dataset ogbg-molhiv, Epoch: 66, Train: 0.736943 (rocauc), Valid: 0.653739 (rocauc), Test: 0.635482 (rocauc)
+1900-01-01 18:04:19,798 - INFO - epoch: 67, sampling_ratio: 0.19, mt_flag: True, train_total_len: 6252
+1900-01-01 18:04:20,613 - INFO - Dataset ogbg-molhiv, Epoch: 67, Train: 0.737339 (rocauc), Valid: 0.649728 (rocauc), Test: 0.647550 (rocauc)
+1900-01-01 18:04:20,613 - INFO - epoch: 68, sampling_ratio: 0.19, mt_flag: False, train_total_len: 6252
+1900-01-01 18:04:21,240 - INFO - Dataset ogbg-molhiv, Epoch: 68, Train: 0.747490 (rocauc), Valid: 0.668118 (rocauc), Test: 0.674586 (rocauc)
+1900-01-01 18:04:21,240 - INFO - epoch: 69, sampling_ratio: 0.19, mt_flag: False, train_total_len: 6252
+1900-01-01 18:04:21,906 - INFO - Dataset ogbg-molhiv, Epoch: 69, Train: 0.728439 (rocauc), Valid: 0.632713 (rocauc), Test: 0.678082 (rocauc)
+1900-01-01 18:04:21,906 - INFO - epoch: 70, sampling_ratio: 0.19, mt_flag: False, train_total_len: 6252
+1900-01-01 18:04:22,551 - INFO - New best validation score: 0.7133977562218303 (rocauc) without training score regression
+1900-01-01 18:04:22,555 - INFO - Dataset ogbg-molhiv, Epoch: 70, Train: 0.772649 (rocauc), Valid: 0.713398 (rocauc), Test: 0.739601 (rocauc)
+1900-01-01 18:04:22,555 - INFO - epoch: 71, sampling_ratio: 0.19, mt_flag: False, train_total_len: 6252
+1900-01-01 18:04:23,164 - INFO - Dataset ogbg-molhiv, Epoch: 71, Train: 0.732143 (rocauc), Valid: 0.646192 (rocauc), Test: 0.658783 (rocauc)
+1900-01-01 18:04:23,164 - INFO - epoch: 72, sampling_ratio: 0.20800000000000002, mt_flag: False, train_total_len: 6252
+1900-01-01 18:04:24,010 - INFO - Dataset ogbg-molhiv, Epoch: 72, Train: 0.762642 (rocauc), Valid: 0.666403 (rocauc), Test: 0.704505 (rocauc)
+1900-01-01 18:04:24,010 - INFO - epoch: 73, sampling_ratio: 0.20800000000000002, mt_flag: False, train_total_len: 6252
+1900-01-01 18:04:24,656 - INFO - Dataset ogbg-molhiv, Epoch: 73, Train: 0.748690 (rocauc), Valid: 0.642683 (rocauc), Test: 0.681408 (rocauc)
+1900-01-01 18:04:25,952 - INFO - epoch: 74, sampling_ratio: 0.20800000000000002, mt_flag: True, train_total_len: 6843
+1900-01-01 18:04:26,633 - INFO - Dataset ogbg-molhiv, Epoch: 74, Train: 0.722086 (rocauc), Valid: 0.689971 (rocauc), Test: 0.715159 (rocauc)
+1900-01-01 18:04:26,633 - INFO - epoch: 75, sampling_ratio: 0.20800000000000002, mt_flag: False, train_total_len: 6843
+1900-01-01 18:04:27,456 - INFO - Dataset ogbg-molhiv, Epoch: 75, Train: 0.729830 (rocauc), Valid: 0.674499 (rocauc), Test: 0.710520 (rocauc)
+1900-01-01 18:04:27,456 - INFO - epoch: 76, sampling_ratio: 0.20800000000000002, mt_flag: False, train_total_len: 6843
+1900-01-01 18:04:28,107 - INFO - Dataset ogbg-molhiv, Epoch: 76, Train: 0.731145 (rocauc), Valid: 0.672934 (rocauc), Test: 0.682532 (rocauc)
+1900-01-01 18:04:28,107 - INFO - epoch: 77, sampling_ratio: 0.20800000000000002, mt_flag: False, train_total_len: 6843
+1900-01-01 18:04:28,751 - INFO - Dataset ogbg-molhiv, Epoch: 77, Train: 0.716314 (rocauc), Valid: 0.662613 (rocauc), Test: 0.642259 (rocauc)
+1900-01-01 18:04:28,751 - INFO - epoch: 78, sampling_ratio: 0.20800000000000002, mt_flag: False, train_total_len: 6843
+1900-01-01 18:04:29,392 - INFO - Dataset ogbg-molhiv, Epoch: 78, Train: 0.747702 (rocauc), Valid: 0.694000 (rocauc), Test: 0.694050 (rocauc)
+1900-01-01 18:04:29,392 - INFO - epoch: 79, sampling_ratio: 0.20800000000000002, mt_flag: False, train_total_len: 6843
+1900-01-01 18:04:30,214 - INFO - Dataset ogbg-molhiv, Epoch: 79, Train: 0.760021 (rocauc), Valid: 0.707712 (rocauc), Test: 0.705753 (rocauc)
+1900-01-01 18:04:30,214 - INFO - epoch: 80, sampling_ratio: 0.20800000000000002, mt_flag: False, train_total_len: 6843
+1900-01-01 18:04:30,870 - INFO - Dataset ogbg-molhiv, Epoch: 80, Train: 0.764047 (rocauc), Valid: 0.713563 (rocauc), Test: 0.727075 (rocauc)
+1900-01-01 18:04:30,870 - INFO - epoch: 81, sampling_ratio: 0.20800000000000002, mt_flag: False, train_total_len: 6843
+1900-01-01 18:04:31,527 - INFO - Dataset ogbg-molhiv, Epoch: 81, Train: 0.754635 (rocauc), Valid: 0.681554 (rocauc), Test: 0.694728 (rocauc)
+1900-01-01 18:04:31,527 - INFO - epoch: 82, sampling_ratio: 0.20800000000000002, mt_flag: False, train_total_len: 6843
+1900-01-01 18:04:32,179 - INFO - Dataset ogbg-molhiv, Epoch: 82, Train: 0.779375 (rocauc), Valid: 0.682298 (rocauc), Test: 0.712808 (rocauc)
+1900-01-01 18:04:32,179 - INFO - epoch: 83, sampling_ratio: 0.20800000000000002, mt_flag: False, train_total_len: 6843
+1900-01-01 18:04:32,837 - INFO - Dataset ogbg-molhiv, Epoch: 83, Train: 0.785547 (rocauc), Valid: 0.663449 (rocauc), Test: 0.743164 (rocauc)
+1900-01-01 18:04:34,329 - INFO - epoch: 84, sampling_ratio: 0.226, mt_flag: True, train_total_len: 7436
+1900-01-01 18:04:35,043 - INFO - Dataset ogbg-molhiv, Epoch: 84, Train: 0.802004 (rocauc), Valid: 0.713284 (rocauc), Test: 0.715193 (rocauc)
+1900-01-01 18:04:35,043 - INFO - epoch: 85, sampling_ratio: 0.226, mt_flag: False, train_total_len: 7436
+1900-01-01 18:04:35,747 - INFO - New best validation score: 0.7260924946110132 (rocauc) without training score regression
+1900-01-01 18:04:35,752 - INFO - Dataset ogbg-molhiv, Epoch: 85, Train: 0.806631 (rocauc), Valid: 0.726092 (rocauc), Test: 0.712078 (rocauc)
+1900-01-01 18:04:35,752 - INFO - epoch: 86, sampling_ratio: 0.226, mt_flag: False, train_total_len: 7436
+1900-01-01 18:04:36,630 - INFO - Dataset ogbg-molhiv, Epoch: 86, Train: 0.797475 (rocauc), Valid: 0.703180 (rocauc), Test: 0.717130 (rocauc)
+1900-01-01 18:04:36,631 - INFO - epoch: 87, sampling_ratio: 0.226, mt_flag: False, train_total_len: 7436
+1900-01-01 18:04:37,315 - INFO - Dataset ogbg-molhiv, Epoch: 87, Train: 0.794332 (rocauc), Valid: 0.650934 (rocauc), Test: 0.676425 (rocauc)
+1900-01-01 18:04:37,315 - INFO - epoch: 88, sampling_ratio: 0.226, mt_flag: False, train_total_len: 7436
+1900-01-01 18:04:38,014 - INFO - Dataset ogbg-molhiv, Epoch: 88, Train: 0.818031 (rocauc), Valid: 0.725039 (rocauc), Test: 0.727930 (rocauc)
+1900-01-01 18:04:38,014 - INFO - epoch: 89, sampling_ratio: 0.226, mt_flag: False, train_total_len: 7436
+1900-01-01 18:04:38,728 - INFO - New best validation score: 0.7322285910248872 (rocauc) without training score regression
+1900-01-01 18:04:38,732 - INFO - Dataset ogbg-molhiv, Epoch: 89, Train: 0.824074 (rocauc), Valid: 0.732229 (rocauc), Test: 0.732816 (rocauc)
+1900-01-01 18:04:38,732 - INFO - epoch: 90, sampling_ratio: 0.226, mt_flag: False, train_total_len: 7436
+1900-01-01 18:04:39,597 - INFO - Dataset ogbg-molhiv, Epoch: 90, Train: 0.829200 (rocauc), Valid: 0.719320 (rocauc), Test: 0.747989 (rocauc)
+1900-01-01 18:04:39,597 - INFO - epoch: 91, sampling_ratio: 0.226, mt_flag: False, train_total_len: 7436
+1900-01-01 18:04:40,290 - INFO - Dataset ogbg-molhiv, Epoch: 91, Train: 0.817455 (rocauc), Valid: 0.694010 (rocauc), Test: 0.719098 (rocauc)
+1900-01-01 18:04:40,291 - INFO - epoch: 92, sampling_ratio: 0.226, mt_flag: False, train_total_len: 7436
+1900-01-01 18:04:40,984 - INFO - Dataset ogbg-molhiv, Epoch: 92, Train: 0.826665 (rocauc), Valid: 0.716178 (rocauc), Test: 0.741832 (rocauc)
+1900-01-01 18:04:40,985 - INFO - epoch: 93, sampling_ratio: 0.226, mt_flag: False, train_total_len: 7436
+1900-01-01 18:04:41,686 - INFO - Dataset ogbg-molhiv, Epoch: 93, Train: 0.826227 (rocauc), Valid: 0.714322 (rocauc), Test: 0.733042 (rocauc)
+1900-01-01 18:04:41,687 - INFO - epoch: 94, sampling_ratio: 0.226, mt_flag: False, train_total_len: 7436
+1900-01-01 18:04:42,415 - INFO - New best validation score: 0.7409581373701745 (rocauc) without training score regression
+1900-01-01 18:04:42,419 - INFO - Dataset ogbg-molhiv, Epoch: 94, Train: 0.835716 (rocauc), Valid: 0.740958 (rocauc), Test: 0.755658 (rocauc)
+1900-01-01 18:04:43,863 - INFO - epoch: 95, sampling_ratio: 0.226, mt_flag: True, train_total_len: 7436
+1900-01-01 18:04:44,552 - INFO - Dataset ogbg-molhiv, Epoch: 95, Train: 0.797761 (rocauc), Valid: 0.685001 (rocauc), Test: 0.742258 (rocauc)
+1900-01-01 18:04:44,552 - INFO - epoch: 96, sampling_ratio: 0.24400000000000002, mt_flag: False, train_total_len: 7436
+1900-01-01 18:04:45,236 - INFO - Dataset ogbg-molhiv, Epoch: 96, Train: 0.803115 (rocauc), Valid: 0.667013 (rocauc), Test: 0.714560 (rocauc)
+1900-01-01 18:04:45,236 - INFO - epoch: 97, sampling_ratio: 0.24400000000000002, mt_flag: False, train_total_len: 7436
+1900-01-01 18:04:46,100 - INFO - Dataset ogbg-molhiv, Epoch: 97, Train: 0.798197 (rocauc), Valid: 0.651605 (rocauc), Test: 0.668213 (rocauc)
+1900-01-01 18:04:46,100 - INFO - epoch: 98, sampling_ratio: 0.24400000000000002, mt_flag: False, train_total_len: 7436
+1900-01-01 18:04:46,787 - INFO - Dataset ogbg-molhiv, Epoch: 98, Train: 0.815090 (rocauc), Valid: 0.684202 (rocauc), Test: 0.702097 (rocauc)
+1900-01-01 18:04:46,788 - INFO - epoch: 99, sampling_ratio: 0.24400000000000002, mt_flag: False, train_total_len: 7436
+1900-01-01 18:04:47,478 - INFO - Dataset ogbg-molhiv, Epoch: 99, Train: 0.804456 (rocauc), Valid: 0.681511 (rocauc), Test: 0.657664 (rocauc)
+1900-01-01 18:04:47,479 - INFO - epoch: 100, sampling_ratio: 0.24400000000000002, mt_flag: False, train_total_len: 7436
+1900-01-01 18:04:48,173 - INFO - Dataset ogbg-molhiv, Epoch: 100, Train: 0.814635 (rocauc), Valid: 0.672784 (rocauc), Test: 0.654669 (rocauc)
+1900-01-01 18:04:48,174 - INFO - epoch: 101, sampling_ratio: 0.24400000000000002, mt_flag: False, train_total_len: 7436
+1900-01-01 18:04:48,866 - INFO - Dataset ogbg-molhiv, Epoch: 101, Train: 0.830557 (rocauc), Valid: 0.704904 (rocauc), Test: 0.729489 (rocauc)
+1900-01-01 18:04:48,866 - INFO - epoch: 102, sampling_ratio: 0.24400000000000002, mt_flag: False, train_total_len: 7436
+1900-01-01 18:04:49,732 - INFO - Dataset ogbg-molhiv, Epoch: 102, Train: 0.824552 (rocauc), Valid: 0.683872 (rocauc), Test: 0.698420 (rocauc)
+1900-01-01 18:04:49,732 - INFO - epoch: 103, sampling_ratio: 0.24400000000000002, mt_flag: False, train_total_len: 7436
+1900-01-01 18:04:50,429 - INFO - Dataset ogbg-molhiv, Epoch: 103, Train: 0.821172 (rocauc), Valid: 0.672996 (rocauc), Test: 0.671178 (rocauc)
+1900-01-01 18:04:50,430 - INFO - epoch: 104, sampling_ratio: 0.24400000000000002, mt_flag: False, train_total_len: 7436
+1900-01-01 18:04:51,125 - INFO - Dataset ogbg-molhiv, Epoch: 104, Train: 0.820208 (rocauc), Valid: 0.657040 (rocauc), Test: 0.680340 (rocauc)
+1900-01-01 18:04:51,125 - INFO - epoch: 105, sampling_ratio: 0.24400000000000002, mt_flag: False, train_total_len: 7436
+1900-01-01 18:04:51,820 - INFO - Dataset ogbg-molhiv, Epoch: 105, Train: 0.815035 (rocauc), Valid: 0.664594 (rocauc), Test: 0.675969 (rocauc)
+1900-01-01 18:04:51,820 - INFO - epoch: 106, sampling_ratio: 0.24400000000000002, mt_flag: False, train_total_len: 7436
+1900-01-01 18:04:52,677 - INFO - Dataset ogbg-molhiv, Epoch: 106, Train: 0.841026 (rocauc), Valid: 0.695776 (rocauc), Test: 0.718106 (rocauc)
+1900-01-01 18:04:53,867 - INFO - epoch: 107, sampling_ratio: 0.24400000000000002, mt_flag: True, train_total_len: 8028
+1900-01-01 18:04:54,594 - INFO - Dataset ogbg-molhiv, Epoch: 107, Train: 0.803829 (rocauc), Valid: 0.729418 (rocauc), Test: 0.738666 (rocauc)
+1900-01-01 18:04:54,594 - INFO - epoch: 108, sampling_ratio: 0.262, mt_flag: False, train_total_len: 8028
+1900-01-01 18:04:55,483 - INFO - Dataset ogbg-molhiv, Epoch: 108, Train: 0.775868 (rocauc), Valid: 0.614886 (rocauc), Test: 0.640598 (rocauc)
+1900-01-01 18:04:55,483 - INFO - epoch: 109, sampling_ratio: 0.262, mt_flag: False, train_total_len: 8028
+1900-01-01 18:04:56,213 - INFO - Dataset ogbg-molhiv, Epoch: 109, Train: 0.750029 (rocauc), Valid: 0.601922 (rocauc), Test: 0.610344 (rocauc)
+1900-01-01 18:04:56,213 - INFO - epoch: 110, sampling_ratio: 0.262, mt_flag: False, train_total_len: 8028
+1900-01-01 18:04:56,951 - INFO - Dataset ogbg-molhiv, Epoch: 110, Train: 0.796934 (rocauc), Valid: 0.712690 (rocauc), Test: 0.696234 (rocauc)
+1900-01-01 18:04:56,951 - INFO - epoch: 111, sampling_ratio: 0.262, mt_flag: False, train_total_len: 8028
+1900-01-01 18:04:57,683 - INFO - Dataset ogbg-molhiv, Epoch: 111, Train: 0.799178 (rocauc), Valid: 0.656177 (rocauc), Test: 0.692482 (rocauc)
+1900-01-01 18:04:57,683 - INFO - epoch: 112, sampling_ratio: 0.262, mt_flag: False, train_total_len: 8028
+1900-01-01 18:04:58,570 - INFO - Dataset ogbg-molhiv, Epoch: 112, Train: 0.787564 (rocauc), Valid: 0.669174 (rocauc), Test: 0.668640 (rocauc)
+1900-01-01 18:04:58,570 - INFO - epoch: 113, sampling_ratio: 0.262, mt_flag: False, train_total_len: 8028
+1900-01-01 18:04:59,306 - INFO - Dataset ogbg-molhiv, Epoch: 113, Train: 0.806357 (rocauc), Valid: 0.724078 (rocauc), Test: 0.703387 (rocauc)
+1900-01-01 18:04:59,306 - INFO - epoch: 114, sampling_ratio: 0.262, mt_flag: False, train_total_len: 8028
+1900-01-01 18:05:00,040 - INFO - Dataset ogbg-molhiv, Epoch: 114, Train: 0.798371 (rocauc), Valid: 0.692402 (rocauc), Test: 0.654472 (rocauc)
+1900-01-01 18:05:00,040 - INFO - epoch: 115, sampling_ratio: 0.262, mt_flag: False, train_total_len: 8028
+1900-01-01 18:05:00,774 - INFO - Dataset ogbg-molhiv, Epoch: 115, Train: 0.814995 (rocauc), Valid: 0.698462 (rocauc), Test: 0.712424 (rocauc)
+1900-01-01 18:05:00,774 - INFO - epoch: 116, sampling_ratio: 0.262, mt_flag: False, train_total_len: 8028
+1900-01-01 18:05:01,680 - INFO - Dataset ogbg-molhiv, Epoch: 116, Train: 0.814244 (rocauc), Valid: 0.694619 (rocauc), Test: 0.677854 (rocauc)
+1900-01-01 18:05:01,680 - INFO - epoch: 117, sampling_ratio: 0.262, mt_flag: False, train_total_len: 8028
+1900-01-01 18:05:02,433 - INFO - Dataset ogbg-molhiv, Epoch: 117, Train: 0.805086 (rocauc), Valid: 0.657407 (rocauc), Test: 0.665011 (rocauc)
+1900-01-01 18:05:02,433 - INFO - epoch: 118, sampling_ratio: 0.262, mt_flag: False, train_total_len: 8028
+1900-01-01 18:05:03,159 - INFO - Dataset ogbg-molhiv, Epoch: 118, Train: 0.780795 (rocauc), Valid: 0.670222 (rocauc), Test: 0.626594 (rocauc)
+1900-01-01 18:05:03,159 - INFO - epoch: 119, sampling_ratio: 0.262, mt_flag: False, train_total_len: 8028
+1900-01-01 18:05:03,893 - INFO - Dataset ogbg-molhiv, Epoch: 119, Train: 0.815921 (rocauc), Valid: 0.748062 (rocauc), Test: 0.714261 (rocauc)
+1900-01-01 18:05:05,265 - INFO - epoch: 120, sampling_ratio: 0.28, mt_flag: True, train_total_len: 9213
+1900-01-01 18:05:06,070 - INFO - Dataset ogbg-molhiv, Epoch: 120, Train: 0.763350 (rocauc), Valid: 0.704837 (rocauc), Test: 0.708944 (rocauc)
+1900-01-01 18:05:06,071 - INFO - epoch: 121, sampling_ratio: 0.28, mt_flag: False, train_total_len: 9213
+1900-01-01 18:05:06,884 - INFO - Dataset ogbg-molhiv, Epoch: 121, Train: 0.789625 (rocauc), Valid: 0.711003 (rocauc), Test: 0.736038 (rocauc)
+1900-01-01 18:05:06,884 - INFO - epoch: 122, sampling_ratio: 0.28, mt_flag: False, train_total_len: 9213
+1900-01-01 18:05:07,858 - INFO - Dataset ogbg-molhiv, Epoch: 122, Train: 0.793150 (rocauc), Valid: 0.702283 (rocauc), Test: 0.754348 (rocauc)
+1900-01-01 18:05:07,858 - INFO - epoch: 123, sampling_ratio: 0.28, mt_flag: False, train_total_len: 9213
+1900-01-01 18:05:08,689 - INFO - Dataset ogbg-molhiv, Epoch: 123, Train: 0.794347 (rocauc), Valid: 0.703875 (rocauc), Test: 0.735375 (rocauc)
+1900-01-01 18:05:08,689 - INFO - epoch: 124, sampling_ratio: 0.28, mt_flag: False, train_total_len: 9213
+1900-01-01 18:05:09,537 - INFO - Dataset ogbg-molhiv, Epoch: 124, Train: 0.793700 (rocauc), Valid: 0.658808 (rocauc), Test: 0.734570 (rocauc)
+1900-01-01 18:05:09,537 - INFO - epoch: 125, sampling_ratio: 0.28, mt_flag: False, train_total_len: 9213
+1900-01-01 18:05:10,356 - INFO - Dataset ogbg-molhiv, Epoch: 125, Train: 0.807595 (rocauc), Valid: 0.672383 (rocauc), Test: 0.745986 (rocauc)
+1900-01-01 18:05:10,356 - INFO - epoch: 126, sampling_ratio: 0.28, mt_flag: False, train_total_len: 9213
+1900-01-01 18:05:11,347 - INFO - Dataset ogbg-molhiv, Epoch: 126, Train: 0.807172 (rocauc), Valid: 0.681263 (rocauc), Test: 0.747175 (rocauc)
+1900-01-01 18:05:11,347 - INFO - epoch: 127, sampling_ratio: 0.28, mt_flag: False, train_total_len: 9213
+1900-01-01 18:05:12,160 - INFO - Dataset ogbg-molhiv, Epoch: 127, Train: 0.788673 (rocauc), Valid: 0.655132 (rocauc), Test: 0.651059 (rocauc)
+1900-01-01 18:05:12,160 - INFO - epoch: 128, sampling_ratio: 0.28, mt_flag: False, train_total_len: 9213
+1900-01-01 18:05:12,991 - INFO - Dataset ogbg-molhiv, Epoch: 128, Train: 0.797251 (rocauc), Valid: 0.643849 (rocauc), Test: 0.712580 (rocauc)
+1900-01-01 18:05:12,991 - INFO - epoch: 129, sampling_ratio: 0.28, mt_flag: False, train_total_len: 9213
+1900-01-01 18:05:13,807 - INFO - Dataset ogbg-molhiv, Epoch: 129, Train: 0.808001 (rocauc), Valid: 0.674674 (rocauc), Test: 0.717513 (rocauc)
+1900-01-01 18:05:13,807 - INFO - epoch: 130, sampling_ratio: 0.28, mt_flag: False, train_total_len: 9213
+1900-01-01 18:05:14,771 - INFO - Dataset ogbg-molhiv, Epoch: 130, Train: 0.821595 (rocauc), Valid: 0.686848 (rocauc), Test: 0.770299 (rocauc)
+1900-01-01 18:05:14,771 - INFO - epoch: 131, sampling_ratio: 0.28, mt_flag: False, train_total_len: 9213
+1900-01-01 18:05:15,579 - INFO - Dataset ogbg-molhiv, Epoch: 131, Train: 0.825913 (rocauc), Valid: 0.707678 (rocauc), Test: 0.773727 (rocauc)
+1900-01-01 18:05:15,580 - INFO - epoch: 132, sampling_ratio: 0.29800000000000004, mt_flag: False, train_total_len: 9213
+1900-01-01 18:05:16,384 - INFO - Dataset ogbg-molhiv, Epoch: 132, Train: 0.815391 (rocauc), Valid: 0.664563 (rocauc), Test: 0.729697 (rocauc)
+1900-01-01 18:05:16,384 - INFO - epoch: 133, sampling_ratio: 0.29800000000000004, mt_flag: False, train_total_len: 9213
+1900-01-01 18:05:17,193 - INFO - Dataset ogbg-molhiv, Epoch: 133, Train: 0.822322 (rocauc), Valid: 0.694420 (rocauc), Test: 0.744207 (rocauc)
+1900-01-01 18:05:18,593 - INFO - epoch: 134, sampling_ratio: 0.29800000000000004, mt_flag: True, train_total_len: 9805
+1900-01-01 18:05:19,432 - INFO - Dataset ogbg-molhiv, Epoch: 134, Train: 0.784085 (rocauc), Valid: 0.736451 (rocauc), Test: 0.758439 (rocauc)
+1900-01-01 18:05:19,432 - INFO - epoch: 135, sampling_ratio: 0.29800000000000004, mt_flag: False, train_total_len: 9805
+1900-01-01 18:05:20,273 - INFO - Dataset ogbg-molhiv, Epoch: 135, Train: 0.798312 (rocauc), Valid: 0.707130 (rocauc), Test: 0.763564 (rocauc)
+1900-01-01 18:05:20,273 - INFO - epoch: 136, sampling_ratio: 0.29800000000000004, mt_flag: False, train_total_len: 9805
+1900-01-01 18:05:21,280 - INFO - Dataset ogbg-molhiv, Epoch: 136, Train: 0.786808 (rocauc), Valid: 0.736200 (rocauc), Test: 0.770567 (rocauc)
+1900-01-01 18:05:21,280 - INFO - epoch: 137, sampling_ratio: 0.29800000000000004, mt_flag: False, train_total_len: 9805
+1900-01-01 18:05:22,130 - INFO - Dataset ogbg-molhiv, Epoch: 137, Train: 0.788989 (rocauc), Valid: 0.687569 (rocauc), Test: 0.755959 (rocauc)
+1900-01-01 18:05:22,130 - INFO - epoch: 138, sampling_ratio: 0.29800000000000004, mt_flag: False, train_total_len: 9805
+1900-01-01 18:05:22,974 - INFO - Dataset ogbg-molhiv, Epoch: 138, Train: 0.796847 (rocauc), Valid: 0.705360 (rocauc), Test: 0.738139 (rocauc)
+1900-01-01 18:05:22,974 - INFO - epoch: 139, sampling_ratio: 0.29800000000000004, mt_flag: False, train_total_len: 9805
+1900-01-01 18:05:23,978 - INFO - Dataset ogbg-molhiv, Epoch: 139, Train: 0.812253 (rocauc), Valid: 0.755000 (rocauc), Test: 0.765102 (rocauc)
+1900-01-01 18:05:23,978 - INFO - epoch: 140, sampling_ratio: 0.29800000000000004, mt_flag: False, train_total_len: 9805
+1900-01-01 18:05:24,821 - INFO - Dataset ogbg-molhiv, Epoch: 140, Train: 0.810267 (rocauc), Valid: 0.744256 (rocauc), Test: 0.748066 (rocauc)
+1900-01-01 18:05:24,821 - INFO - epoch: 141, sampling_ratio: 0.29800000000000004, mt_flag: False, train_total_len: 9805
+1900-01-01 18:05:25,657 - INFO - Dataset ogbg-molhiv, Epoch: 141, Train: 0.808318 (rocauc), Valid: 0.694662 (rocauc), Test: 0.767327 (rocauc)
+1900-01-01 18:05:25,657 - INFO - epoch: 142, sampling_ratio: 0.29800000000000004, mt_flag: False, train_total_len: 9805
+1900-01-01 18:05:26,502 - INFO - Dataset ogbg-molhiv, Epoch: 142, Train: 0.824557 (rocauc), Valid: 0.747645 (rocauc), Test: 0.779148 (rocauc)
+1900-01-01 18:05:26,502 - INFO - epoch: 143, sampling_ratio: 0.29800000000000004, mt_flag: False, train_total_len: 9805
+1900-01-01 18:05:27,571 - INFO - Dataset ogbg-molhiv, Epoch: 143, Train: 0.819685 (rocauc), Valid: 0.746313 (rocauc), Test: 0.758748 (rocauc)
+1900-01-01 18:05:27,571 - INFO - epoch: 144, sampling_ratio: 0.31600000000000006, mt_flag: False, train_total_len: 9805
+1900-01-01 18:05:28,441 - INFO - Dataset ogbg-molhiv, Epoch: 144, Train: 0.817849 (rocauc), Valid: 0.683706 (rocauc), Test: 0.736859 (rocauc)
+1900-01-01 18:05:28,441 - INFO - epoch: 145, sampling_ratio: 0.31600000000000006, mt_flag: False, train_total_len: 9805
+1900-01-01 18:05:29,290 - INFO - Dataset ogbg-molhiv, Epoch: 145, Train: 0.828642 (rocauc), Valid: 0.741445 (rocauc), Test: 0.771232 (rocauc)
+1900-01-01 18:05:29,290 - INFO - epoch: 146, sampling_ratio: 0.31600000000000006, mt_flag: False, train_total_len: 9805
+1900-01-01 18:05:30,303 - INFO - Dataset ogbg-molhiv, Epoch: 146, Train: 0.825496 (rocauc), Valid: 0.742746 (rocauc), Test: 0.767187 (rocauc)
+1900-01-01 18:05:30,303 - INFO - epoch: 147, sampling_ratio: 0.31600000000000006, mt_flag: False, train_total_len: 9805
+1900-01-01 18:05:31,153 - INFO - Dataset ogbg-molhiv, Epoch: 147, Train: 0.816521 (rocauc), Valid: 0.736751 (rocauc), Test: 0.761005 (rocauc)
+1900-01-01 18:05:31,153 - INFO - epoch: 148, sampling_ratio: 0.31600000000000006, mt_flag: False, train_total_len: 9805
+1900-01-01 18:05:31,999 - INFO - Dataset ogbg-molhiv, Epoch: 148, Train: 0.830051 (rocauc), Valid: 0.766332 (rocauc), Test: 0.772873 (rocauc)
+1900-01-01 18:05:33,379 - INFO - epoch: 149, sampling_ratio: 0.31600000000000006, mt_flag: True, train_total_len: 10396
+1900-01-01 18:05:34,264 - INFO - Dataset ogbg-molhiv, Epoch: 149, Train: 0.803328 (rocauc), Valid: 0.722645 (rocauc), Test: 0.740652 (rocauc)
+1900-01-01 18:05:34,264 - INFO - epoch: 150, sampling_ratio: 0.31600000000000006, mt_flag: False, train_total_len: 10396
+1900-01-01 18:05:35,152 - INFO - Dataset ogbg-molhiv, Epoch: 150, Train: 0.803473 (rocauc), Valid: 0.698572 (rocauc), Test: 0.734149 (rocauc)
+1900-01-01 18:05:35,152 - INFO - epoch: 151, sampling_ratio: 0.31600000000000006, mt_flag: False, train_total_len: 10396
+1900-01-01 18:05:36,203 - INFO - Dataset ogbg-molhiv, Epoch: 151, Train: 0.805414 (rocauc), Valid: 0.723236 (rocauc), Test: 0.755270 (rocauc)
+1900-01-01 18:05:36,203 - INFO - epoch: 152, sampling_ratio: 0.31600000000000006, mt_flag: False, train_total_len: 10396
+1900-01-01 18:05:37,088 - INFO - Dataset ogbg-molhiv, Epoch: 152, Train: 0.804729 (rocauc), Valid: 0.690865 (rocauc), Test: 0.719917 (rocauc)
+1900-01-01 18:05:37,089 - INFO - epoch: 153, sampling_ratio: 0.31600000000000006, mt_flag: False, train_total_len: 10396
+1900-01-01 18:05:37,973 - INFO - Dataset ogbg-molhiv, Epoch: 153, Train: 0.817490 (rocauc), Valid: 0.701900 (rocauc), Test: 0.734952 (rocauc)
+1900-01-01 18:05:37,973 - INFO - epoch: 154, sampling_ratio: 0.31600000000000006, mt_flag: False, train_total_len: 10396
+1900-01-01 18:05:38,857 - INFO - Dataset ogbg-molhiv, Epoch: 154, Train: 0.813559 (rocauc), Valid: 0.688060 (rocauc), Test: 0.737576 (rocauc)
+1900-01-01 18:05:38,858 - INFO - epoch: 155, sampling_ratio: 0.31600000000000006, mt_flag: False, train_total_len: 10396
+1900-01-01 18:05:39,907 - INFO - Dataset ogbg-molhiv, Epoch: 155, Train: 0.821886 (rocauc), Valid: 0.715657 (rocauc), Test: 0.756722 (rocauc)
+1900-01-01 18:05:39,907 - INFO - epoch: 156, sampling_ratio: 0.3340000000000001, mt_flag: False, train_total_len: 10396
+1900-01-01 18:05:40,790 - INFO - Dataset ogbg-molhiv, Epoch: 156, Train: 0.821331 (rocauc), Valid: 0.713967 (rocauc), Test: 0.751722 (rocauc)
+1900-01-01 18:05:40,790 - INFO - epoch: 157, sampling_ratio: 0.3340000000000001, mt_flag: False, train_total_len: 10396
+1900-01-01 18:05:41,695 - INFO - Dataset ogbg-molhiv, Epoch: 157, Train: 0.821476 (rocauc), Valid: 0.718202 (rocauc), Test: 0.757127 (rocauc)
+1900-01-01 18:05:41,696 - INFO - epoch: 158, sampling_ratio: 0.3340000000000001, mt_flag: False, train_total_len: 10396
+1900-01-01 18:05:42,800 - INFO - Dataset ogbg-molhiv, Epoch: 158, Train: 0.823903 (rocauc), Valid: 0.692595 (rocauc), Test: 0.719191 (rocauc)
+1900-01-01 18:05:42,800 - INFO - epoch: 159, sampling_ratio: 0.3340000000000001, mt_flag: False, train_total_len: 10396
+1900-01-01 18:05:43,660 - INFO - Dataset ogbg-molhiv, Epoch: 159, Train: 0.819978 (rocauc), Valid: 0.683902 (rocauc), Test: 0.723691 (rocauc)
+1900-01-01 18:05:43,660 - INFO - epoch: 160, sampling_ratio: 0.3340000000000001, mt_flag: False, train_total_len: 10396
+1900-01-01 18:05:44,542 - INFO - Dataset ogbg-molhiv, Epoch: 160, Train: 0.834849 (rocauc), Valid: 0.708263 (rocauc), Test: 0.746965 (rocauc)
+1900-01-01 18:05:44,543 - INFO - epoch: 161, sampling_ratio: 0.3340000000000001, mt_flag: False, train_total_len: 10396
+1900-01-01 18:05:45,423 - INFO - Dataset ogbg-molhiv, Epoch: 161, Train: 0.827032 (rocauc), Valid: 0.673856 (rocauc), Test: 0.713898 (rocauc)
+1900-01-01 18:05:45,423 - INFO - epoch: 162, sampling_ratio: 0.3340000000000001, mt_flag: False, train_total_len: 10396
+1900-01-01 18:05:46,469 - INFO - Dataset ogbg-molhiv, Epoch: 162, Train: 0.834969 (rocauc), Valid: 0.695054 (rocauc), Test: 0.743481 (rocauc)
+1900-01-01 18:05:46,469 - INFO - epoch: 163, sampling_ratio: 0.3340000000000001, mt_flag: False, train_total_len: 10396
+1900-01-01 18:05:47,335 - INFO - Dataset ogbg-molhiv, Epoch: 163, Train: 0.830068 (rocauc), Valid: 0.680752 (rocauc), Test: 0.728537 (rocauc)
+1900-01-01 18:05:47,335 - INFO - epoch: 164, sampling_ratio: 0.3340000000000001, mt_flag: False, train_total_len: 10396
+1900-01-01 18:05:48,217 - INFO - Dataset ogbg-molhiv, Epoch: 164, Train: 0.838079 (rocauc), Valid: 0.688232 (rocauc), Test: 0.761882 (rocauc)
+1900-01-01 18:05:49,604 - INFO - epoch: 165, sampling_ratio: 0.3340000000000001, mt_flag: True, train_total_len: 10988
+1900-01-01 18:05:50,518 - INFO - Dataset ogbg-molhiv, Epoch: 165, Train: 0.776515 (rocauc), Valid: 0.657260 (rocauc), Test: 0.676993 (rocauc)
+1900-01-01 18:05:50,518 - INFO - epoch: 166, sampling_ratio: 0.3340000000000001, mt_flag: False, train_total_len: 10988
+1900-01-01 18:05:51,429 - INFO - Dataset ogbg-molhiv, Epoch: 166, Train: 0.792379 (rocauc), Valid: 0.682273 (rocauc), Test: 0.715153 (rocauc)
+1900-01-01 18:05:51,429 - INFO - epoch: 167, sampling_ratio: 0.3340000000000001, mt_flag: False, train_total_len: 10988
+1900-01-01 18:05:52,505 - INFO - Dataset ogbg-molhiv, Epoch: 167, Train: 0.811226 (rocauc), Valid: 0.749535 (rocauc), Test: 0.767663 (rocauc)
+1900-01-01 18:05:52,506 - INFO - epoch: 168, sampling_ratio: 0.352, mt_flag: False, train_total_len: 10988
+1900-01-01 18:05:53,420 - INFO - Dataset ogbg-molhiv, Epoch: 168, Train: 0.801046 (rocauc), Valid: 0.679649 (rocauc), Test: 0.724568 (rocauc)
+1900-01-01 18:05:53,420 - INFO - epoch: 169, sampling_ratio: 0.352, mt_flag: False, train_total_len: 10988
+1900-01-01 18:05:54,335 - INFO - Dataset ogbg-molhiv, Epoch: 169, Train: 0.798016 (rocauc), Valid: 0.663779 (rocauc), Test: 0.706734 (rocauc)
+1900-01-01 18:05:54,335 - INFO - epoch: 170, sampling_ratio: 0.352, mt_flag: False, train_total_len: 10988
+1900-01-01 18:05:55,420 - INFO - Dataset ogbg-molhiv, Epoch: 170, Train: 0.810836 (rocauc), Valid: 0.682800 (rocauc), Test: 0.724442 (rocauc)
+1900-01-01 18:05:55,420 - INFO - epoch: 171, sampling_ratio: 0.352, mt_flag: False, train_total_len: 10988
+1900-01-01 18:05:56,335 - INFO - Dataset ogbg-molhiv, Epoch: 171, Train: 0.797021 (rocauc), Valid: 0.648892 (rocauc), Test: 0.687970 (rocauc)
+1900-01-01 18:05:56,335 - INFO - epoch: 172, sampling_ratio: 0.352, mt_flag: False, train_total_len: 10988
+1900-01-01 18:05:57,257 - INFO - Dataset ogbg-molhiv, Epoch: 172, Train: 0.822723 (rocauc), Valid: 0.738457 (rocauc), Test: 0.755385 (rocauc)
+1900-01-01 18:05:57,258 - INFO - epoch: 173, sampling_ratio: 0.352, mt_flag: False, train_total_len: 10988
+1900-01-01 18:05:58,209 - INFO - Dataset ogbg-molhiv, Epoch: 173, Train: 0.818263 (rocauc), Valid: 0.680176 (rocauc), Test: 0.743462 (rocauc)
+1900-01-01 18:05:58,209 - INFO - epoch: 174, sampling_ratio: 0.352, mt_flag: False, train_total_len: 10988
+1900-01-01 18:05:59,348 - INFO - Dataset ogbg-molhiv, Epoch: 174, Train: 0.827575 (rocauc), Valid: 0.729782 (rocauc), Test: 0.756722 (rocauc)
+1900-01-01 18:05:59,348 - INFO - epoch: 175, sampling_ratio: 0.352, mt_flag: False, train_total_len: 10988
+1900-01-01 18:06:00,267 - INFO - Dataset ogbg-molhiv, Epoch: 175, Train: 0.820194 (rocauc), Valid: 0.718337 (rocauc), Test: 0.741965 (rocauc)
+1900-01-01 18:06:00,267 - INFO - epoch: 176, sampling_ratio: 0.352, mt_flag: False, train_total_len: 10988
+1900-01-01 18:06:01,187 - INFO - Dataset ogbg-molhiv, Epoch: 176, Train: 0.807595 (rocauc), Valid: 0.628631 (rocauc), Test: 0.691977 (rocauc)
+1900-01-01 18:06:01,187 - INFO - epoch: 177, sampling_ratio: 0.352, mt_flag: False, train_total_len: 10988
+1900-01-01 18:06:02,260 - INFO - Dataset ogbg-molhiv, Epoch: 177, Train: 0.823980 (rocauc), Valid: 0.690161 (rocauc), Test: 0.739041 (rocauc)
+1900-01-01 18:06:02,260 - INFO - epoch: 178, sampling_ratio: 0.352, mt_flag: False, train_total_len: 10988
+1900-01-01 18:06:03,180 - INFO - Dataset ogbg-molhiv, Epoch: 178, Train: 0.826738 (rocauc), Valid: 0.673430 (rocauc), Test: 0.734512 (rocauc)
+1900-01-01 18:06:03,180 - INFO - epoch: 179, sampling_ratio: 0.352, mt_flag: False, train_total_len: 10988
+1900-01-01 18:06:04,100 - INFO - Dataset ogbg-molhiv, Epoch: 179, Train: 0.815816 (rocauc), Valid: 0.685427 (rocauc), Test: 0.726571 (rocauc)
+1900-01-01 18:06:04,100 - INFO - epoch: 180, sampling_ratio: 0.37, mt_flag: False, train_total_len: 10988
+1900-01-01 18:06:05,188 - INFO - Dataset ogbg-molhiv, Epoch: 180, Train: 0.835315 (rocauc), Valid: 0.755129 (rocauc), Test: 0.761110 (rocauc)
+1900-01-01 18:06:05,188 - INFO - epoch: 181, sampling_ratio: 0.37, mt_flag: False, train_total_len: 10988
+1900-01-01 18:06:06,097 - INFO - Dataset ogbg-molhiv, Epoch: 181, Train: 0.816777 (rocauc), Valid: 0.682237 (rocauc), Test: 0.710788 (rocauc)
+1900-01-01 18:06:07,299 - INFO - epoch: 182, sampling_ratio: 0.37, mt_flag: True, train_total_len: 12174
+1900-01-01 18:06:08,447 - INFO - Dataset ogbg-molhiv, Epoch: 182, Train: 0.816198 (rocauc), Valid: 0.668877 (rocauc), Test: 0.746173 (rocauc)
+1900-01-01 18:06:08,447 - INFO - epoch: 183, sampling_ratio: 0.37, mt_flag: False, train_total_len: 12174
+1900-01-01 18:06:09,444 - INFO - Dataset ogbg-molhiv, Epoch: 183, Train: 0.811867 (rocauc), Valid: 0.696181 (rocauc), Test: 0.761251 (rocauc)
+1900-01-01 18:06:09,444 - INFO - epoch: 184, sampling_ratio: 0.37, mt_flag: False, train_total_len: 12174
+1900-01-01 18:06:10,448 - INFO - Dataset ogbg-molhiv, Epoch: 184, Train: 0.824283 (rocauc), Valid: 0.666452 (rocauc), Test: 0.746005 (rocauc)
+1900-01-01 18:06:10,448 - INFO - epoch: 185, sampling_ratio: 0.37, mt_flag: False, train_total_len: 12174
+1900-01-01 18:06:11,600 - INFO - Dataset ogbg-molhiv, Epoch: 185, Train: 0.825387 (rocauc), Valid: 0.759712 (rocauc), Test: 0.779453 (rocauc)
+1900-01-01 18:06:11,600 - INFO - epoch: 186, sampling_ratio: 0.37, mt_flag: False, train_total_len: 12174
+1900-01-01 18:06:12,596 - INFO - Dataset ogbg-molhiv, Epoch: 186, Train: 0.823134 (rocauc), Valid: 0.700764 (rocauc), Test: 0.728177 (rocauc)
+1900-01-01 18:06:12,596 - INFO - epoch: 187, sampling_ratio: 0.37, mt_flag: False, train_total_len: 12174
+1900-01-01 18:06:13,593 - INFO - Dataset ogbg-molhiv, Epoch: 187, Train: 0.830048 (rocauc), Valid: 0.692316 (rocauc), Test: 0.754254 (rocauc)
+1900-01-01 18:06:13,593 - INFO - epoch: 188, sampling_ratio: 0.37, mt_flag: False, train_total_len: 12174
+1900-01-01 18:06:14,751 - INFO - Dataset ogbg-molhiv, Epoch: 188, Train: 0.830099 (rocauc), Valid: 0.677886 (rocauc), Test: 0.734166 (rocauc)
+1900-01-01 18:06:14,751 - INFO - epoch: 189, sampling_ratio: 0.37, mt_flag: False, train_total_len: 12174
+1900-01-01 18:06:15,746 - INFO - Dataset ogbg-molhiv, Epoch: 189, Train: 0.828117 (rocauc), Valid: 0.709616 (rocauc), Test: 0.763439 (rocauc)
+1900-01-01 18:06:15,746 - INFO - epoch: 190, sampling_ratio: 0.37, mt_flag: False, train_total_len: 12174
+1900-01-01 18:06:16,730 - INFO - Dataset ogbg-molhiv, Epoch: 190, Train: 0.836167 (rocauc), Valid: 0.677567 (rocauc), Test: 0.745939 (rocauc)
+1900-01-01 18:06:16,730 - INFO - epoch: 191, sampling_ratio: 0.37, mt_flag: False, train_total_len: 12174
+1900-01-01 18:06:17,956 - INFO - Dataset ogbg-molhiv, Epoch: 191, Train: 0.830314 (rocauc), Valid: 0.760169 (rocauc), Test: 0.766591 (rocauc)
+1900-01-01 18:06:17,956 - INFO - epoch: 192, sampling_ratio: 0.388, mt_flag: False, train_total_len: 12174
+1900-01-01 18:06:18,996 - INFO - Dataset ogbg-molhiv, Epoch: 192, Train: 0.838184 (rocauc), Valid: 0.697635 (rocauc), Test: 0.761139 (rocauc)
+1900-01-01 18:06:18,996 - INFO - epoch: 193, sampling_ratio: 0.388, mt_flag: False, train_total_len: 12174
+1900-01-01 18:06:20,022 - INFO - New best validation score: 0.741438859494415 (rocauc) without training score regression
+1900-01-01 18:06:20,026 - INFO - Dataset ogbg-molhiv, Epoch: 193, Train: 0.838825 (rocauc), Valid: 0.741439 (rocauc), Test: 0.761301 (rocauc)
+1900-01-01 18:06:20,026 - INFO - epoch: 194, sampling_ratio: 0.388, mt_flag: False, train_total_len: 12174
+1900-01-01 18:06:21,203 - INFO - Dataset ogbg-molhiv, Epoch: 194, Train: 0.840646 (rocauc), Valid: 0.688982 (rocauc), Test: 0.740397 (rocauc)
+1900-01-01 18:06:21,203 - INFO - epoch: 195, sampling_ratio: 0.388, mt_flag: False, train_total_len: 12174
+1900-01-01 18:06:22,216 - INFO - Dataset ogbg-molhiv, Epoch: 195, Train: 0.846060 (rocauc), Valid: 0.738980 (rocauc), Test: 0.759128 (rocauc)
+1900-01-01 18:06:22,216 - INFO - epoch: 196, sampling_ratio: 0.388, mt_flag: False, train_total_len: 12174
+1900-01-01 18:06:23,216 - INFO - Dataset ogbg-molhiv, Epoch: 196, Train: 0.840205 (rocauc), Valid: 0.685017 (rocauc), Test: 0.717803 (rocauc)
+1900-01-01 18:06:23,216 - INFO - epoch: 197, sampling_ratio: 0.388, mt_flag: False, train_total_len: 12174
+1900-01-01 18:06:24,392 - INFO - Dataset ogbg-molhiv, Epoch: 197, Train: 0.823474 (rocauc), Valid: 0.625242 (rocauc), Test: 0.663462 (rocauc)
+1900-01-01 18:06:24,392 - INFO - epoch: 198, sampling_ratio: 0.388, mt_flag: False, train_total_len: 12174
+1900-01-01 18:06:25,407 - INFO - Dataset ogbg-molhiv, Epoch: 198, Train: 0.838095 (rocauc), Valid: 0.710317 (rocauc), Test: 0.751181 (rocauc)
+1900-01-01 18:06:25,407 - INFO - epoch: 199, sampling_ratio: 0.388, mt_flag: False, train_total_len: 12174
+1900-01-01 18:06:26,397 - INFO - Dataset ogbg-molhiv, Epoch: 199, Train: 0.844800 (rocauc), Valid: 0.635564 (rocauc), Test: 0.705495 (rocauc)
+1900-01-01 18:06:27,840 - INFO - epoch: 200, sampling_ratio: 0.388, mt_flag: True, train_total_len: 12766
+1900-01-01 18:06:28,888 - INFO - Dataset ogbg-molhiv, Epoch: 200, Train: 0.826836 (rocauc), Valid: 0.749645 (rocauc), Test: 0.773362 (rocauc)
+1900-01-01 18:06:28,888 - INFO - epoch: 201, sampling_ratio: 0.388, mt_flag: False, train_total_len: 12766
+1900-01-01 18:06:29,937 - INFO - Dataset ogbg-molhiv, Epoch: 201, Train: 0.825824 (rocauc), Valid: 0.764367 (rocauc), Test: 0.761150 (rocauc)
+1900-01-01 18:06:29,937 - INFO - epoch: 202, sampling_ratio: 0.388, mt_flag: False, train_total_len: 12766
+1900-01-01 18:06:31,157 - INFO - Dataset ogbg-molhiv, Epoch: 202, Train: 0.838511 (rocauc), Valid: 0.764232 (rocauc), Test: 0.769074 (rocauc)
+1900-01-01 18:06:31,157 - INFO - epoch: 203, sampling_ratio: 0.388, mt_flag: False, train_total_len: 12766
+1900-01-01 18:06:32,206 - INFO - New best validation score: 0.7598104056437388 (rocauc) without training score regression
+1900-01-01 18:06:32,210 - INFO - Dataset ogbg-molhiv, Epoch: 203, Train: 0.839976 (rocauc), Valid: 0.759810 (rocauc), Test: 0.763943 (rocauc)
+1900-01-01 18:06:32,210 - INFO - epoch: 204, sampling_ratio: 0.406, mt_flag: False, train_total_len: 12766
+1900-01-01 18:06:33,250 - INFO - Dataset ogbg-molhiv, Epoch: 204, Train: 0.844688 (rocauc), Valid: 0.749225 (rocauc), Test: 0.751521 (rocauc)
+1900-01-01 18:06:33,250 - INFO - epoch: 205, sampling_ratio: 0.406, mt_flag: False, train_total_len: 12766
+1900-01-01 18:06:34,457 - INFO - Dataset ogbg-molhiv, Epoch: 205, Train: 0.835970 (rocauc), Valid: 0.729467 (rocauc), Test: 0.755511 (rocauc)
+1900-01-01 18:06:34,457 - INFO - epoch: 206, sampling_ratio: 0.406, mt_flag: False, train_total_len: 12766
+1900-01-01 18:06:35,493 - INFO - Dataset ogbg-molhiv, Epoch: 206, Train: 0.844406 (rocauc), Valid: 0.702978 (rocauc), Test: 0.734952 (rocauc)
+1900-01-01 18:06:35,493 - INFO - epoch: 207, sampling_ratio: 0.406, mt_flag: False, train_total_len: 12766
+1900-01-01 18:06:36,584 - INFO - Dataset ogbg-molhiv, Epoch: 207, Train: 0.848810 (rocauc), Valid: 0.730857 (rocauc), Test: 0.747732 (rocauc)
+1900-01-01 18:06:36,584 - INFO - epoch: 208, sampling_ratio: 0.406, mt_flag: False, train_total_len: 12766
+1900-01-01 18:06:37,876 - INFO - Dataset ogbg-molhiv, Epoch: 208, Train: 0.836482 (rocauc), Valid: 0.689291 (rocauc), Test: 0.700089 (rocauc)
+1900-01-01 18:06:37,876 - INFO - epoch: 209, sampling_ratio: 0.406, mt_flag: False, train_total_len: 12766
+1900-01-01 18:06:38,934 - INFO - Dataset ogbg-molhiv, Epoch: 209, Train: 0.848932 (rocauc), Valid: 0.755423 (rocauc), Test: 0.761260 (rocauc)
+1900-01-01 18:06:38,934 - INFO - epoch: 210, sampling_ratio: 0.406, mt_flag: False, train_total_len: 12766
+1900-01-01 18:06:39,979 - INFO - Dataset ogbg-molhiv, Epoch: 210, Train: 0.850731 (rocauc), Valid: 0.745208 (rocauc), Test: 0.753587 (rocauc)
+1900-01-01 18:06:39,979 - INFO - epoch: 211, sampling_ratio: 0.406, mt_flag: False, train_total_len: 12766
+1900-01-01 18:06:41,188 - INFO - Dataset ogbg-molhiv, Epoch: 211, Train: 0.843289 (rocauc), Valid: 0.701769 (rocauc), Test: 0.721567 (rocauc)
+1900-01-01 18:06:41,188 - INFO - epoch: 212, sampling_ratio: 0.406, mt_flag: False, train_total_len: 12766
+1900-01-01 18:06:42,218 - INFO - New best validation score: 0.7636102537722909 (rocauc) without training score regression
+1900-01-01 18:06:42,222 - INFO - Dataset ogbg-molhiv, Epoch: 212, Train: 0.856029 (rocauc), Valid: 0.763610 (rocauc), Test: 0.765479 (rocauc)
+1900-01-01 18:06:42,222 - INFO - epoch: 213, sampling_ratio: 0.406, mt_flag: False, train_total_len: 12766
+1900-01-01 18:06:43,286 - INFO - Dataset ogbg-molhiv, Epoch: 213, Train: 0.858651 (rocauc), Valid: 0.752226 (rocauc), Test: 0.744833 (rocauc)
+1900-01-01 18:06:43,286 - INFO - epoch: 214, sampling_ratio: 0.406, mt_flag: False, train_total_len: 12766
+1900-01-01 18:06:44,516 - INFO - Dataset ogbg-molhiv, Epoch: 214, Train: 0.855007 (rocauc), Valid: 0.760285 (rocauc), Test: 0.757774 (rocauc)
+1900-01-01 18:06:44,516 - INFO - epoch: 215, sampling_ratio: 0.406, mt_flag: False, train_total_len: 12766
+1900-01-01 18:06:45,565 - INFO - Dataset ogbg-molhiv, Epoch: 215, Train: 0.862758 (rocauc), Valid: 0.762107 (rocauc), Test: 0.763078 (rocauc)
+1900-01-01 18:06:45,565 - INFO - epoch: 216, sampling_ratio: 0.42400000000000004, mt_flag: False, train_total_len: 12766
+1900-01-01 18:06:46,634 - INFO - Dataset ogbg-molhiv, Epoch: 216, Train: 0.856545 (rocauc), Valid: 0.709491 (rocauc), Test: 0.754086 (rocauc)
+1900-01-01 18:06:46,634 - INFO - epoch: 217, sampling_ratio: 0.42400000000000004, mt_flag: False, train_total_len: 12766
+1900-01-01 18:06:47,845 - INFO - Dataset ogbg-molhiv, Epoch: 217, Train: 0.860347 (rocauc), Valid: 0.743545 (rocauc), Test: 0.750140 (rocauc)
+1900-01-01 18:06:47,845 - INFO - epoch: 218, sampling_ratio: 0.42400000000000004, mt_flag: False, train_total_len: 12766
+1900-01-01 18:06:48,888 - INFO - New best validation score: 0.7692564422888497 (rocauc) without training score regression
+1900-01-01 18:06:48,892 - INFO - Dataset ogbg-molhiv, Epoch: 218, Train: 0.863662 (rocauc), Valid: 0.769256 (rocauc), Test: 0.768532 (rocauc)
+1900-01-01 18:06:48,892 - INFO - epoch: 219, sampling_ratio: 0.42400000000000004, mt_flag: False, train_total_len: 12766
+1900-01-01 18:06:49,929 - INFO - Dataset ogbg-molhiv, Epoch: 219, Train: 0.852764 (rocauc), Valid: 0.717583 (rocauc), Test: 0.744640 (rocauc)
+1900-01-01 18:06:51,387 - INFO - epoch: 220, sampling_ratio: 0.42400000000000004, mt_flag: True, train_total_len: 13951
+1900-01-01 18:06:52,471 - INFO - Dataset ogbg-molhiv, Epoch: 220, Train: 0.824982 (rocauc), Valid: 0.757731 (rocauc), Test: 0.760932 (rocauc)
+1900-01-01 18:06:52,471 - INFO - epoch: 221, sampling_ratio: 0.42400000000000004, mt_flag: False, train_total_len: 13951
+1900-01-01 18:06:53,759 - INFO - Dataset ogbg-molhiv, Epoch: 221, Train: 0.835834 (rocauc), Valid: 0.751611 (rocauc), Test: 0.758823 (rocauc)
+1900-01-01 18:06:53,759 - INFO - epoch: 222, sampling_ratio: 0.42400000000000004, mt_flag: False, train_total_len: 13951
+1900-01-01 18:06:54,881 - INFO - Dataset ogbg-molhiv, Epoch: 222, Train: 0.832948 (rocauc), Valid: 0.724265 (rocauc), Test: 0.747664 (rocauc)
+1900-01-01 18:06:54,881 - INFO - epoch: 223, sampling_ratio: 0.42400000000000004, mt_flag: False, train_total_len: 13951
+1900-01-01 18:06:56,001 - INFO - Dataset ogbg-molhiv, Epoch: 223, Train: 0.831885 (rocauc), Valid: 0.698361 (rocauc), Test: 0.738367 (rocauc)
+1900-01-01 18:06:56,001 - INFO - epoch: 224, sampling_ratio: 0.42400000000000004, mt_flag: False, train_total_len: 13951
+1900-01-01 18:06:57,291 - INFO - Dataset ogbg-molhiv, Epoch: 224, Train: 0.844089 (rocauc), Valid: 0.747759 (rocauc), Test: 0.758431 (rocauc)
+1900-01-01 18:06:57,291 - INFO - epoch: 225, sampling_ratio: 0.42400000000000004, mt_flag: False, train_total_len: 13951
+1900-01-01 18:06:58,418 - INFO - Dataset ogbg-molhiv, Epoch: 225, Train: 0.835224 (rocauc), Valid: 0.741457 (rocauc), Test: 0.748852 (rocauc)
+1900-01-01 18:06:58,418 - INFO - epoch: 226, sampling_ratio: 0.42400000000000004, mt_flag: False, train_total_len: 13951
+1900-01-01 18:06:59,542 - INFO - Dataset ogbg-molhiv, Epoch: 226, Train: 0.839536 (rocauc), Valid: 0.744403 (rocauc), Test: 0.756936 (rocauc)
+1900-01-01 18:06:59,543 - INFO - epoch: 227, sampling_ratio: 0.42400000000000004, mt_flag: False, train_total_len: 13951
+1900-01-01 18:07:00,837 - INFO - Dataset ogbg-molhiv, Epoch: 227, Train: 0.845496 (rocauc), Valid: 0.742501 (rocauc), Test: 0.760411 (rocauc)
+1900-01-01 18:07:00,838 - INFO - epoch: 228, sampling_ratio: 0.44200000000000006, mt_flag: False, train_total_len: 13951
+1900-01-01 18:07:01,967 - INFO - Dataset ogbg-molhiv, Epoch: 228, Train: 0.846906 (rocauc), Valid: 0.727029 (rocauc), Test: 0.752867 (rocauc)
+1900-01-01 18:07:01,967 - INFO - epoch: 229, sampling_ratio: 0.44200000000000006, mt_flag: False, train_total_len: 13951
+1900-01-01 18:07:03,271 - INFO - Dataset ogbg-molhiv, Epoch: 229, Train: 0.851420 (rocauc), Valid: 0.736803 (rocauc), Test: 0.759924 (rocauc)
+1900-01-01 18:07:03,271 - INFO - epoch: 230, sampling_ratio: 0.44200000000000006, mt_flag: False, train_total_len: 13951
+1900-01-01 18:07:04,393 - INFO - Dataset ogbg-molhiv, Epoch: 230, Train: 0.842709 (rocauc), Valid: 0.713683 (rocauc), Test: 0.726632 (rocauc)
+1900-01-01 18:07:04,393 - INFO - epoch: 231, sampling_ratio: 0.44200000000000006, mt_flag: False, train_total_len: 13951
+1900-01-01 18:07:05,522 - INFO - Dataset ogbg-molhiv, Epoch: 231, Train: 0.850185 (rocauc), Valid: 0.719075 (rocauc), Test: 0.753259 (rocauc)
+1900-01-01 18:07:05,523 - INFO - epoch: 232, sampling_ratio: 0.44200000000000006, mt_flag: False, train_total_len: 13951
+1900-01-01 18:07:06,816 - INFO - Dataset ogbg-molhiv, Epoch: 232, Train: 0.854559 (rocauc), Valid: 0.745263 (rocauc), Test: 0.761770 (rocauc)
+1900-01-01 18:07:06,816 - INFO - epoch: 233, sampling_ratio: 0.44200000000000006, mt_flag: False, train_total_len: 13951
+1900-01-01 18:07:07,940 - INFO - Dataset ogbg-molhiv, Epoch: 233, Train: 0.852573 (rocauc), Valid: 0.734834 (rocauc), Test: 0.752743 (rocauc)
+1900-01-01 18:07:07,940 - INFO - epoch: 234, sampling_ratio: 0.44200000000000006, mt_flag: False, train_total_len: 13951
+1900-01-01 18:07:09,074 - INFO - Dataset ogbg-molhiv, Epoch: 234, Train: 0.830027 (rocauc), Valid: 0.669398 (rocauc), Test: 0.733537 (rocauc)
+1900-01-01 18:07:09,074 - INFO - epoch: 235, sampling_ratio: 0.44200000000000006, mt_flag: False, train_total_len: 13951
+1900-01-01 18:07:10,378 - INFO - Dataset ogbg-molhiv, Epoch: 235, Train: 0.850369 (rocauc), Valid: 0.714558 (rocauc), Test: 0.757751 (rocauc)
+1900-01-01 18:07:10,379 - INFO - epoch: 236, sampling_ratio: 0.44200000000000006, mt_flag: False, train_total_len: 13951
+1900-01-01 18:07:11,497 - INFO - Dataset ogbg-molhiv, Epoch: 236, Train: 0.855527 (rocauc), Valid: 0.685032 (rocauc), Test: 0.754559 (rocauc)
+1900-01-01 18:07:11,498 - INFO - epoch: 237, sampling_ratio: 0.44200000000000006, mt_flag: False, train_total_len: 13951
+1900-01-01 18:07:12,620 - INFO - Dataset ogbg-molhiv, Epoch: 237, Train: 0.857046 (rocauc), Valid: 0.739011 (rocauc), Test: 0.766942 (rocauc)
+1900-01-01 18:07:12,620 - INFO - epoch: 238, sampling_ratio: 0.44200000000000006, mt_flag: False, train_total_len: 13951
+1900-01-01 18:07:13,908 - INFO - Dataset ogbg-molhiv, Epoch: 238, Train: 0.857182 (rocauc), Valid: 0.713306 (rocauc), Test: 0.756249 (rocauc)
+1900-01-01 18:07:13,908 - INFO - epoch: 239, sampling_ratio: 0.44200000000000006, mt_flag: False, train_total_len: 13951
+1900-01-01 18:07:15,030 - INFO - Dataset ogbg-molhiv, Epoch: 239, Train: 0.864903 (rocauc), Valid: 0.745073 (rocauc), Test: 0.760362 (rocauc)
+1900-01-01 18:07:15,030 - INFO - epoch: 240, sampling_ratio: 0.4600000000000001, mt_flag: False, train_total_len: 13951
+1900-01-01 18:07:16,320 - INFO - Dataset ogbg-molhiv, Epoch: 240, Train: 0.864865 (rocauc), Valid: 0.743285 (rocauc), Test: 0.765556 (rocauc)
+1900-01-01 18:07:17,598 - INFO - epoch: 241, sampling_ratio: 0.4600000000000001, mt_flag: True, train_total_len: 15134
+1900-01-01 18:07:18,786 - INFO - Dataset ogbg-molhiv, Epoch: 241, Train: 0.853242 (rocauc), Valid: 0.748255 (rocauc), Test: 0.765355 (rocauc)
+1900-01-01 18:07:18,786 - INFO - epoch: 242, sampling_ratio: 0.4600000000000001, mt_flag: False, train_total_len: 15134
+1900-01-01 18:07:20,156 - INFO - Dataset ogbg-molhiv, Epoch: 242, Train: 0.855920 (rocauc), Valid: 0.758971 (rocauc), Test: 0.762825 (rocauc)
+1900-01-01 18:07:20,156 - INFO - epoch: 243, sampling_ratio: 0.4600000000000001, mt_flag: False, train_total_len: 15134
+1900-01-01 18:07:21,359 - INFO - Dataset ogbg-molhiv, Epoch: 243, Train: 0.852931 (rocauc), Valid: 0.768151 (rocauc), Test: 0.759746 (rocauc)
+1900-01-01 18:07:21,360 - INFO - epoch: 244, sampling_ratio: 0.4600000000000001, mt_flag: False, train_total_len: 15134
+1900-01-01 18:07:22,576 - INFO - Dataset ogbg-molhiv, Epoch: 244, Train: 0.859812 (rocauc), Valid: 0.763332 (rocauc), Test: 0.749725 (rocauc)
+1900-01-01 18:07:22,576 - INFO - epoch: 245, sampling_ratio: 0.4600000000000001, mt_flag: False, train_total_len: 15134
+1900-01-01 18:07:23,978 - INFO - New best validation score: 0.7808611356065058 (rocauc) without training score regression
+1900-01-01 18:07:23,982 - INFO - Dataset ogbg-molhiv, Epoch: 245, Train: 0.864896 (rocauc), Valid: 0.780861 (rocauc), Test: 0.759511 (rocauc)
+1900-01-01 18:07:23,982 - INFO - epoch: 246, sampling_ratio: 0.4600000000000001, mt_flag: False, train_total_len: 15134
+1900-01-01 18:07:25,201 - INFO - Dataset ogbg-molhiv, Epoch: 246, Train: 0.863122 (rocauc), Valid: 0.762529 (rocauc), Test: 0.761137 (rocauc)
+1900-01-01 18:07:25,201 - INFO - epoch: 247, sampling_ratio: 0.4600000000000001, mt_flag: False, train_total_len: 15134
+1900-01-01 18:07:26,603 - INFO - Dataset ogbg-molhiv, Epoch: 247, Train: 0.864781 (rocauc), Valid: 0.770469 (rocauc), Test: 0.758058 (rocauc)
+1900-01-01 18:07:26,604 - INFO - epoch: 248, sampling_ratio: 0.4600000000000001, mt_flag: False, train_total_len: 15134
+1900-01-01 18:07:27,829 - INFO - Dataset ogbg-molhiv, Epoch: 248, Train: 0.860640 (rocauc), Valid: 0.775631 (rocauc), Test: 0.750880 (rocauc)
+1900-01-01 18:07:27,830 - INFO - epoch: 249, sampling_ratio: 0.4600000000000001, mt_flag: False, train_total_len: 15134
+1900-01-01 18:07:29,018 - INFO - Dataset ogbg-molhiv, Epoch: 249, Train: 0.866093 (rocauc), Valid: 0.765310 (rocauc), Test: 0.756884 (rocauc)
+1900-01-01 18:07:29,019 - INFO - epoch: 250, sampling_ratio: 0.4600000000000001, mt_flag: False, train_total_len: 15134
+1900-01-01 18:07:30,377 - INFO - Dataset ogbg-molhiv, Epoch: 250, Train: 0.867564 (rocauc), Valid: 0.771424 (rocauc), Test: 0.758265 (rocauc)
+1900-01-01 18:07:30,377 - INFO - epoch: 251, sampling_ratio: 0.4600000000000001, mt_flag: False, train_total_len: 15134
+1900-01-01 18:07:31,563 - INFO - Dataset ogbg-molhiv, Epoch: 251, Train: 0.860411 (rocauc), Valid: 0.774768 (rocauc), Test: 0.753618 (rocauc)
+1900-01-01 18:07:31,563 - INFO - epoch: 252, sampling_ratio: 0.4780000000000001, mt_flag: False, train_total_len: 15134
+1900-01-01 18:07:32,730 - INFO - Dataset ogbg-molhiv, Epoch: 252, Train: 0.870363 (rocauc), Valid: 0.763191 (rocauc), Test: 0.746102 (rocauc)
+1900-01-01 18:07:32,730 - INFO - epoch: 253, sampling_ratio: 0.4780000000000001, mt_flag: False, train_total_len: 15134
+1900-01-01 18:07:34,087 - INFO - Dataset ogbg-molhiv, Epoch: 253, Train: 0.862275 (rocauc), Valid: 0.771170 (rocauc), Test: 0.751347 (rocauc)
+1900-01-01 18:07:34,088 - INFO - epoch: 254, sampling_ratio: 0.4780000000000001, mt_flag: False, train_total_len: 15134
+1900-01-01 18:07:35,272 - INFO - Dataset ogbg-molhiv, Epoch: 254, Train: 0.872587 (rocauc), Valid: 0.748765 (rocauc), Test: 0.749592 (rocauc)
+1900-01-01 18:07:35,272 - INFO - epoch: 255, sampling_ratio: 0.4780000000000001, mt_flag: False, train_total_len: 15134
+1900-01-01 18:07:36,641 - INFO - Dataset ogbg-molhiv, Epoch: 255, Train: 0.866130 (rocauc), Valid: 0.750024 (rocauc), Test: 0.754764 (rocauc)
+1900-01-01 18:07:36,641 - INFO - epoch: 256, sampling_ratio: 0.4780000000000001, mt_flag: False, train_total_len: 15134
+1900-01-01 18:07:37,811 - INFO - Dataset ogbg-molhiv, Epoch: 256, Train: 0.877822 (rocauc), Valid: 0.765539 (rocauc), Test: 0.752523 (rocauc)
+1900-01-01 18:07:37,811 - INFO - epoch: 257, sampling_ratio: 0.4780000000000001, mt_flag: False, train_total_len: 15134
+1900-01-01 18:07:38,988 - INFO - Dataset ogbg-molhiv, Epoch: 257, Train: 0.872505 (rocauc), Valid: 0.762245 (rocauc), Test: 0.748605 (rocauc)
+1900-01-01 18:07:38,988 - INFO - epoch: 258, sampling_ratio: 0.4780000000000001, mt_flag: False, train_total_len: 15134
+1900-01-01 18:07:40,336 - INFO - Dataset ogbg-molhiv, Epoch: 258, Train: 0.872310 (rocauc), Valid: 0.769097 (rocauc), Test: 0.750789 (rocauc)
+1900-01-01 18:07:40,336 - INFO - epoch: 259, sampling_ratio: 0.4780000000000001, mt_flag: False, train_total_len: 15134
+1900-01-01 18:07:41,521 - INFO - Dataset ogbg-molhiv, Epoch: 259, Train: 0.871903 (rocauc), Valid: 0.753561 (rocauc), Test: 0.739414 (rocauc)
+1900-01-01 18:07:41,521 - INFO - epoch: 260, sampling_ratio: 0.4780000000000001, mt_flag: False, train_total_len: 15134
+1900-01-01 18:07:42,879 - INFO - Dataset ogbg-molhiv, Epoch: 260, Train: 0.874984 (rocauc), Valid: 0.769961 (rocauc), Test: 0.757311 (rocauc)
+1900-01-01 18:07:42,879 - INFO - epoch: 261, sampling_ratio: 0.4780000000000001, mt_flag: False, train_total_len: 15134
+1900-01-01 18:07:44,063 - INFO - Dataset ogbg-molhiv, Epoch: 261, Train: 0.876836 (rocauc), Valid: 0.776183 (rocauc), Test: 0.757788 (rocauc)
+1900-01-01 18:07:44,063 - INFO - epoch: 262, sampling_ratio: 0.4780000000000001, mt_flag: False, train_total_len: 15134
+1900-01-01 18:07:45,249 - INFO - New best validation score: 0.7826891044483637 (rocauc) without training score regression
+1900-01-01 18:07:45,254 - INFO - Dataset ogbg-molhiv, Epoch: 262, Train: 0.881250 (rocauc), Valid: 0.782689 (rocauc), Test: 0.748705 (rocauc)
+1900-01-01 18:07:45,254 - INFO - epoch: 263, sampling_ratio: 0.4780000000000001, mt_flag: False, train_total_len: 15134
+1900-01-01 18:07:46,614 - INFO - Dataset ogbg-molhiv, Epoch: 263, Train: 0.877791 (rocauc), Valid: 0.775870 (rocauc), Test: 0.749763 (rocauc)
+1900-01-01 18:07:47,856 - INFO - epoch: 264, sampling_ratio: 0.496, mt_flag: True, train_total_len: 16319
+1900-01-01 18:07:49,354 - INFO - Dataset ogbg-molhiv, Epoch: 264, Train: 0.829225 (rocauc), Valid: 0.751378 (rocauc), Test: 0.745262 (rocauc)
+1900-01-01 18:07:49,354 - INFO - epoch: 265, sampling_ratio: 0.496, mt_flag: False, train_total_len: 16319
+1900-01-01 18:07:50,661 - INFO - Dataset ogbg-molhiv, Epoch: 265, Train: 0.832516 (rocauc), Valid: 0.742973 (rocauc), Test: 0.739367 (rocauc)
+1900-01-01 18:07:50,661 - INFO - epoch: 266, sampling_ratio: 0.496, mt_flag: False, train_total_len: 16319
+1900-01-01 18:07:52,136 - INFO - Dataset ogbg-molhiv, Epoch: 266, Train: 0.829058 (rocauc), Valid: 0.717045 (rocauc), Test: 0.724531 (rocauc)
+1900-01-01 18:07:52,137 - INFO - epoch: 267, sampling_ratio: 0.496, mt_flag: False, train_total_len: 16319
+1900-01-01 18:07:53,428 - INFO - Dataset ogbg-molhiv, Epoch: 267, Train: 0.834272 (rocauc), Valid: 0.728680 (rocauc), Test: 0.740028 (rocauc)
+1900-01-01 18:07:53,428 - INFO - epoch: 268, sampling_ratio: 0.496, mt_flag: False, train_total_len: 16319
+1900-01-01 18:07:54,701 - INFO - Dataset ogbg-molhiv, Epoch: 268, Train: 0.837423 (rocauc), Valid: 0.713186 (rocauc), Test: 0.727051 (rocauc)
+1900-01-01 18:07:54,701 - INFO - epoch: 269, sampling_ratio: 0.496, mt_flag: False, train_total_len: 16319
+1900-01-01 18:07:56,150 - INFO - Dataset ogbg-molhiv, Epoch: 269, Train: 0.824635 (rocauc), Valid: 0.705979 (rocauc), Test: 0.710479 (rocauc)
+1900-01-01 18:07:56,150 - INFO - epoch: 270, sampling_ratio: 0.496, mt_flag: False, train_total_len: 16319
+1900-01-01 18:07:57,464 - INFO - Dataset ogbg-molhiv, Epoch: 270, Train: 0.846881 (rocauc), Valid: 0.731827 (rocauc), Test: 0.741679 (rocauc)
+1900-01-01 18:07:57,465 - INFO - epoch: 271, sampling_ratio: 0.496, mt_flag: False, train_total_len: 16319
+1900-01-01 18:07:58,905 - INFO - Dataset ogbg-molhiv, Epoch: 271, Train: 0.842500 (rocauc), Valid: 0.730924 (rocauc), Test: 0.747154 (rocauc)
+1900-01-01 18:07:58,905 - INFO - epoch: 272, sampling_ratio: 0.496, mt_flag: False, train_total_len: 16319
+1900-01-01 18:08:00,195 - INFO - Dataset ogbg-molhiv, Epoch: 272, Train: 0.845197 (rocauc), Valid: 0.731503 (rocauc), Test: 0.737363 (rocauc)
+1900-01-01 18:08:00,195 - INFO - epoch: 273, sampling_ratio: 0.496, mt_flag: False, train_total_len: 16319
+1900-01-01 18:08:01,478 - INFO - Dataset ogbg-molhiv, Epoch: 273, Train: 0.853380 (rocauc), Valid: 0.746384 (rocauc), Test: 0.754495 (rocauc)
+1900-01-01 18:08:01,478 - INFO - epoch: 274, sampling_ratio: 0.496, mt_flag: False, train_total_len: 16319
+1900-01-01 18:08:02,936 - INFO - Dataset ogbg-molhiv, Epoch: 274, Train: 0.844353 (rocauc), Valid: 0.709399 (rocauc), Test: 0.722511 (rocauc)
+1900-01-01 18:08:02,937 - INFO - epoch: 275, sampling_ratio: 0.496, mt_flag: False, train_total_len: 16319
+1900-01-01 18:08:04,216 - INFO - Dataset ogbg-molhiv, Epoch: 275, Train: 0.851039 (rocauc), Valid: 0.733282 (rocauc), Test: 0.736897 (rocauc)
+1900-01-01 18:08:04,216 - INFO - epoch: 276, sampling_ratio: 0.514, mt_flag: False, train_total_len: 16319
+1900-01-01 18:08:05,659 - INFO - Dataset ogbg-molhiv, Epoch: 276, Train: 0.846845 (rocauc), Valid: 0.738708 (rocauc), Test: 0.739091 (rocauc)
+1900-01-01 18:08:05,659 - INFO - epoch: 277, sampling_ratio: 0.514, mt_flag: False, train_total_len: 16319
+1900-01-01 18:08:06,930 - INFO - Dataset ogbg-molhiv, Epoch: 277, Train: 0.846562 (rocauc), Valid: 0.728444 (rocauc), Test: 0.733855 (rocauc)
+1900-01-01 18:08:06,930 - INFO - epoch: 278, sampling_ratio: 0.514, mt_flag: False, train_total_len: 16319
+1900-01-01 18:08:08,206 - INFO - Dataset ogbg-molhiv, Epoch: 278, Train: 0.858432 (rocauc), Valid: 0.730428 (rocauc), Test: 0.743313 (rocauc)
+1900-01-01 18:08:08,206 - INFO - epoch: 279, sampling_ratio: 0.514, mt_flag: False, train_total_len: 16319
+1900-01-01 18:08:09,643 - INFO - Dataset ogbg-molhiv, Epoch: 279, Train: 0.855354 (rocauc), Valid: 0.747082 (rocauc), Test: 0.742730 (rocauc)
+1900-01-01 18:08:09,643 - INFO - epoch: 280, sampling_ratio: 0.514, mt_flag: False, train_total_len: 16319
+1900-01-01 18:08:10,912 - INFO - Dataset ogbg-molhiv, Epoch: 280, Train: 0.857180 (rocauc), Valid: 0.756219 (rocauc), Test: 0.737747 (rocauc)
+1900-01-01 18:08:10,912 - INFO - epoch: 281, sampling_ratio: 0.514, mt_flag: False, train_total_len: 16319
+1900-01-01 18:08:12,349 - INFO - Dataset ogbg-molhiv, Epoch: 281, Train: 0.858535 (rocauc), Valid: 0.771669 (rocauc), Test: 0.761907 (rocauc)
+1900-01-01 18:08:12,350 - INFO - epoch: 282, sampling_ratio: 0.514, mt_flag: False, train_total_len: 16319
+1900-01-01 18:08:13,616 - INFO - Dataset ogbg-molhiv, Epoch: 282, Train: 0.855569 (rocauc), Valid: 0.747091 (rocauc), Test: 0.738913 (rocauc)
+1900-01-01 18:08:13,616 - INFO - epoch: 283, sampling_ratio: 0.514, mt_flag: False, train_total_len: 16319
+1900-01-01 18:08:14,883 - INFO - Dataset ogbg-molhiv, Epoch: 283, Train: 0.857170 (rocauc), Valid: 0.708581 (rocauc), Test: 0.727324 (rocauc)
+1900-01-01 18:08:14,883 - INFO - epoch: 284, sampling_ratio: 0.514, mt_flag: False, train_total_len: 16319
+1900-01-01 18:08:16,315 - INFO - Dataset ogbg-molhiv, Epoch: 284, Train: 0.854411 (rocauc), Valid: 0.715550 (rocauc), Test: 0.722225 (rocauc)
+1900-01-01 18:08:16,316 - INFO - epoch: 285, sampling_ratio: 0.514, mt_flag: False, train_total_len: 16319
+1900-01-01 18:08:17,578 - INFO - Dataset ogbg-molhiv, Epoch: 285, Train: 0.859047 (rocauc), Valid: 0.747385 (rocauc), Test: 0.755718 (rocauc)
+1900-01-01 18:08:17,578 - INFO - epoch: 286, sampling_ratio: 0.514, mt_flag: False, train_total_len: 16319
+1900-01-01 18:08:19,023 - INFO - Dataset ogbg-molhiv, Epoch: 286, Train: 0.856783 (rocauc), Valid: 0.740894 (rocauc), Test: 0.749738 (rocauc)
+1900-01-01 18:08:19,024 - INFO - epoch: 287, sampling_ratio: 0.514, mt_flag: False, train_total_len: 16319
+1900-01-01 18:08:20,296 - INFO - Dataset ogbg-molhiv, Epoch: 287, Train: 0.866155 (rocauc), Valid: 0.765114 (rocauc), Test: 0.752492 (rocauc)
+1900-01-01 18:08:21,731 - INFO - epoch: 288, sampling_ratio: 0.532, mt_flag: True, train_total_len: 17504
+1900-01-01 18:08:23,070 - INFO - Dataset ogbg-molhiv, Epoch: 288, Train: 0.847002 (rocauc), Valid: 0.773320 (rocauc), Test: 0.764179 (rocauc)
+1900-01-01 18:08:23,070 - INFO - epoch: 289, sampling_ratio: 0.532, mt_flag: False, train_total_len: 17504
+1900-01-01 18:08:24,578 - INFO - Dataset ogbg-molhiv, Epoch: 289, Train: 0.844314 (rocauc), Valid: 0.714650 (rocauc), Test: 0.742075 (rocauc)
+1900-01-01 18:08:24,578 - INFO - epoch: 290, sampling_ratio: 0.532, mt_flag: False, train_total_len: 17504
+1900-01-01 18:08:25,917 - INFO - Dataset ogbg-molhiv, Epoch: 290, Train: 0.842817 (rocauc), Valid: 0.709258 (rocauc), Test: 0.730387 (rocauc)
+1900-01-01 18:08:25,918 - INFO - epoch: 291, sampling_ratio: 0.532, mt_flag: False, train_total_len: 17504
+1900-01-01 18:08:27,260 - INFO - Dataset ogbg-molhiv, Epoch: 291, Train: 0.856069 (rocauc), Valid: 0.728717 (rocauc), Test: 0.762305 (rocauc)
+1900-01-01 18:08:27,260 - INFO - epoch: 292, sampling_ratio: 0.532, mt_flag: False, train_total_len: 17504
+1900-01-01 18:08:28,783 - INFO - Dataset ogbg-molhiv, Epoch: 292, Train: 0.856581 (rocauc), Valid: 0.725333 (rocauc), Test: 0.745381 (rocauc)
+1900-01-01 18:08:28,783 - INFO - epoch: 293, sampling_ratio: 0.532, mt_flag: False, train_total_len: 17504
+1900-01-01 18:08:30,133 - INFO - Dataset ogbg-molhiv, Epoch: 293, Train: 0.851426 (rocauc), Valid: 0.740346 (rocauc), Test: 0.763980 (rocauc)
+1900-01-01 18:08:30,133 - INFO - epoch: 294, sampling_ratio: 0.532, mt_flag: False, train_total_len: 17504
+1900-01-01 18:08:31,667 - INFO - Dataset ogbg-molhiv, Epoch: 294, Train: 0.861160 (rocauc), Valid: 0.741791 (rocauc), Test: 0.761486 (rocauc)
+1900-01-01 18:08:31,667 - INFO - epoch: 295, sampling_ratio: 0.532, mt_flag: False, train_total_len: 17504
+1900-01-01 18:08:33,015 - INFO - Dataset ogbg-molhiv, Epoch: 295, Train: 0.864890 (rocauc), Valid: 0.724283 (rocauc), Test: 0.768761 (rocauc)
+1900-01-01 18:08:33,015 - INFO - epoch: 296, sampling_ratio: 0.532, mt_flag: False, train_total_len: 17504
+1900-01-01 18:08:34,538 - INFO - Dataset ogbg-molhiv, Epoch: 296, Train: 0.856595 (rocauc), Valid: 0.704509 (rocauc), Test: 0.749555 (rocauc)
+1900-01-01 18:08:34,538 - INFO - epoch: 297, sampling_ratio: 0.532, mt_flag: False, train_total_len: 17504
+1900-01-01 18:08:35,881 - INFO - Dataset ogbg-molhiv, Epoch: 297, Train: 0.857774 (rocauc), Valid: 0.707200 (rocauc), Test: 0.733593 (rocauc)
+1900-01-01 18:08:35,881 - INFO - epoch: 298, sampling_ratio: 0.532, mt_flag: False, train_total_len: 17504
+1900-01-01 18:08:37,225 - INFO - Dataset ogbg-molhiv, Epoch: 298, Train: 0.860580 (rocauc), Valid: 0.727121 (rocauc), Test: 0.758436 (rocauc)
+1900-01-01 18:08:37,225 - INFO - epoch: 299, sampling_ratio: 0.532, mt_flag: False, train_total_len: 17504
+1900-01-01 18:08:38,743 - INFO - Dataset ogbg-molhiv, Epoch: 299, Train: 0.858368 (rocauc), Valid: 0.691778 (rocauc), Test: 0.728668 (rocauc)
+1900-01-01 18:08:38,743 - INFO - epoch: 300, sampling_ratio: 0.55, mt_flag: False, train_total_len: 17504
+1900-01-01 18:08:40,086 - INFO - Dataset ogbg-molhiv, Epoch: 300, Train: 0.869171 (rocauc), Valid: 0.734522 (rocauc), Test: 0.765160 (rocauc)
+1900-01-01 18:08:40,087 - INFO - epoch: 301, sampling_ratio: 0.55, mt_flag: False, train_total_len: 17504
+1900-01-01 18:08:41,602 - INFO - Dataset ogbg-molhiv, Epoch: 301, Train: 0.864567 (rocauc), Valid: 0.724191 (rocauc), Test: 0.751312 (rocauc)
+1900-01-01 18:08:41,603 - INFO - epoch: 302, sampling_ratio: 0.55, mt_flag: False, train_total_len: 17504
+1900-01-01 18:08:42,943 - INFO - Dataset ogbg-molhiv, Epoch: 302, Train: 0.869036 (rocauc), Valid: 0.717706 (rocauc), Test: 0.740391 (rocauc)
+1900-01-01 18:08:42,944 - INFO - epoch: 303, sampling_ratio: 0.55, mt_flag: False, train_total_len: 17504
+1900-01-01 18:08:44,462 - INFO - Dataset ogbg-molhiv, Epoch: 303, Train: 0.871192 (rocauc), Valid: 0.707651 (rocauc), Test: 0.747794 (rocauc)
+1900-01-01 18:08:44,462 - INFO - epoch: 304, sampling_ratio: 0.55, mt_flag: False, train_total_len: 17504
+1900-01-01 18:08:45,810 - INFO - Dataset ogbg-molhiv, Epoch: 304, Train: 0.871436 (rocauc), Valid: 0.769587 (rocauc), Test: 0.778588 (rocauc)
+1900-01-01 18:08:45,810 - INFO - epoch: 305, sampling_ratio: 0.55, mt_flag: False, train_total_len: 17504
+1900-01-01 18:08:47,156 - INFO - Dataset ogbg-molhiv, Epoch: 305, Train: 0.866947 (rocauc), Valid: 0.699904 (rocauc), Test: 0.753358 (rocauc)
+1900-01-01 18:08:47,156 - INFO - epoch: 306, sampling_ratio: 0.55, mt_flag: False, train_total_len: 17504
+1900-01-01 18:08:48,686 - INFO - Dataset ogbg-molhiv, Epoch: 306, Train: 0.871687 (rocauc), Valid: 0.736913 (rocauc), Test: 0.746229 (rocauc)
+1900-01-01 18:08:48,686 - INFO - epoch: 307, sampling_ratio: 0.55, mt_flag: False, train_total_len: 17504
+1900-01-01 18:08:50,032 - INFO - Dataset ogbg-molhiv, Epoch: 307, Train: 0.871898 (rocauc), Valid: 0.705960 (rocauc), Test: 0.751077 (rocauc)
+1900-01-01 18:08:50,032 - INFO - epoch: 308, sampling_ratio: 0.55, mt_flag: False, train_total_len: 17504
+1900-01-01 18:08:51,550 - INFO - Dataset ogbg-molhiv, Epoch: 308, Train: 0.877537 (rocauc), Valid: 0.765441 (rocauc), Test: 0.766786 (rocauc)
+1900-01-01 18:08:51,550 - INFO - epoch: 309, sampling_ratio: 0.55, mt_flag: False, train_total_len: 17504
+1900-01-01 18:08:52,896 - INFO - Dataset ogbg-molhiv, Epoch: 309, Train: 0.870910 (rocauc), Valid: 0.709515 (rocauc), Test: 0.734197 (rocauc)
+1900-01-01 18:08:52,896 - INFO - epoch: 310, sampling_ratio: 0.55, mt_flag: False, train_total_len: 17504
+1900-01-01 18:08:54,420 - INFO - Dataset ogbg-molhiv, Epoch: 310, Train: 0.876332 (rocauc), Valid: 0.722094 (rocauc), Test: 0.735682 (rocauc)
+1900-01-01 18:08:54,420 - INFO - epoch: 311, sampling_ratio: 0.55, mt_flag: False, train_total_len: 17504
+1900-01-01 18:08:55,782 - INFO - Dataset ogbg-molhiv, Epoch: 311, Train: 0.877921 (rocauc), Valid: 0.736102 (rocauc), Test: 0.765397 (rocauc)
+1900-01-01 18:08:55,782 - INFO - epoch: 312, sampling_ratio: 0.5680000000000001, mt_flag: False, train_total_len: 17504
+1900-01-01 18:08:57,126 - INFO - Dataset ogbg-molhiv, Epoch: 312, Train: 0.874231 (rocauc), Valid: 0.777006 (rocauc), Test: 0.782584 (rocauc)
+1900-01-01 18:08:57,126 - INFO - epoch: 313, sampling_ratio: 0.5680000000000001, mt_flag: False, train_total_len: 17504
+1900-01-01 18:08:58,642 - INFO - Dataset ogbg-molhiv, Epoch: 313, Train: 0.863183 (rocauc), Valid: 0.696132 (rocauc), Test: 0.737556 (rocauc)
+1900-01-01 18:08:59,897 - INFO - epoch: 314, sampling_ratio: 0.5680000000000001, mt_flag: True, train_total_len: 18688
+1900-01-01 18:09:01,542 - INFO - Dataset ogbg-molhiv, Epoch: 314, Train: 0.847518 (rocauc), Valid: 0.712899 (rocauc), Test: 0.746057 (rocauc)
+1900-01-01 18:09:01,542 - INFO - epoch: 315, sampling_ratio: 0.5680000000000001, mt_flag: False, train_total_len: 18688
+1900-01-01 18:09:02,971 - INFO - Dataset ogbg-molhiv, Epoch: 315, Train: 0.864935 (rocauc), Valid: 0.749244 (rocauc), Test: 0.755489 (rocauc)
+1900-01-01 18:09:02,971 - INFO - epoch: 316, sampling_ratio: 0.5680000000000001, mt_flag: False, train_total_len: 18688
+1900-01-01 18:09:04,556 - INFO - Dataset ogbg-molhiv, Epoch: 316, Train: 0.835001 (rocauc), Valid: 0.714408 (rocauc), Test: 0.724709 (rocauc)
+1900-01-01 18:09:04,557 - INFO - epoch: 317, sampling_ratio: 0.5680000000000001, mt_flag: False, train_total_len: 18688
+1900-01-01 18:09:05,971 - INFO - Dataset ogbg-molhiv, Epoch: 317, Train: 0.858121 (rocauc), Valid: 0.724871 (rocauc), Test: 0.741718 (rocauc)
+1900-01-01 18:09:05,971 - INFO - epoch: 318, sampling_ratio: 0.5680000000000001, mt_flag: False, train_total_len: 18688
+1900-01-01 18:09:07,550 - INFO - Dataset ogbg-molhiv, Epoch: 318, Train: 0.864973 (rocauc), Valid: 0.726555 (rocauc), Test: 0.741105 (rocauc)
+1900-01-01 18:09:07,550 - INFO - epoch: 319, sampling_ratio: 0.5680000000000001, mt_flag: False, train_total_len: 18688
+1900-01-01 18:09:08,977 - INFO - Dataset ogbg-molhiv, Epoch: 319, Train: 0.871462 (rocauc), Valid: 0.737639 (rocauc), Test: 0.753207 (rocauc)
+1900-01-01 18:09:08,977 - INFO - epoch: 320, sampling_ratio: 0.5680000000000001, mt_flag: False, train_total_len: 18688
+1900-01-01 18:09:10,618 - INFO - Dataset ogbg-molhiv, Epoch: 320, Train: 0.869891 (rocauc), Valid: 0.728257 (rocauc), Test: 0.749147 (rocauc)
+1900-01-01 18:09:10,618 - INFO - epoch: 321, sampling_ratio: 0.5680000000000001, mt_flag: False, train_total_len: 18688
+1900-01-01 18:09:12,039 - INFO - Dataset ogbg-molhiv, Epoch: 321, Train: 0.873300 (rocauc), Valid: 0.735753 (rocauc), Test: 0.758203 (rocauc)
+1900-01-01 18:09:12,039 - INFO - epoch: 322, sampling_ratio: 0.5680000000000001, mt_flag: False, train_total_len: 18688
+1900-01-01 18:09:13,462 - INFO - Dataset ogbg-molhiv, Epoch: 322, Train: 0.875496 (rocauc), Valid: 0.739917 (rocauc), Test: 0.755015 (rocauc)
+1900-01-01 18:09:13,462 - INFO - epoch: 323, sampling_ratio: 0.5680000000000001, mt_flag: False, train_total_len: 18688
+1900-01-01 18:09:15,050 - INFO - Dataset ogbg-molhiv, Epoch: 323, Train: 0.871547 (rocauc), Valid: 0.745251 (rocauc), Test: 0.764437 (rocauc)
+1900-01-01 18:09:15,050 - INFO - epoch: 324, sampling_ratio: 0.5860000000000001, mt_flag: False, train_total_len: 18688
+1900-01-01 18:09:16,465 - INFO - New best validation score: 0.783776087595532 (rocauc) without training score regression
+1900-01-01 18:09:16,470 - INFO - Dataset ogbg-molhiv, Epoch: 324, Train: 0.882573 (rocauc), Valid: 0.783776 (rocauc), Test: 0.761583 (rocauc)
+1900-01-01 18:09:16,470 - INFO - epoch: 325, sampling_ratio: 0.5860000000000001, mt_flag: False, train_total_len: 18688
+1900-01-01 18:09:18,034 - INFO - Dataset ogbg-molhiv, Epoch: 325, Train: 0.879406 (rocauc), Valid: 0.740649 (rocauc), Test: 0.764712 (rocauc)
+1900-01-01 18:09:18,035 - INFO - epoch: 326, sampling_ratio: 0.5860000000000001, mt_flag: False, train_total_len: 18688
+1900-01-01 18:09:19,447 - INFO - Dataset ogbg-molhiv, Epoch: 326, Train: 0.884391 (rocauc), Valid: 0.762566 (rocauc), Test: 0.765888 (rocauc)
+1900-01-01 18:09:19,447 - INFO - epoch: 327, sampling_ratio: 0.5860000000000001, mt_flag: False, train_total_len: 18688
+1900-01-01 18:09:21,022 - INFO - Dataset ogbg-molhiv, Epoch: 327, Train: 0.883316 (rocauc), Valid: 0.744035 (rocauc), Test: 0.755366 (rocauc)
+1900-01-01 18:09:21,022 - INFO - epoch: 328, sampling_ratio: 0.5860000000000001, mt_flag: False, train_total_len: 18688
+1900-01-01 18:09:22,436 - INFO - Dataset ogbg-molhiv, Epoch: 328, Train: 0.878270 (rocauc), Valid: 0.744574 (rocauc), Test: 0.742195 (rocauc)
+1900-01-01 18:09:22,436 - INFO - epoch: 329, sampling_ratio: 0.5860000000000001, mt_flag: False, train_total_len: 18688
+1900-01-01 18:09:24,014 - INFO - Dataset ogbg-molhiv, Epoch: 329, Train: 0.882501 (rocauc), Valid: 0.744807 (rocauc), Test: 0.748838 (rocauc)
+1900-01-01 18:09:24,014 - INFO - epoch: 330, sampling_ratio: 0.5860000000000001, mt_flag: False, train_total_len: 18688
+1900-01-01 18:09:25,426 - INFO - Dataset ogbg-molhiv, Epoch: 330, Train: 0.876172 (rocauc), Valid: 0.728426 (rocauc), Test: 0.739734 (rocauc)
+1900-01-01 18:09:25,426 - INFO - epoch: 331, sampling_ratio: 0.5860000000000001, mt_flag: False, train_total_len: 18688
+1900-01-01 18:09:27,007 - INFO - Dataset ogbg-molhiv, Epoch: 331, Train: 0.885434 (rocauc), Valid: 0.767955 (rocauc), Test: 0.752186 (rocauc)
+1900-01-01 18:09:27,007 - INFO - epoch: 332, sampling_ratio: 0.5860000000000001, mt_flag: False, train_total_len: 18688
+1900-01-01 18:09:28,425 - INFO - Dataset ogbg-molhiv, Epoch: 332, Train: 0.876914 (rocauc), Valid: 0.742275 (rocauc), Test: 0.745412 (rocauc)
+1900-01-01 18:09:28,425 - INFO - epoch: 333, sampling_ratio: 0.5860000000000001, mt_flag: False, train_total_len: 18688
+1900-01-01 18:09:29,841 - INFO - Dataset ogbg-molhiv, Epoch: 333, Train: 0.887872 (rocauc), Valid: 0.773892 (rocauc), Test: 0.755432 (rocauc)
+1900-01-01 18:09:29,842 - INFO - epoch: 334, sampling_ratio: 0.5860000000000001, mt_flag: False, train_total_len: 18688
+1900-01-01 18:09:31,422 - INFO - Dataset ogbg-molhiv, Epoch: 334, Train: 0.884026 (rocauc), Valid: 0.772000 (rocauc), Test: 0.760799 (rocauc)
+1900-01-01 18:09:31,422 - INFO - epoch: 335, sampling_ratio: 0.5860000000000001, mt_flag: False, train_total_len: 18688
+1900-01-01 18:09:32,827 - INFO - Dataset ogbg-molhiv, Epoch: 335, Train: 0.886249 (rocauc), Valid: 0.762107 (rocauc), Test: 0.752906 (rocauc)
+1900-01-01 18:09:32,827 - INFO - epoch: 336, sampling_ratio: 0.604, mt_flag: False, train_total_len: 18688
+1900-01-01 18:09:34,410 - INFO - Dataset ogbg-molhiv, Epoch: 336, Train: 0.885963 (rocauc), Valid: 0.753913 (rocauc), Test: 0.751467 (rocauc)
+1900-01-01 18:09:34,410 - INFO - epoch: 337, sampling_ratio: 0.604, mt_flag: False, train_total_len: 18688
+1900-01-01 18:09:35,816 - INFO - Dataset ogbg-molhiv, Epoch: 337, Train: 0.889934 (rocauc), Valid: 0.783666 (rocauc), Test: 0.749879 (rocauc)
+1900-01-01 18:09:35,816 - INFO - epoch: 338, sampling_ratio: 0.604, mt_flag: False, train_total_len: 18688
+1900-01-01 18:09:37,382 - INFO - Dataset ogbg-molhiv, Epoch: 338, Train: 0.889488 (rocauc), Valid: 0.749920 (rocauc), Test: 0.746899 (rocauc)
+1900-01-01 18:09:37,382 - INFO - epoch: 339, sampling_ratio: 0.604, mt_flag: False, train_total_len: 18688
+1900-01-01 18:09:38,792 - INFO - New best validation score: 0.7936905986674505 (rocauc) without training score regression
+1900-01-01 18:09:38,796 - INFO - Dataset ogbg-molhiv, Epoch: 339, Train: 0.892858 (rocauc), Valid: 0.793691 (rocauc), Test: 0.762199 (rocauc)
+1900-01-01 18:09:38,796 - INFO - epoch: 340, sampling_ratio: 0.604, mt_flag: False, train_total_len: 18688
+1900-01-01 18:09:40,364 - INFO - Dataset ogbg-molhiv, Epoch: 340, Train: 0.878501 (rocauc), Valid: 0.733858 (rocauc), Test: 0.724286 (rocauc)
+1900-01-01 18:09:40,364 - INFO - epoch: 341, sampling_ratio: 0.604, mt_flag: False, train_total_len: 18688
+1900-01-01 18:09:41,776 - INFO - Dataset ogbg-molhiv, Epoch: 341, Train: 0.894995 (rocauc), Valid: 0.770209 (rocauc), Test: 0.749980 (rocauc)
+1900-01-01 18:09:43,257 - INFO - epoch: 342, sampling_ratio: 0.604, mt_flag: True, train_total_len: 19872
+1900-01-01 18:09:44,708 - INFO - Dataset ogbg-molhiv, Epoch: 342, Train: 0.867746 (rocauc), Valid: 0.777894 (rocauc), Test: 0.760687 (rocauc)
+1900-01-01 18:09:44,708 - INFO - epoch: 343, sampling_ratio: 0.604, mt_flag: False, train_total_len: 19872
+1900-01-01 18:09:46,369 - INFO - Dataset ogbg-molhiv, Epoch: 343, Train: 0.869208 (rocauc), Valid: 0.778877 (rocauc), Test: 0.759053 (rocauc)
+1900-01-01 18:09:46,370 - INFO - epoch: 344, sampling_ratio: 0.604, mt_flag: False, train_total_len: 19872
+1900-01-01 18:09:47,857 - INFO - Dataset ogbg-molhiv, Epoch: 344, Train: 0.871157 (rocauc), Valid: 0.778641 (rocauc), Test: 0.765795 (rocauc)
+1900-01-01 18:09:47,858 - INFO - epoch: 345, sampling_ratio: 0.604, mt_flag: False, train_total_len: 19872
+1900-01-01 18:09:49,511 - INFO - Dataset ogbg-molhiv, Epoch: 345, Train: 0.875411 (rocauc), Valid: 0.775184 (rocauc), Test: 0.754655 (rocauc)
+1900-01-01 18:09:49,512 - INFO - epoch: 346, sampling_ratio: 0.604, mt_flag: False, train_total_len: 19872
+1900-01-01 18:09:50,998 - INFO - Dataset ogbg-molhiv, Epoch: 346, Train: 0.875343 (rocauc), Valid: 0.765310 (rocauc), Test: 0.760449 (rocauc)
+1900-01-01 18:09:50,998 - INFO - epoch: 347, sampling_ratio: 0.604, mt_flag: False, train_total_len: 19872
+1900-01-01 18:09:52,655 - INFO - Dataset ogbg-molhiv, Epoch: 347, Train: 0.879485 (rocauc), Valid: 0.787509 (rocauc), Test: 0.761099 (rocauc)
+1900-01-01 18:09:52,655 - INFO - epoch: 348, sampling_ratio: 0.622, mt_flag: False, train_total_len: 19872
+1900-01-01 18:09:54,183 - INFO - Dataset ogbg-molhiv, Epoch: 348, Train: 0.880323 (rocauc), Valid: 0.780849 (rocauc), Test: 0.756867 (rocauc)
+1900-01-01 18:09:54,184 - INFO - epoch: 349, sampling_ratio: 0.622, mt_flag: False, train_total_len: 19872
+1900-01-01 18:09:55,835 - INFO - Dataset ogbg-molhiv, Epoch: 349, Train: 0.878294 (rocauc), Valid: 0.725330 (rocauc), Test: 0.748006 (rocauc)
+1900-01-01 18:09:55,836 - INFO - epoch: 350, sampling_ratio: 0.622, mt_flag: False, train_total_len: 19872
+1900-01-01 18:09:57,317 - INFO - Dataset ogbg-molhiv, Epoch: 350, Train: 0.880541 (rocauc), Valid: 0.774860 (rocauc), Test: 0.751977 (rocauc)
+1900-01-01 18:09:57,317 - INFO - epoch: 351, sampling_ratio: 0.622, mt_flag: False, train_total_len: 19872
+1900-01-01 18:09:58,973 - INFO - Dataset ogbg-molhiv, Epoch: 351, Train: 0.876139 (rocauc), Valid: 0.769899 (rocauc), Test: 0.757695 (rocauc)
+1900-01-01 18:09:58,974 - INFO - epoch: 352, sampling_ratio: 0.622, mt_flag: False, train_total_len: 19872
+1900-01-01 18:10:00,469 - INFO - Dataset ogbg-molhiv, Epoch: 352, Train: 0.879187 (rocauc), Valid: 0.766770 (rocauc), Test: 0.754170 (rocauc)
+1900-01-01 18:10:00,469 - INFO - epoch: 353, sampling_ratio: 0.622, mt_flag: False, train_total_len: 19872
+1900-01-01 18:10:02,124 - INFO - Dataset ogbg-molhiv, Epoch: 353, Train: 0.877999 (rocauc), Valid: 0.755646 (rocauc), Test: 0.753348 (rocauc)
+1900-01-01 18:10:02,124 - INFO - epoch: 354, sampling_ratio: 0.622, mt_flag: False, train_total_len: 19872
+1900-01-01 18:10:03,610 - INFO - Dataset ogbg-molhiv, Epoch: 354, Train: 0.886503 (rocauc), Valid: 0.764128 (rocauc), Test: 0.760295 (rocauc)
+1900-01-01 18:10:03,610 - INFO - epoch: 355, sampling_ratio: 0.622, mt_flag: False, train_total_len: 19872
+1900-01-01 18:10:05,264 - INFO - Dataset ogbg-molhiv, Epoch: 355, Train: 0.883694 (rocauc), Valid: 0.770643 (rocauc), Test: 0.740941 (rocauc)
+1900-01-01 18:10:05,264 - INFO - epoch: 356, sampling_ratio: 0.622, mt_flag: False, train_total_len: 19872
+1900-01-01 18:10:06,750 - INFO - Dataset ogbg-molhiv, Epoch: 356, Train: 0.885100 (rocauc), Valid: 0.757704 (rocauc), Test: 0.753993 (rocauc)
+1900-01-01 18:10:06,750 - INFO - epoch: 357, sampling_ratio: 0.622, mt_flag: False, train_total_len: 19872
+1900-01-01 18:10:08,404 - INFO - Dataset ogbg-molhiv, Epoch: 357, Train: 0.884290 (rocauc), Valid: 0.766421 (rocauc), Test: 0.762848 (rocauc)
+1900-01-01 18:10:08,404 - INFO - epoch: 358, sampling_ratio: 0.622, mt_flag: False, train_total_len: 19872
+1900-01-01 18:10:09,890 - INFO - Dataset ogbg-molhiv, Epoch: 358, Train: 0.886395 (rocauc), Valid: 0.785044 (rocauc), Test: 0.756171 (rocauc)
+1900-01-01 18:10:09,890 - INFO - epoch: 359, sampling_ratio: 0.622, mt_flag: False, train_total_len: 19872
+1900-01-01 18:10:11,552 - INFO - Dataset ogbg-molhiv, Epoch: 359, Train: 0.886681 (rocauc), Valid: 0.763981 (rocauc), Test: 0.750571 (rocauc)
+1900-01-01 18:10:11,552 - INFO - epoch: 360, sampling_ratio: 0.64, mt_flag: False, train_total_len: 19872
+1900-01-01 18:10:13,033 - INFO - Dataset ogbg-molhiv, Epoch: 360, Train: 0.890682 (rocauc), Valid: 0.757391 (rocauc), Test: 0.767715 (rocauc)
+1900-01-01 18:10:13,033 - INFO - epoch: 361, sampling_ratio: 0.64, mt_flag: False, train_total_len: 19872
+1900-01-01 18:10:14,520 - INFO - Dataset ogbg-molhiv, Epoch: 361, Train: 0.888732 (rocauc), Valid: 0.753610 (rocauc), Test: 0.761599 (rocauc)
+1900-01-01 18:10:14,520 - INFO - epoch: 362, sampling_ratio: 0.64, mt_flag: False, train_total_len: 19872
+1900-01-01 18:10:16,181 - INFO - Dataset ogbg-molhiv, Epoch: 362, Train: 0.889026 (rocauc), Valid: 0.752998 (rocauc), Test: 0.761303 (rocauc)
+1900-01-01 18:10:16,181 - INFO - epoch: 363, sampling_ratio: 0.64, mt_flag: False, train_total_len: 19872
+1900-01-01 18:10:17,672 - INFO - Dataset ogbg-molhiv, Epoch: 363, Train: 0.889567 (rocauc), Valid: 0.772067 (rocauc), Test: 0.759086 (rocauc)
+1900-01-01 18:10:17,672 - INFO - epoch: 364, sampling_ratio: 0.64, mt_flag: False, train_total_len: 19872
+1900-01-01 18:10:19,332 - INFO - Dataset ogbg-molhiv, Epoch: 364, Train: 0.895213 (rocauc), Valid: 0.776354 (rocauc), Test: 0.769951 (rocauc)
+1900-01-01 18:10:19,332 - INFO - epoch: 365, sampling_ratio: 0.64, mt_flag: False, train_total_len: 19872
+1900-01-01 18:10:20,823 - INFO - Dataset ogbg-molhiv, Epoch: 365, Train: 0.888783 (rocauc), Valid: 0.764308 (rocauc), Test: 0.752942 (rocauc)
+1900-01-01 18:10:20,823 - INFO - epoch: 366, sampling_ratio: 0.64, mt_flag: False, train_total_len: 19872
+1900-01-01 18:10:22,479 - INFO - Dataset ogbg-molhiv, Epoch: 366, Train: 0.895518 (rocauc), Valid: 0.776972 (rocauc), Test: 0.762365 (rocauc)
+1900-01-01 18:10:22,479 - INFO - epoch: 367, sampling_ratio: 0.64, mt_flag: False, train_total_len: 19872
+1900-01-01 18:10:23,963 - INFO - Dataset ogbg-molhiv, Epoch: 367, Train: 0.886101 (rocauc), Valid: 0.777413 (rocauc), Test: 0.740970 (rocauc)
+1900-01-01 18:10:23,963 - INFO - epoch: 368, sampling_ratio: 0.64, mt_flag: False, train_total_len: 19872
+1900-01-01 18:10:25,615 - INFO - Dataset ogbg-molhiv, Epoch: 368, Train: 0.892217 (rocauc), Valid: 0.756332 (rocauc), Test: 0.759024 (rocauc)
+1900-01-01 18:10:25,615 - INFO - epoch: 369, sampling_ratio: 0.64, mt_flag: False, train_total_len: 19872
+1900-01-01 18:10:27,106 - INFO - Dataset ogbg-molhiv, Epoch: 369, Train: 0.893239 (rocauc), Valid: 0.762738 (rocauc), Test: 0.749945 (rocauc)
+1900-01-01 18:10:27,106 - INFO - epoch: 370, sampling_ratio: 0.64, mt_flag: False, train_total_len: 19872
+1900-01-01 18:10:28,756 - INFO - Dataset ogbg-molhiv, Epoch: 370, Train: 0.894850 (rocauc), Valid: 0.761847 (rocauc), Test: 0.746333 (rocauc)
+1900-01-01 18:10:28,757 - INFO - epoch: 371, sampling_ratio: 0.64, mt_flag: False, train_total_len: 19872
+1900-01-01 18:10:30,244 - INFO - Dataset ogbg-molhiv, Epoch: 371, Train: 0.895910 (rocauc), Valid: 0.755248 (rocauc), Test: 0.760840 (rocauc)
+1900-01-01 18:10:31,707 - INFO - epoch: 372, sampling_ratio: 0.658, mt_flag: True, train_total_len: 21648
+1900-01-01 18:10:33,451 - INFO - Dataset ogbg-molhiv, Epoch: 372, Train: 0.875623 (rocauc), Valid: 0.790332 (rocauc), Test: 0.771116 (rocauc)
+1900-01-01 18:10:33,452 - INFO - epoch: 373, sampling_ratio: 0.658, mt_flag: False, train_total_len: 21648
+1900-01-01 18:10:35,059 - INFO - Dataset ogbg-molhiv, Epoch: 373, Train: 0.874362 (rocauc), Valid: 0.763601 (rocauc), Test: 0.750808 (rocauc)
+1900-01-01 18:10:35,059 - INFO - epoch: 374, sampling_ratio: 0.658, mt_flag: False, train_total_len: 21648
+1900-01-01 18:10:36,840 - INFO - Dataset ogbg-molhiv, Epoch: 374, Train: 0.878810 (rocauc), Valid: 0.770717 (rocauc), Test: 0.755619 (rocauc)
+1900-01-01 18:10:36,840 - INFO - epoch: 375, sampling_ratio: 0.658, mt_flag: False, train_total_len: 21648
+1900-01-01 18:10:38,448 - INFO - Dataset ogbg-molhiv, Epoch: 375, Train: 0.878648 (rocauc), Valid: 0.774777 (rocauc), Test: 0.752770 (rocauc)
+1900-01-01 18:10:38,448 - INFO - epoch: 376, sampling_ratio: 0.658, mt_flag: False, train_total_len: 21648
+1900-01-01 18:10:40,216 - INFO - Dataset ogbg-molhiv, Epoch: 376, Train: 0.872955 (rocauc), Valid: 0.750401 (rocauc), Test: 0.734686 (rocauc)
+1900-01-01 18:10:40,216 - INFO - epoch: 377, sampling_ratio: 0.658, mt_flag: False, train_total_len: 21648
+1900-01-01 18:10:41,814 - INFO - Dataset ogbg-molhiv, Epoch: 377, Train: 0.882409 (rocauc), Valid: 0.785681 (rocauc), Test: 0.743645 (rocauc)
+1900-01-01 18:10:41,815 - INFO - epoch: 378, sampling_ratio: 0.658, mt_flag: False, train_total_len: 21648
+1900-01-01 18:10:43,622 - INFO - Dataset ogbg-molhiv, Epoch: 378, Train: 0.875211 (rocauc), Valid: 0.767790 (rocauc), Test: 0.745302 (rocauc)
+1900-01-01 18:10:43,622 - INFO - epoch: 379, sampling_ratio: 0.658, mt_flag: False, train_total_len: 21648
+1900-01-01 18:10:45,223 - INFO - Dataset ogbg-molhiv, Epoch: 379, Train: 0.887092 (rocauc), Valid: 0.759317 (rocauc), Test: 0.728709 (rocauc)
+1900-01-01 18:10:45,223 - INFO - epoch: 380, sampling_ratio: 0.658, mt_flag: False, train_total_len: 21648
+1900-01-01 18:10:46,995 - INFO - Dataset ogbg-molhiv, Epoch: 380, Train: 0.880922 (rocauc), Valid: 0.781437 (rocauc), Test: 0.741389 (rocauc)
+1900-01-01 18:10:46,995 - INFO - epoch: 381, sampling_ratio: 0.658, mt_flag: False, train_total_len: 21648
+1900-01-01 18:10:48,561 - INFO - Dataset ogbg-molhiv, Epoch: 381, Train: 0.880733 (rocauc), Valid: 0.772863 (rocauc), Test: 0.742226 (rocauc)
+1900-01-01 18:10:48,561 - INFO - epoch: 382, sampling_ratio: 0.658, mt_flag: False, train_total_len: 21648
+1900-01-01 18:10:50,333 - INFO - Dataset ogbg-molhiv, Epoch: 382, Train: 0.874532 (rocauc), Valid: 0.758108 (rocauc), Test: 0.737627 (rocauc)
+1900-01-01 18:10:50,333 - INFO - epoch: 383, sampling_ratio: 0.658, mt_flag: False, train_total_len: 21648
+1900-01-01 18:10:51,934 - INFO - Dataset ogbg-molhiv, Epoch: 383, Train: 0.888099 (rocauc), Valid: 0.768350 (rocauc), Test: 0.736024 (rocauc)
+1900-01-01 18:10:51,934 - INFO - epoch: 384, sampling_ratio: 0.676, mt_flag: False, train_total_len: 21648
+1900-01-01 18:10:53,695 - INFO - Dataset ogbg-molhiv, Epoch: 384, Train: 0.889257 (rocauc), Valid: 0.774456 (rocauc), Test: 0.743469 (rocauc)
+1900-01-01 18:10:53,695 - INFO - epoch: 385, sampling_ratio: 0.676, mt_flag: False, train_total_len: 21648
+1900-01-01 18:10:55,263 - INFO - Dataset ogbg-molhiv, Epoch: 385, Train: 0.884955 (rocauc), Valid: 0.764832 (rocauc), Test: 0.741691 (rocauc)
+1900-01-01 18:10:55,263 - INFO - epoch: 386, sampling_ratio: 0.676, mt_flag: False, train_total_len: 21648
+1900-01-01 18:10:57,028 - INFO - Dataset ogbg-molhiv, Epoch: 386, Train: 0.887135 (rocauc), Valid: 0.767680 (rocauc), Test: 0.729583 (rocauc)
+1900-01-01 18:10:57,028 - INFO - epoch: 387, sampling_ratio: 0.676, mt_flag: False, train_total_len: 21648
+1900-01-01 18:10:58,613 - INFO - Dataset ogbg-molhiv, Epoch: 387, Train: 0.888302 (rocauc), Valid: 0.765509 (rocauc), Test: 0.724861 (rocauc)
+1900-01-01 18:10:58,613 - INFO - epoch: 388, sampling_ratio: 0.676, mt_flag: False, train_total_len: 21648
+1900-01-01 18:11:00,381 - INFO - Dataset ogbg-molhiv, Epoch: 388, Train: 0.887227 (rocauc), Valid: 0.777998 (rocauc), Test: 0.745356 (rocauc)
+1900-01-01 18:11:00,381 - INFO - epoch: 389, sampling_ratio: 0.676, mt_flag: False, train_total_len: 21648
+1900-01-01 18:11:01,981 - INFO - Dataset ogbg-molhiv, Epoch: 389, Train: 0.890957 (rocauc), Valid: 0.770141 (rocauc), Test: 0.734504 (rocauc)
+1900-01-01 18:11:01,981 - INFO - epoch: 390, sampling_ratio: 0.676, mt_flag: False, train_total_len: 21648
+1900-01-01 18:11:03,747 - INFO - Dataset ogbg-molhiv, Epoch: 390, Train: 0.884610 (rocauc), Valid: 0.768384 (rocauc), Test: 0.724044 (rocauc)
+1900-01-01 18:11:03,747 - INFO - epoch: 391, sampling_ratio: 0.676, mt_flag: False, train_total_len: 21648
+1900-01-01 18:11:05,345 - INFO - Dataset ogbg-molhiv, Epoch: 391, Train: 0.887501 (rocauc), Valid: 0.763341 (rocauc), Test: 0.734014 (rocauc)
+1900-01-01 18:11:05,345 - INFO - epoch: 392, sampling_ratio: 0.676, mt_flag: False, train_total_len: 21648
+1900-01-01 18:11:07,107 - INFO - Dataset ogbg-molhiv, Epoch: 392, Train: 0.886677 (rocauc), Valid: 0.778620 (rocauc), Test: 0.738282 (rocauc)
+1900-01-01 18:11:07,107 - INFO - epoch: 393, sampling_ratio: 0.676, mt_flag: False, train_total_len: 21648
+1900-01-01 18:11:08,704 - INFO - Dataset ogbg-molhiv, Epoch: 393, Train: 0.885163 (rocauc), Valid: 0.753426 (rocauc), Test: 0.734835 (rocauc)
+1900-01-01 18:11:08,704 - INFO - epoch: 394, sampling_ratio: 0.676, mt_flag: False, train_total_len: 21648
+1900-01-01 18:11:10,473 - INFO - Dataset ogbg-molhiv, Epoch: 394, Train: 0.891576 (rocauc), Valid: 0.766966 (rocauc), Test: 0.739389 (rocauc)
+1900-01-01 18:11:10,473 - INFO - epoch: 395, sampling_ratio: 0.676, mt_flag: False, train_total_len: 21648
+1900-01-01 18:11:12,079 - INFO - Dataset ogbg-molhiv, Epoch: 395, Train: 0.884234 (rocauc), Valid: 0.774869 (rocauc), Test: 0.732214 (rocauc)
+1900-01-01 18:11:12,079 - INFO - epoch: 396, sampling_ratio: 0.6940000000000001, mt_flag: False, train_total_len: 21648
+1900-01-01 18:11:13,851 - INFO - Dataset ogbg-molhiv, Epoch: 396, Train: 0.880269 (rocauc), Valid: 0.757122 (rocauc), Test: 0.724303 (rocauc)
+1900-01-01 18:11:13,851 - INFO - epoch: 397, sampling_ratio: 0.6940000000000001, mt_flag: False, train_total_len: 21648
+1900-01-01 18:11:15,456 - INFO - Dataset ogbg-molhiv, Epoch: 397, Train: 0.889579 (rocauc), Valid: 0.739599 (rocauc), Test: 0.726590 (rocauc)
+1900-01-01 18:11:15,456 - INFO - epoch: 398, sampling_ratio: 0.6940000000000001, mt_flag: False, train_total_len: 21648
+1900-01-01 18:11:17,227 - INFO - Dataset ogbg-molhiv, Epoch: 398, Train: 0.889196 (rocauc), Valid: 0.751859 (rocauc), Test: 0.730872 (rocauc)
+1900-01-01 18:11:17,227 - INFO - epoch: 399, sampling_ratio: 0.6940000000000001, mt_flag: False, train_total_len: 21648
+1900-01-01 18:11:18,827 - INFO - Dataset ogbg-molhiv, Epoch: 399, Train: 0.890799 (rocauc), Valid: 0.762895 (rocauc), Test: 0.732521 (rocauc)
+1900-01-01 18:11:18,827 - INFO - epoch: 400, sampling_ratio: 0.6940000000000001, mt_flag: False, train_total_len: 21648
+1900-01-01 18:11:20,595 - INFO - Dataset ogbg-molhiv, Epoch: 400, Train: 0.888286 (rocauc), Valid: 0.751996 (rocauc), Test: 0.720334 (rocauc)
+1900-01-01 18:11:20,595 - INFO - epoch: 401, sampling_ratio: 0.6940000000000001, mt_flag: False, train_total_len: 21648
+1900-01-01 18:11:22,195 - INFO - Dataset ogbg-molhiv, Epoch: 401, Train: 0.885810 (rocauc), Valid: 0.759501 (rocauc), Test: 0.717246 (rocauc)
+1900-01-01 18:11:22,195 - INFO - epoch: 402, sampling_ratio: 0.6940000000000001, mt_flag: False, train_total_len: 21648
+1900-01-01 18:11:23,966 - INFO - Dataset ogbg-molhiv, Epoch: 402, Train: 0.895845 (rocauc), Valid: 0.768617 (rocauc), Test: 0.738330 (rocauc)
+1900-01-01 18:11:23,966 - INFO - epoch: 403, sampling_ratio: 0.6940000000000001, mt_flag: False, train_total_len: 21648
+1900-01-01 18:11:25,568 - INFO - Dataset ogbg-molhiv, Epoch: 403, Train: 0.895119 (rocauc), Valid: 0.789297 (rocauc), Test: 0.730825 (rocauc)
+1900-01-01 18:11:27,043 - INFO - epoch: 404, sampling_ratio: 0.6940000000000001, mt_flag: True, train_total_len: 22834
+1900-01-01 18:11:28,853 - INFO - Dataset ogbg-molhiv, Epoch: 404, Train: 0.882690 (rocauc), Valid: 0.787677 (rocauc), Test: 0.749466 (rocauc)
+1900-01-01 18:11:28,853 - INFO - epoch: 405, sampling_ratio: 0.6940000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:11:30,531 - INFO - Dataset ogbg-molhiv, Epoch: 405, Train: 0.881698 (rocauc), Valid: 0.786719 (rocauc), Test: 0.750841 (rocauc)
+1900-01-01 18:11:30,531 - INFO - epoch: 406, sampling_ratio: 0.6940000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:11:32,380 - INFO - Dataset ogbg-molhiv, Epoch: 406, Train: 0.888176 (rocauc), Valid: 0.780889 (rocauc), Test: 0.746310 (rocauc)
+1900-01-01 18:11:32,381 - INFO - epoch: 407, sampling_ratio: 0.6940000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:11:34,050 - INFO - Dataset ogbg-molhiv, Epoch: 407, Train: 0.883129 (rocauc), Valid: 0.772781 (rocauc), Test: 0.752711 (rocauc)
+1900-01-01 18:11:34,050 - INFO - epoch: 408, sampling_ratio: 0.7120000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:11:35,890 - INFO - Dataset ogbg-molhiv, Epoch: 408, Train: 0.891840 (rocauc), Valid: 0.772897 (rocauc), Test: 0.756977 (rocauc)
+1900-01-01 18:11:35,890 - INFO - epoch: 409, sampling_ratio: 0.7120000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:11:37,573 - INFO - Dataset ogbg-molhiv, Epoch: 409, Train: 0.892112 (rocauc), Valid: 0.777974 (rocauc), Test: 0.758195 (rocauc)
+1900-01-01 18:11:37,573 - INFO - epoch: 410, sampling_ratio: 0.7120000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:11:39,416 - INFO - Dataset ogbg-molhiv, Epoch: 410, Train: 0.890836 (rocauc), Valid: 0.770083 (rocauc), Test: 0.752069 (rocauc)
+1900-01-01 18:11:39,417 - INFO - epoch: 411, sampling_ratio: 0.7120000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:11:41,087 - INFO - Dataset ogbg-molhiv, Epoch: 411, Train: 0.894534 (rocauc), Valid: 0.789049 (rocauc), Test: 0.755441 (rocauc)
+1900-01-01 18:11:41,087 - INFO - epoch: 412, sampling_ratio: 0.7120000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:11:42,937 - INFO - Dataset ogbg-molhiv, Epoch: 412, Train: 0.895630 (rocauc), Valid: 0.783641 (rocauc), Test: 0.750679 (rocauc)
+1900-01-01 18:11:42,938 - INFO - epoch: 413, sampling_ratio: 0.7120000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:11:44,615 - INFO - New best validation score: 0.7938620664315108 (rocauc) without training score regression
+1900-01-01 18:11:44,619 - INFO - Dataset ogbg-molhiv, Epoch: 413, Train: 0.893703 (rocauc), Valid: 0.793862 (rocauc), Test: 0.772477 (rocauc)
+1900-01-01 18:11:44,619 - INFO - epoch: 414, sampling_ratio: 0.7120000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:11:46,462 - INFO - Dataset ogbg-molhiv, Epoch: 414, Train: 0.892977 (rocauc), Valid: 0.749146 (rocauc), Test: 0.751589 (rocauc)
+1900-01-01 18:11:46,462 - INFO - epoch: 415, sampling_ratio: 0.7120000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:11:48,134 - INFO - Dataset ogbg-molhiv, Epoch: 415, Train: 0.896482 (rocauc), Valid: 0.788669 (rocauc), Test: 0.751446 (rocauc)
+1900-01-01 18:11:48,134 - INFO - epoch: 416, sampling_ratio: 0.7120000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:11:49,979 - INFO - Dataset ogbg-molhiv, Epoch: 416, Train: 0.901255 (rocauc), Valid: 0.790091 (rocauc), Test: 0.748711 (rocauc)
+1900-01-01 18:11:49,979 - INFO - epoch: 417, sampling_ratio: 0.7120000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:11:51,656 - INFO - Dataset ogbg-molhiv, Epoch: 417, Train: 0.898104 (rocauc), Valid: 0.777766 (rocauc), Test: 0.758732 (rocauc)
+1900-01-01 18:11:51,656 - INFO - epoch: 418, sampling_ratio: 0.7120000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:11:53,501 - INFO - Dataset ogbg-molhiv, Epoch: 418, Train: 0.901608 (rocauc), Valid: 0.786464 (rocauc), Test: 0.763182 (rocauc)
+1900-01-01 18:11:53,501 - INFO - epoch: 419, sampling_ratio: 0.7120000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:11:55,344 - INFO - New best validation score: 0.794336664707035 (rocauc) without training score regression
+1900-01-01 18:11:55,348 - INFO - Dataset ogbg-molhiv, Epoch: 419, Train: 0.896044 (rocauc), Valid: 0.794337 (rocauc), Test: 0.758764 (rocauc)
+1900-01-01 18:11:55,348 - INFO - epoch: 420, sampling_ratio: 0.7300000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:11:57,035 - INFO - Dataset ogbg-molhiv, Epoch: 420, Train: 0.897639 (rocauc), Valid: 0.776792 (rocauc), Test: 0.752938 (rocauc)
+1900-01-01 18:11:57,035 - INFO - epoch: 421, sampling_ratio: 0.7300000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:11:58,888 - INFO - Dataset ogbg-molhiv, Epoch: 421, Train: 0.901743 (rocauc), Valid: 0.766182 (rocauc), Test: 0.752635 (rocauc)
+1900-01-01 18:11:58,888 - INFO - epoch: 422, sampling_ratio: 0.7300000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:12:00,586 - INFO - Dataset ogbg-molhiv, Epoch: 422, Train: 0.895931 (rocauc), Valid: 0.783565 (rocauc), Test: 0.745920 (rocauc)
+1900-01-01 18:12:00,586 - INFO - epoch: 423, sampling_ratio: 0.7300000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:12:02,452 - INFO - Dataset ogbg-molhiv, Epoch: 423, Train: 0.899628 (rocauc), Valid: 0.792668 (rocauc), Test: 0.747177 (rocauc)
+1900-01-01 18:12:02,452 - INFO - epoch: 424, sampling_ratio: 0.7300000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:12:04,143 - INFO - Dataset ogbg-molhiv, Epoch: 424, Train: 0.902353 (rocauc), Valid: 0.777848 (rocauc), Test: 0.754331 (rocauc)
+1900-01-01 18:12:04,143 - INFO - epoch: 425, sampling_ratio: 0.7300000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:12:06,061 - INFO - Dataset ogbg-molhiv, Epoch: 425, Train: 0.902100 (rocauc), Valid: 0.784015 (rocauc), Test: 0.759511 (rocauc)
+1900-01-01 18:12:06,061 - INFO - epoch: 426, sampling_ratio: 0.7300000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:12:07,768 - INFO - Dataset ogbg-molhiv, Epoch: 426, Train: 0.898704 (rocauc), Valid: 0.768408 (rocauc), Test: 0.749887 (rocauc)
+1900-01-01 18:12:07,768 - INFO - epoch: 427, sampling_ratio: 0.7300000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:12:09,607 - INFO - Dataset ogbg-molhiv, Epoch: 427, Train: 0.902607 (rocauc), Valid: 0.786382 (rocauc), Test: 0.759329 (rocauc)
+1900-01-01 18:12:09,607 - INFO - epoch: 428, sampling_ratio: 0.7300000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:12:11,282 - INFO - Dataset ogbg-molhiv, Epoch: 428, Train: 0.906970 (rocauc), Valid: 0.782098 (rocauc), Test: 0.761616 (rocauc)
+1900-01-01 18:12:11,282 - INFO - epoch: 429, sampling_ratio: 0.7300000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:12:13,126 - INFO - New best validation score: 0.7994562022339801 (rocauc) without training score regression
+1900-01-01 18:12:13,130 - INFO - Dataset ogbg-molhiv, Epoch: 429, Train: 0.909039 (rocauc), Valid: 0.799456 (rocauc), Test: 0.765080 (rocauc)
+1900-01-01 18:12:13,130 - INFO - epoch: 430, sampling_ratio: 0.7300000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:12:14,809 - INFO - Dataset ogbg-molhiv, Epoch: 430, Train: 0.902407 (rocauc), Valid: 0.790831 (rocauc), Test: 0.768366 (rocauc)
+1900-01-01 18:12:14,809 - INFO - epoch: 431, sampling_ratio: 0.7300000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:12:16,672 - INFO - Dataset ogbg-molhiv, Epoch: 431, Train: 0.903304 (rocauc), Valid: 0.802053 (rocauc), Test: 0.767280 (rocauc)
+1900-01-01 18:12:16,672 - INFO - epoch: 432, sampling_ratio: 0.7480000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:12:18,354 - INFO - Dataset ogbg-molhiv, Epoch: 432, Train: 0.905119 (rocauc), Valid: 0.798525 (rocauc), Test: 0.755642 (rocauc)
+1900-01-01 18:12:18,354 - INFO - epoch: 433, sampling_ratio: 0.7480000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:12:20,205 - INFO - Dataset ogbg-molhiv, Epoch: 433, Train: 0.903344 (rocauc), Valid: 0.774670 (rocauc), Test: 0.745292 (rocauc)
+1900-01-01 18:12:20,205 - INFO - epoch: 434, sampling_ratio: 0.7480000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:12:21,887 - INFO - Dataset ogbg-molhiv, Epoch: 434, Train: 0.901760 (rocauc), Valid: 0.785240 (rocauc), Test: 0.751558 (rocauc)
+1900-01-01 18:12:21,887 - INFO - epoch: 435, sampling_ratio: 0.7480000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:12:23,736 - INFO - Dataset ogbg-molhiv, Epoch: 435, Train: 0.906318 (rocauc), Valid: 0.789995 (rocauc), Test: 0.762533 (rocauc)
+1900-01-01 18:12:23,736 - INFO - epoch: 436, sampling_ratio: 0.7480000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:12:25,423 - INFO - Dataset ogbg-molhiv, Epoch: 436, Train: 0.908331 (rocauc), Valid: 0.795880 (rocauc), Test: 0.756583 (rocauc)
+1900-01-01 18:12:25,423 - INFO - epoch: 437, sampling_ratio: 0.7480000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:12:27,281 - INFO - Dataset ogbg-molhiv, Epoch: 437, Train: 0.907459 (rocauc), Valid: 0.796731 (rocauc), Test: 0.758083 (rocauc)
+1900-01-01 18:12:27,282 - INFO - epoch: 438, sampling_ratio: 0.7480000000000001, mt_flag: False, train_total_len: 22834
+1900-01-01 18:12:28,967 - INFO - Dataset ogbg-molhiv, Epoch: 438, Train: 0.908424 (rocauc), Valid: 0.788308 (rocauc), Test: 0.746440 (rocauc)
+1900-01-01 18:12:30,409 - INFO - epoch: 439, sampling_ratio: 0.7480000000000001, mt_flag: True, train_total_len: 24610
+1900-01-01 18:12:32,336 - INFO - Dataset ogbg-molhiv, Epoch: 439, Train: 0.890357 (rocauc), Valid: 0.800353 (rocauc), Test: 0.766257 (rocauc)
+1900-01-01 18:12:32,336 - INFO - epoch: 440, sampling_ratio: 0.7480000000000001, mt_flag: False, train_total_len: 24610
+1900-01-01 18:12:34,109 - INFO - Dataset ogbg-molhiv, Epoch: 440, Train: 0.890763 (rocauc), Valid: 0.792160 (rocauc), Test: 0.761861 (rocauc)
+1900-01-01 18:12:34,109 - INFO - epoch: 441, sampling_ratio: 0.7480000000000001, mt_flag: False, train_total_len: 24610
+1900-01-01 18:12:36,081 - INFO - Dataset ogbg-molhiv, Epoch: 441, Train: 0.889815 (rocauc), Valid: 0.797484 (rocauc), Test: 0.762334 (rocauc)
+1900-01-01 18:12:36,081 - INFO - epoch: 442, sampling_ratio: 0.7480000000000001, mt_flag: False, train_total_len: 24610
+1900-01-01 18:12:37,884 - INFO - Dataset ogbg-molhiv, Epoch: 442, Train: 0.895383 (rocauc), Valid: 0.791951 (rocauc), Test: 0.751334 (rocauc)
+1900-01-01 18:12:37,884 - INFO - epoch: 443, sampling_ratio: 0.7480000000000001, mt_flag: False, train_total_len: 24610
+1900-01-01 18:12:39,849 - INFO - Dataset ogbg-molhiv, Epoch: 443, Train: 0.892036 (rocauc), Valid: 0.772548 (rocauc), Test: 0.760511 (rocauc)
+1900-01-01 18:12:39,849 - INFO - epoch: 444, sampling_ratio: 0.766, mt_flag: False, train_total_len: 24610
+1900-01-01 18:12:41,657 - INFO - Dataset ogbg-molhiv, Epoch: 444, Train: 0.892309 (rocauc), Valid: 0.802837 (rocauc), Test: 0.771454 (rocauc)
+1900-01-01 18:12:41,657 - INFO - epoch: 445, sampling_ratio: 0.766, mt_flag: False, train_total_len: 24610
+1900-01-01 18:12:43,702 - INFO - Dataset ogbg-molhiv, Epoch: 445, Train: 0.891579 (rocauc), Valid: 0.789707 (rocauc), Test: 0.762263 (rocauc)
+1900-01-01 18:12:43,702 - INFO - epoch: 446, sampling_ratio: 0.766, mt_flag: False, train_total_len: 24610
+1900-01-01 18:12:45,502 - INFO - Dataset ogbg-molhiv, Epoch: 446, Train: 0.893812 (rocauc), Valid: 0.785546 (rocauc), Test: 0.751494 (rocauc)
+1900-01-01 18:12:45,502 - INFO - epoch: 447, sampling_ratio: 0.766, mt_flag: False, train_total_len: 24610
+1900-01-01 18:12:47,463 - INFO - Dataset ogbg-molhiv, Epoch: 447, Train: 0.896807 (rocauc), Valid: 0.793063 (rocauc), Test: 0.763985 (rocauc)
+1900-01-01 18:12:47,463 - INFO - epoch: 448, sampling_ratio: 0.766, mt_flag: False, train_total_len: 24610
+1900-01-01 18:12:49,426 - INFO - Dataset ogbg-molhiv, Epoch: 448, Train: 0.898119 (rocauc), Valid: 0.799468 (rocauc), Test: 0.760758 (rocauc)
+1900-01-01 18:12:49,426 - INFO - epoch: 449, sampling_ratio: 0.766, mt_flag: False, train_total_len: 24610
+1900-01-01 18:12:51,217 - INFO - Dataset ogbg-molhiv, Epoch: 449, Train: 0.892452 (rocauc), Valid: 0.803391 (rocauc), Test: 0.765681 (rocauc)
+1900-01-01 18:12:51,217 - INFO - epoch: 450, sampling_ratio: 0.766, mt_flag: False, train_total_len: 24610
+1900-01-01 18:12:53,178 - INFO - Dataset ogbg-molhiv, Epoch: 450, Train: 0.894217 (rocauc), Valid: 0.784245 (rocauc), Test: 0.748935 (rocauc)
+1900-01-01 18:12:53,178 - INFO - epoch: 451, sampling_ratio: 0.766, mt_flag: False, train_total_len: 24610
+1900-01-01 18:12:54,970 - INFO - Dataset ogbg-molhiv, Epoch: 451, Train: 0.900753 (rocauc), Valid: 0.805464 (rocauc), Test: 0.759458 (rocauc)
+1900-01-01 18:12:54,971 - INFO - epoch: 452, sampling_ratio: 0.766, mt_flag: False, train_total_len: 24610
+1900-01-01 18:12:56,930 - INFO - Dataset ogbg-molhiv, Epoch: 452, Train: 0.900956 (rocauc), Valid: 0.788424 (rocauc), Test: 0.764302 (rocauc)
+1900-01-01 18:12:56,930 - INFO - epoch: 453, sampling_ratio: 0.766, mt_flag: False, train_total_len: 24610
+1900-01-01 18:12:58,725 - INFO - Dataset ogbg-molhiv, Epoch: 453, Train: 0.898650 (rocauc), Valid: 0.780889 (rocauc), Test: 0.759982 (rocauc)
+1900-01-01 18:12:58,725 - INFO - epoch: 454, sampling_ratio: 0.766, mt_flag: False, train_total_len: 24610
+1900-01-01 18:13:00,681 - INFO - Dataset ogbg-molhiv, Epoch: 454, Train: 0.901554 (rocauc), Valid: 0.787478 (rocauc), Test: 0.768680 (rocauc)
+1900-01-01 18:13:00,681 - INFO - epoch: 455, sampling_ratio: 0.766, mt_flag: False, train_total_len: 24610
+1900-01-01 18:13:02,643 - INFO - Dataset ogbg-molhiv, Epoch: 455, Train: 0.907020 (rocauc), Valid: 0.775619 (rocauc), Test: 0.748910 (rocauc)
+1900-01-01 18:13:02,643 - INFO - epoch: 456, sampling_ratio: 0.784, mt_flag: False, train_total_len: 24610
+1900-01-01 18:13:04,432 - INFO - Dataset ogbg-molhiv, Epoch: 456, Train: 0.900988 (rocauc), Valid: 0.782662 (rocauc), Test: 0.756641 (rocauc)
+1900-01-01 18:13:04,432 - INFO - epoch: 457, sampling_ratio: 0.784, mt_flag: False, train_total_len: 24610
+1900-01-01 18:13:06,393 - INFO - Dataset ogbg-molhiv, Epoch: 457, Train: 0.898891 (rocauc), Valid: 0.769342 (rocauc), Test: 0.774553 (rocauc)
+1900-01-01 18:13:06,393 - INFO - epoch: 458, sampling_ratio: 0.784, mt_flag: False, train_total_len: 24610
+1900-01-01 18:13:08,180 - INFO - Dataset ogbg-molhiv, Epoch: 458, Train: 0.905182 (rocauc), Valid: 0.806655 (rocauc), Test: 0.758956 (rocauc)
+1900-01-01 18:13:08,180 - INFO - epoch: 459, sampling_ratio: 0.784, mt_flag: False, train_total_len: 24610
+1900-01-01 18:13:10,137 - INFO - Dataset ogbg-molhiv, Epoch: 459, Train: 0.903238 (rocauc), Valid: 0.787071 (rocauc), Test: 0.766635 (rocauc)
+1900-01-01 18:13:10,137 - INFO - epoch: 460, sampling_ratio: 0.784, mt_flag: False, train_total_len: 24610
+1900-01-01 18:13:11,934 - INFO - Dataset ogbg-molhiv, Epoch: 460, Train: 0.905765 (rocauc), Valid: 0.777196 (rocauc), Test: 0.763562 (rocauc)
+1900-01-01 18:13:11,934 - INFO - epoch: 461, sampling_ratio: 0.784, mt_flag: False, train_total_len: 24610
+1900-01-01 18:13:13,889 - INFO - Dataset ogbg-molhiv, Epoch: 461, Train: 0.896720 (rocauc), Valid: 0.774566 (rocauc), Test: 0.759648 (rocauc)
+1900-01-01 18:13:13,889 - INFO - epoch: 462, sampling_ratio: 0.784, mt_flag: False, train_total_len: 24610
+1900-01-01 18:13:15,849 - INFO - Dataset ogbg-molhiv, Epoch: 462, Train: 0.906027 (rocauc), Valid: 0.788733 (rocauc), Test: 0.759194 (rocauc)
+1900-01-01 18:13:15,849 - INFO - epoch: 463, sampling_ratio: 0.784, mt_flag: False, train_total_len: 24610
+1900-01-01 18:13:17,648 - INFO - Dataset ogbg-molhiv, Epoch: 463, Train: 0.896637 (rocauc), Valid: 0.796116 (rocauc), Test: 0.771249 (rocauc)
+1900-01-01 18:13:17,648 - INFO - epoch: 464, sampling_ratio: 0.784, mt_flag: False, train_total_len: 24610
+1900-01-01 18:13:19,605 - INFO - Dataset ogbg-molhiv, Epoch: 464, Train: 0.903558 (rocauc), Valid: 0.780616 (rocauc), Test: 0.758584 (rocauc)
+1900-01-01 18:13:19,605 - INFO - epoch: 465, sampling_ratio: 0.784, mt_flag: False, train_total_len: 24610
+1900-01-01 18:13:21,398 - INFO - Dataset ogbg-molhiv, Epoch: 465, Train: 0.903715 (rocauc), Valid: 0.768197 (rocauc), Test: 0.762353 (rocauc)
+1900-01-01 18:13:21,398 - INFO - epoch: 466, sampling_ratio: 0.784, mt_flag: False, train_total_len: 24610
+1900-01-01 18:13:23,361 - INFO - Dataset ogbg-molhiv, Epoch: 466, Train: 0.909336 (rocauc), Valid: 0.790335 (rocauc), Test: 0.754677 (rocauc)
+1900-01-01 18:13:23,361 - INFO - epoch: 467, sampling_ratio: 0.784, mt_flag: False, train_total_len: 24610
+1900-01-01 18:13:25,145 - INFO - Dataset ogbg-molhiv, Epoch: 467, Train: 0.902514 (rocauc), Valid: 0.779574 (rocauc), Test: 0.759565 (rocauc)
+1900-01-01 18:13:25,145 - INFO - epoch: 468, sampling_ratio: 0.802, mt_flag: False, train_total_len: 24610
+1900-01-01 18:13:27,104 - INFO - Dataset ogbg-molhiv, Epoch: 468, Train: 0.903919 (rocauc), Valid: 0.792766 (rocauc), Test: 0.763837 (rocauc)
+1900-01-01 18:13:27,104 - INFO - epoch: 469, sampling_ratio: 0.802, mt_flag: False, train_total_len: 24610
+1900-01-01 18:13:29,069 - INFO - Dataset ogbg-molhiv, Epoch: 469, Train: 0.907188 (rocauc), Valid: 0.788482 (rocauc), Test: 0.751415 (rocauc)
+1900-01-01 18:13:29,069 - INFO - epoch: 470, sampling_ratio: 0.802, mt_flag: False, train_total_len: 24610
+1900-01-01 18:13:30,864 - INFO - Dataset ogbg-molhiv, Epoch: 470, Train: 0.909723 (rocauc), Valid: 0.784502 (rocauc), Test: 0.755886 (rocauc)
+1900-01-01 18:13:30,864 - INFO - epoch: 471, sampling_ratio: 0.802, mt_flag: False, train_total_len: 24610
+1900-01-01 18:13:32,822 - INFO - Dataset ogbg-molhiv, Epoch: 471, Train: 0.904618 (rocauc), Valid: 0.775803 (rocauc), Test: 0.753923 (rocauc)
+1900-01-01 18:13:32,822 - INFO - epoch: 472, sampling_ratio: 0.802, mt_flag: False, train_total_len: 24610
+1900-01-01 18:13:34,615 - INFO - Dataset ogbg-molhiv, Epoch: 472, Train: 0.902766 (rocauc), Valid: 0.792760 (rocauc), Test: 0.760092 (rocauc)
+1900-01-01 18:13:34,615 - INFO - epoch: 473, sampling_ratio: 0.802, mt_flag: False, train_total_len: 24610
+1900-01-01 18:13:36,576 - INFO - Dataset ogbg-molhiv, Epoch: 473, Train: 0.904566 (rocauc), Valid: 0.804579 (rocauc), Test: 0.757720 (rocauc)
+1900-01-01 18:13:36,576 - INFO - epoch: 474, sampling_ratio: 0.802, mt_flag: False, train_total_len: 24610
+1900-01-01 18:13:38,367 - INFO - Dataset ogbg-molhiv, Epoch: 474, Train: 0.908925 (rocauc), Valid: 0.797004 (rocauc), Test: 0.758398 (rocauc)
+1900-01-01 18:13:38,367 - INFO - epoch: 475, sampling_ratio: 0.802, mt_flag: False, train_total_len: 24610
+1900-01-01 18:13:40,330 - INFO - Dataset ogbg-molhiv, Epoch: 475, Train: 0.908394 (rocauc), Valid: 0.801226 (rocauc), Test: 0.767427 (rocauc)
+1900-01-01 18:13:41,822 - INFO - epoch: 476, sampling_ratio: 0.802, mt_flag: True, train_total_len: 26387
+1900-01-01 18:13:43,689 - INFO - Dataset ogbg-molhiv, Epoch: 476, Train: 0.890947 (rocauc), Valid: 0.776097 (rocauc), Test: 0.752678 (rocauc)
+1900-01-01 18:13:43,689 - INFO - epoch: 477, sampling_ratio: 0.802, mt_flag: False, train_total_len: 26387
+1900-01-01 18:13:45,754 - INFO - Dataset ogbg-molhiv, Epoch: 477, Train: 0.900946 (rocauc), Valid: 0.798479 (rocauc), Test: 0.754970 (rocauc)
+1900-01-01 18:13:45,755 - INFO - epoch: 478, sampling_ratio: 0.802, mt_flag: False, train_total_len: 26387
+1900-01-01 18:13:47,668 - INFO - Dataset ogbg-molhiv, Epoch: 478, Train: 0.905043 (rocauc), Valid: 0.812720 (rocauc), Test: 0.761326 (rocauc)
+1900-01-01 18:13:47,668 - INFO - epoch: 479, sampling_ratio: 0.802, mt_flag: False, train_total_len: 26387
+1900-01-01 18:13:49,729 - INFO - Dataset ogbg-molhiv, Epoch: 479, Train: 0.905172 (rocauc), Valid: 0.802901 (rocauc), Test: 0.756069 (rocauc)
+1900-01-01 18:13:49,729 - INFO - epoch: 480, sampling_ratio: 0.8200000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:13:51,764 - INFO - Dataset ogbg-molhiv, Epoch: 480, Train: 0.900640 (rocauc), Valid: 0.810677 (rocauc), Test: 0.756218 (rocauc)
+1900-01-01 18:13:51,764 - INFO - epoch: 481, sampling_ratio: 0.8200000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:13:53,643 - INFO - Dataset ogbg-molhiv, Epoch: 481, Train: 0.902600 (rocauc), Valid: 0.778311 (rocauc), Test: 0.747807 (rocauc)
+1900-01-01 18:13:53,643 - INFO - epoch: 482, sampling_ratio: 0.8200000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:13:55,855 - INFO - Dataset ogbg-molhiv, Epoch: 482, Train: 0.906700 (rocauc), Valid: 0.788297 (rocauc), Test: 0.750913 (rocauc)
+1900-01-01 18:13:55,855 - INFO - epoch: 483, sampling_ratio: 0.8200000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:13:57,796 - INFO - Dataset ogbg-molhiv, Epoch: 483, Train: 0.898439 (rocauc), Valid: 0.757897 (rocauc), Test: 0.745107 (rocauc)
+1900-01-01 18:13:57,797 - INFO - epoch: 484, sampling_ratio: 0.8200000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:13:59,904 - INFO - Dataset ogbg-molhiv, Epoch: 484, Train: 0.904132 (rocauc), Valid: 0.785344 (rocauc), Test: 0.762184 (rocauc)
+1900-01-01 18:13:59,904 - INFO - epoch: 485, sampling_ratio: 0.8200000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:14:01,993 - INFO - Dataset ogbg-molhiv, Epoch: 485, Train: 0.908553 (rocauc), Valid: 0.781823 (rocauc), Test: 0.751096 (rocauc)
+1900-01-01 18:14:01,993 - INFO - epoch: 486, sampling_ratio: 0.8200000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:14:03,924 - INFO - Dataset ogbg-molhiv, Epoch: 486, Train: 0.907048 (rocauc), Valid: 0.784425 (rocauc), Test: 0.751111 (rocauc)
+1900-01-01 18:14:03,925 - INFO - epoch: 487, sampling_ratio: 0.8200000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:14:06,018 - INFO - New best validation score: 0.8025671173819322 (rocauc) without training score regression
+1900-01-01 18:14:06,022 - INFO - Dataset ogbg-molhiv, Epoch: 487, Train: 0.910760 (rocauc), Valid: 0.802567 (rocauc), Test: 0.755459 (rocauc)
+1900-01-01 18:14:06,022 - INFO - epoch: 488, sampling_ratio: 0.8200000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:14:07,941 - INFO - Dataset ogbg-molhiv, Epoch: 488, Train: 0.909969 (rocauc), Valid: 0.796844 (rocauc), Test: 0.762023 (rocauc)
+1900-01-01 18:14:07,941 - INFO - epoch: 489, sampling_ratio: 0.8200000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:14:10,030 - INFO - Dataset ogbg-molhiv, Epoch: 489, Train: 0.909642 (rocauc), Valid: 0.793121 (rocauc), Test: 0.752342 (rocauc)
+1900-01-01 18:14:10,030 - INFO - epoch: 490, sampling_ratio: 0.8200000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:14:11,947 - INFO - Dataset ogbg-molhiv, Epoch: 490, Train: 0.910240 (rocauc), Valid: 0.799006 (rocauc), Test: 0.753595 (rocauc)
+1900-01-01 18:14:11,947 - INFO - epoch: 491, sampling_ratio: 0.8200000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:14:14,072 - INFO - Dataset ogbg-molhiv, Epoch: 491, Train: 0.913260 (rocauc), Valid: 0.790399 (rocauc), Test: 0.754933 (rocauc)
+1900-01-01 18:14:14,072 - INFO - epoch: 492, sampling_ratio: 0.8380000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:14:16,173 - INFO - Dataset ogbg-molhiv, Epoch: 492, Train: 0.910619 (rocauc), Valid: 0.782414 (rocauc), Test: 0.762226 (rocauc)
+1900-01-01 18:14:16,173 - INFO - epoch: 493, sampling_ratio: 0.8380000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:14:18,074 - INFO - Dataset ogbg-molhiv, Epoch: 493, Train: 0.909819 (rocauc), Valid: 0.795457 (rocauc), Test: 0.752925 (rocauc)
+1900-01-01 18:14:18,074 - INFO - epoch: 494, sampling_ratio: 0.8380000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:14:20,139 - INFO - Dataset ogbg-molhiv, Epoch: 494, Train: 0.911000 (rocauc), Valid: 0.784333 (rocauc), Test: 0.766851 (rocauc)
+1900-01-01 18:14:20,139 - INFO - epoch: 495, sampling_ratio: 0.8380000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:14:22,034 - INFO - Dataset ogbg-molhiv, Epoch: 495, Train: 0.907281 (rocauc), Valid: 0.787120 (rocauc), Test: 0.771741 (rocauc)
+1900-01-01 18:14:22,034 - INFO - epoch: 496, sampling_ratio: 0.8380000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:14:24,102 - INFO - Dataset ogbg-molhiv, Epoch: 496, Train: 0.906926 (rocauc), Valid: 0.773206 (rocauc), Test: 0.766556 (rocauc)
+1900-01-01 18:14:24,102 - INFO - epoch: 497, sampling_ratio: 0.8380000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:14:26,165 - INFO - Dataset ogbg-molhiv, Epoch: 497, Train: 0.909746 (rocauc), Valid: 0.762398 (rocauc), Test: 0.748126 (rocauc)
+1900-01-01 18:14:26,165 - INFO - epoch: 498, sampling_ratio: 0.8380000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:14:28,061 - INFO - Dataset ogbg-molhiv, Epoch: 498, Train: 0.911066 (rocauc), Valid: 0.792784 (rocauc), Test: 0.765115 (rocauc)
+1900-01-01 18:14:28,062 - INFO - epoch: 499, sampling_ratio: 0.8380000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:14:30,125 - INFO - Dataset ogbg-molhiv, Epoch: 499, Train: 0.910479 (rocauc), Valid: 0.780474 (rocauc), Test: 0.765612 (rocauc)
+1900-01-01 18:14:30,125 - INFO - epoch: 500, sampling_ratio: 0.8380000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:14:32,021 - INFO - Dataset ogbg-molhiv, Epoch: 500, Train: 0.914310 (rocauc), Valid: 0.792738 (rocauc), Test: 0.742181 (rocauc)
+1900-01-01 18:14:32,021 - INFO - epoch: 501, sampling_ratio: 0.8380000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:14:34,094 - INFO - Dataset ogbg-molhiv, Epoch: 501, Train: 0.909707 (rocauc), Valid: 0.779538 (rocauc), Test: 0.747811 (rocauc)
+1900-01-01 18:14:34,094 - INFO - epoch: 502, sampling_ratio: 0.8380000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:14:36,158 - INFO - Dataset ogbg-molhiv, Epoch: 502, Train: 0.914508 (rocauc), Valid: 0.797445 (rocauc), Test: 0.747714 (rocauc)
+1900-01-01 18:14:36,158 - INFO - epoch: 503, sampling_ratio: 0.8380000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:14:38,063 - INFO - Dataset ogbg-molhiv, Epoch: 503, Train: 0.914419 (rocauc), Valid: 0.795301 (rocauc), Test: 0.753499 (rocauc)
+1900-01-01 18:14:38,063 - INFO - epoch: 504, sampling_ratio: 0.8560000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:14:40,139 - INFO - Dataset ogbg-molhiv, Epoch: 504, Train: 0.913954 (rocauc), Valid: 0.783946 (rocauc), Test: 0.759557 (rocauc)
+1900-01-01 18:14:40,139 - INFO - epoch: 505, sampling_ratio: 0.8560000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:14:42,038 - INFO - Dataset ogbg-molhiv, Epoch: 505, Train: 0.916365 (rocauc), Valid: 0.794424 (rocauc), Test: 0.741480 (rocauc)
+1900-01-01 18:14:42,038 - INFO - epoch: 506, sampling_ratio: 0.8560000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:14:44,104 - INFO - Dataset ogbg-molhiv, Epoch: 506, Train: 0.914261 (rocauc), Valid: 0.779165 (rocauc), Test: 0.755913 (rocauc)
+1900-01-01 18:14:44,105 - INFO - epoch: 507, sampling_ratio: 0.8560000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:14:46,174 - INFO - Dataset ogbg-molhiv, Epoch: 507, Train: 0.911890 (rocauc), Valid: 0.797843 (rocauc), Test: 0.763698 (rocauc)
+1900-01-01 18:14:46,174 - INFO - epoch: 508, sampling_ratio: 0.8560000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:14:48,067 - INFO - Dataset ogbg-molhiv, Epoch: 508, Train: 0.912728 (rocauc), Valid: 0.792022 (rocauc), Test: 0.767887 (rocauc)
+1900-01-01 18:14:48,067 - INFO - epoch: 509, sampling_ratio: 0.8560000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:14:50,135 - INFO - Dataset ogbg-molhiv, Epoch: 509, Train: 0.910179 (rocauc), Valid: 0.784554 (rocauc), Test: 0.745014 (rocauc)
+1900-01-01 18:14:50,135 - INFO - epoch: 510, sampling_ratio: 0.8560000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:14:52,041 - INFO - Dataset ogbg-molhiv, Epoch: 510, Train: 0.916022 (rocauc), Valid: 0.787420 (rocauc), Test: 0.752838 (rocauc)
+1900-01-01 18:14:52,042 - INFO - epoch: 511, sampling_ratio: 0.8560000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:14:54,115 - INFO - Dataset ogbg-molhiv, Epoch: 511, Train: 0.919327 (rocauc), Valid: 0.784012 (rocauc), Test: 0.749364 (rocauc)
+1900-01-01 18:14:54,115 - INFO - epoch: 512, sampling_ratio: 0.8560000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:14:56,181 - INFO - Dataset ogbg-molhiv, Epoch: 512, Train: 0.914169 (rocauc), Valid: 0.782978 (rocauc), Test: 0.753974 (rocauc)
+1900-01-01 18:14:56,181 - INFO - epoch: 513, sampling_ratio: 0.8560000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:14:58,084 - INFO - Dataset ogbg-molhiv, Epoch: 513, Train: 0.912434 (rocauc), Valid: 0.793972 (rocauc), Test: 0.757305 (rocauc)
+1900-01-01 18:14:58,084 - INFO - epoch: 514, sampling_ratio: 0.8560000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:15:00,157 - INFO - Dataset ogbg-molhiv, Epoch: 514, Train: 0.919341 (rocauc), Valid: 0.774373 (rocauc), Test: 0.757541 (rocauc)
+1900-01-01 18:15:00,157 - INFO - epoch: 515, sampling_ratio: 0.8560000000000001, mt_flag: False, train_total_len: 26387
+1900-01-01 18:15:02,059 - INFO - Dataset ogbg-molhiv, Epoch: 515, Train: 0.916821 (rocauc), Valid: 0.785376 (rocauc), Test: 0.752067 (rocauc)
+1900-01-01 18:15:03,503 - INFO - epoch: 516, sampling_ratio: 0.8740000000000001, mt_flag: True, train_total_len: 28756
+1900-01-01 18:15:05,519 - INFO - Dataset ogbg-molhiv, Epoch: 516, Train: 0.916660 (rocauc), Valid: 0.780077 (rocauc), Test: 0.750642 (rocauc)
+1900-01-01 18:15:05,519 - INFO - epoch: 517, sampling_ratio: 0.8740000000000001, mt_flag: False, train_total_len: 28756
+1900-01-01 18:15:07,705 - INFO - New best validation score: 0.8049492945326278 (rocauc) without training score regression
+1900-01-01 18:15:07,709 - INFO - Dataset ogbg-molhiv, Epoch: 517, Train: 0.916625 (rocauc), Valid: 0.804949 (rocauc), Test: 0.758296 (rocauc)
+1900-01-01 18:15:07,709 - INFO - epoch: 518, sampling_ratio: 0.8740000000000001, mt_flag: False, train_total_len: 28756
+1900-01-01 18:15:09,924 - INFO - Dataset ogbg-molhiv, Epoch: 518, Train: 0.912346 (rocauc), Valid: 0.797438 (rocauc), Test: 0.775944 (rocauc)
+1900-01-01 18:15:09,924 - INFO - epoch: 519, sampling_ratio: 0.8740000000000001, mt_flag: False, train_total_len: 28756
+1900-01-01 18:15:11,982 - INFO - Dataset ogbg-molhiv, Epoch: 519, Train: 0.917704 (rocauc), Valid: 0.780385 (rocauc), Test: 0.752056 (rocauc)
+1900-01-01 18:15:11,982 - INFO - epoch: 520, sampling_ratio: 0.8740000000000001, mt_flag: False, train_total_len: 28756
+1900-01-01 18:15:14,212 - INFO - Dataset ogbg-molhiv, Epoch: 520, Train: 0.915060 (rocauc), Valid: 0.795898 (rocauc), Test: 0.754203 (rocauc)
+1900-01-01 18:15:14,212 - INFO - epoch: 521, sampling_ratio: 0.8740000000000001, mt_flag: False, train_total_len: 28756
+1900-01-01 18:15:16,434 - INFO - Dataset ogbg-molhiv, Epoch: 521, Train: 0.914810 (rocauc), Valid: 0.801514 (rocauc), Test: 0.760938 (rocauc)
+1900-01-01 18:15:16,434 - INFO - epoch: 522, sampling_ratio: 0.8740000000000001, mt_flag: False, train_total_len: 28756
+1900-01-01 18:15:18,581 - INFO - Dataset ogbg-molhiv, Epoch: 522, Train: 0.915937 (rocauc), Valid: 0.796743 (rocauc), Test: 0.771757 (rocauc)
+1900-01-01 18:15:18,581 - INFO - epoch: 523, sampling_ratio: 0.8740000000000001, mt_flag: False, train_total_len: 28756
+1900-01-01 18:15:20,799 - INFO - Dataset ogbg-molhiv, Epoch: 523, Train: 0.918699 (rocauc), Valid: 0.794715 (rocauc), Test: 0.763615 (rocauc)
+1900-01-01 18:15:20,799 - INFO - epoch: 524, sampling_ratio: 0.8740000000000001, mt_flag: False, train_total_len: 28756
+1900-01-01 18:15:23,028 - INFO - Dataset ogbg-molhiv, Epoch: 524, Train: 0.920354 (rocauc), Valid: 0.803431 (rocauc), Test: 0.758004 (rocauc)
+1900-01-01 18:15:23,028 - INFO - epoch: 525, sampling_ratio: 0.8740000000000001, mt_flag: False, train_total_len: 28756
+1900-01-01 18:15:25,076 - INFO - Dataset ogbg-molhiv, Epoch: 525, Train: 0.921704 (rocauc), Valid: 0.797787 (rocauc), Test: 0.755490 (rocauc)
+1900-01-01 18:15:25,076 - INFO - epoch: 526, sampling_ratio: 0.8740000000000001, mt_flag: False, train_total_len: 28756
+1900-01-01 18:15:27,296 - INFO - Dataset ogbg-molhiv, Epoch: 526, Train: 0.921208 (rocauc), Valid: 0.779101 (rocauc), Test: 0.757631 (rocauc)
+1900-01-01 18:15:27,297 - INFO - epoch: 527, sampling_ratio: 0.8740000000000001, mt_flag: False, train_total_len: 28756
+1900-01-01 18:15:29,508 - INFO - Dataset ogbg-molhiv, Epoch: 527, Train: 0.922019 (rocauc), Valid: 0.786213 (rocauc), Test: 0.750924 (rocauc)
+1900-01-01 18:15:29,509 - INFO - epoch: 528, sampling_ratio: 0.892, mt_flag: False, train_total_len: 28756
+1900-01-01 18:15:31,557 - INFO - Dataset ogbg-molhiv, Epoch: 528, Train: 0.920191 (rocauc), Valid: 0.794820 (rocauc), Test: 0.759628 (rocauc)
+1900-01-01 18:15:31,557 - INFO - epoch: 529, sampling_ratio: 0.892, mt_flag: False, train_total_len: 28756
+1900-01-01 18:15:33,780 - INFO - Dataset ogbg-molhiv, Epoch: 529, Train: 0.919035 (rocauc), Valid: 0.786734 (rocauc), Test: 0.763881 (rocauc)
+1900-01-01 18:15:33,780 - INFO - epoch: 530, sampling_ratio: 0.892, mt_flag: False, train_total_len: 28756
+1900-01-01 18:15:35,814 - INFO - New best validation score: 0.809211493239271 (rocauc) without training score regression
+1900-01-01 18:15:35,819 - INFO - Dataset ogbg-molhiv, Epoch: 530, Train: 0.924909 (rocauc), Valid: 0.809211 (rocauc), Test: 0.770532 (rocauc)
+1900-01-01 18:15:35,819 - INFO - epoch: 531, sampling_ratio: 0.892, mt_flag: False, train_total_len: 28756
+1900-01-01 18:15:38,045 - INFO - Dataset ogbg-molhiv, Epoch: 531, Train: 0.922299 (rocauc), Valid: 0.786363 (rocauc), Test: 0.776950 (rocauc)
+1900-01-01 18:15:38,045 - INFO - epoch: 532, sampling_ratio: 0.892, mt_flag: False, train_total_len: 28756
+1900-01-01 18:15:40,262 - INFO - Dataset ogbg-molhiv, Epoch: 532, Train: 0.924347 (rocauc), Valid: 0.794974 (rocauc), Test: 0.758211 (rocauc)
+1900-01-01 18:15:40,262 - INFO - epoch: 533, sampling_ratio: 0.892, mt_flag: False, train_total_len: 28756
+1900-01-01 18:15:42,302 - INFO - Dataset ogbg-molhiv, Epoch: 533, Train: 0.922348 (rocauc), Valid: 0.799034 (rocauc), Test: 0.759175 (rocauc)
+1900-01-01 18:15:42,302 - INFO - epoch: 534, sampling_ratio: 0.892, mt_flag: False, train_total_len: 28756
+1900-01-01 18:15:44,531 - INFO - Dataset ogbg-molhiv, Epoch: 534, Train: 0.924250 (rocauc), Valid: 0.781544 (rocauc), Test: 0.746967 (rocauc)
+1900-01-01 18:15:44,531 - INFO - epoch: 535, sampling_ratio: 0.892, mt_flag: False, train_total_len: 28756
+1900-01-01 18:15:46,763 - INFO - Dataset ogbg-molhiv, Epoch: 535, Train: 0.922890 (rocauc), Valid: 0.809262 (rocauc), Test: 0.765142 (rocauc)
+1900-01-01 18:15:46,763 - INFO - epoch: 536, sampling_ratio: 0.892, mt_flag: False, train_total_len: 28756
+1900-01-01 18:15:48,823 - INFO - Dataset ogbg-molhiv, Epoch: 536, Train: 0.922994 (rocauc), Valid: 0.796177 (rocauc), Test: 0.758478 (rocauc)
+1900-01-01 18:15:48,823 - INFO - epoch: 537, sampling_ratio: 0.892, mt_flag: False, train_total_len: 28756
+1900-01-01 18:15:51,064 - INFO - Dataset ogbg-molhiv, Epoch: 537, Train: 0.923998 (rocauc), Valid: 0.772768 (rocauc), Test: 0.759791 (rocauc)
+1900-01-01 18:15:51,064 - INFO - epoch: 538, sampling_ratio: 0.892, mt_flag: False, train_total_len: 28756
+1900-01-01 18:15:53,299 - INFO - Dataset ogbg-molhiv, Epoch: 538, Train: 0.923624 (rocauc), Valid: 0.786919 (rocauc), Test: 0.756625 (rocauc)
+1900-01-01 18:15:53,299 - INFO - epoch: 539, sampling_ratio: 0.892, mt_flag: False, train_total_len: 28756
+1900-01-01 18:15:55,369 - INFO - Dataset ogbg-molhiv, Epoch: 539, Train: 0.924084 (rocauc), Valid: 0.785889 (rocauc), Test: 0.770388 (rocauc)
+1900-01-01 18:15:55,370 - INFO - epoch: 540, sampling_ratio: 0.91, mt_flag: False, train_total_len: 28756
+1900-01-01 18:15:57,601 - INFO - Dataset ogbg-molhiv, Epoch: 540, Train: 0.924449 (rocauc), Valid: 0.783448 (rocauc), Test: 0.770552 (rocauc)
+1900-01-01 18:15:57,601 - INFO - epoch: 541, sampling_ratio: 0.91, mt_flag: False, train_total_len: 28756
+1900-01-01 18:15:59,656 - INFO - Dataset ogbg-molhiv, Epoch: 541, Train: 0.926898 (rocauc), Valid: 0.802089 (rocauc), Test: 0.763759 (rocauc)
+1900-01-01 18:15:59,656 - INFO - epoch: 542, sampling_ratio: 0.91, mt_flag: False, train_total_len: 28756
+1900-01-01 18:16:01,878 - INFO - Dataset ogbg-molhiv, Epoch: 542, Train: 0.926023 (rocauc), Valid: 0.785670 (rocauc), Test: 0.774422 (rocauc)
+1900-01-01 18:16:01,878 - INFO - epoch: 543, sampling_ratio: 0.91, mt_flag: False, train_total_len: 28756
+1900-01-01 18:16:04,089 - INFO - Dataset ogbg-molhiv, Epoch: 543, Train: 0.930201 (rocauc), Valid: 0.792160 (rocauc), Test: 0.761801 (rocauc)
+1900-01-01 18:16:04,089 - INFO - epoch: 544, sampling_ratio: 0.91, mt_flag: False, train_total_len: 28756
+1900-01-01 18:16:06,142 - INFO - Dataset ogbg-molhiv, Epoch: 544, Train: 0.928245 (rocauc), Valid: 0.782977 (rocauc), Test: 0.762933 (rocauc)
+1900-01-01 18:16:06,142 - INFO - epoch: 545, sampling_ratio: 0.91, mt_flag: False, train_total_len: 28756
+1900-01-01 18:16:08,374 - INFO - Dataset ogbg-molhiv, Epoch: 545, Train: 0.924653 (rocauc), Valid: 0.805056 (rocauc), Test: 0.766736 (rocauc)
+1900-01-01 18:16:08,374 - INFO - epoch: 546, sampling_ratio: 0.91, mt_flag: False, train_total_len: 28756
+1900-01-01 18:16:10,612 - INFO - Dataset ogbg-molhiv, Epoch: 546, Train: 0.925472 (rocauc), Valid: 0.788384 (rocauc), Test: 0.764406 (rocauc)
+1900-01-01 18:16:10,612 - INFO - epoch: 547, sampling_ratio: 0.91, mt_flag: False, train_total_len: 28756
+1900-01-01 18:16:12,628 - INFO - Dataset ogbg-molhiv, Epoch: 547, Train: 0.925208 (rocauc), Valid: 0.799525 (rocauc), Test: 0.771411 (rocauc)
+1900-01-01 18:16:12,628 - INFO - epoch: 548, sampling_ratio: 0.91, mt_flag: False, train_total_len: 28756
+1900-01-01 18:16:14,856 - INFO - Dataset ogbg-molhiv, Epoch: 548, Train: 0.922539 (rocauc), Valid: 0.818189 (rocauc), Test: 0.755818 (rocauc)
+1900-01-01 18:16:14,856 - INFO - epoch: 549, sampling_ratio: 0.91, mt_flag: False, train_total_len: 28756
+1900-01-01 18:16:17,094 - INFO - Dataset ogbg-molhiv, Epoch: 549, Train: 0.925115 (rocauc), Valid: 0.797515 (rocauc), Test: 0.764423 (rocauc)
+1900-01-01 18:16:17,094 - INFO - epoch: 550, sampling_ratio: 0.91, mt_flag: False, train_total_len: 28756
+1900-01-01 18:16:19,115 - INFO - Dataset ogbg-molhiv, Epoch: 550, Train: 0.924255 (rocauc), Valid: 0.781146 (rocauc), Test: 0.768180 (rocauc)
+1900-01-01 18:16:19,116 - INFO - epoch: 551, sampling_ratio: 0.91, mt_flag: False, train_total_len: 28756
+1900-01-01 18:16:21,348 - INFO - Dataset ogbg-molhiv, Epoch: 551, Train: 0.926490 (rocauc), Valid: 0.788683 (rocauc), Test: 0.757645 (rocauc)
+1900-01-01 18:16:21,348 - INFO - epoch: 552, sampling_ratio: 0.928, mt_flag: False, train_total_len: 28756
+1900-01-01 18:16:23,582 - INFO - Dataset ogbg-molhiv, Epoch: 552, Train: 0.926649 (rocauc), Valid: 0.804093 (rocauc), Test: 0.766844 (rocauc)
+1900-01-01 18:16:23,582 - INFO - epoch: 553, sampling_ratio: 0.928, mt_flag: False, train_total_len: 28756
+1900-01-01 18:16:25,643 - INFO - Dataset ogbg-molhiv, Epoch: 553, Train: 0.926282 (rocauc), Valid: 0.802711 (rocauc), Test: 0.760629 (rocauc)
+1900-01-01 18:16:25,643 - INFO - epoch: 554, sampling_ratio: 0.928, mt_flag: False, train_total_len: 28756
+1900-01-01 18:16:27,879 - INFO - Dataset ogbg-molhiv, Epoch: 554, Train: 0.926747 (rocauc), Valid: 0.786063 (rocauc), Test: 0.756679 (rocauc)
+1900-01-01 18:16:27,879 - INFO - epoch: 555, sampling_ratio: 0.928, mt_flag: False, train_total_len: 28756
+1900-01-01 18:16:30,106 - INFO - Dataset ogbg-molhiv, Epoch: 555, Train: 0.928168 (rocauc), Valid: 0.788360 (rocauc), Test: 0.772502 (rocauc)
+1900-01-01 18:16:30,106 - INFO - epoch: 556, sampling_ratio: 0.928, mt_flag: False, train_total_len: 28756
+1900-01-01 18:16:32,169 - INFO - Dataset ogbg-molhiv, Epoch: 556, Train: 0.923532 (rocauc), Valid: 0.788248 (rocauc), Test: 0.754932 (rocauc)
+1900-01-01 18:16:32,169 - INFO - epoch: 557, sampling_ratio: 0.928, mt_flag: False, train_total_len: 28756
+1900-01-01 18:16:34,394 - INFO - Dataset ogbg-molhiv, Epoch: 557, Train: 0.926842 (rocauc), Valid: 0.774661 (rocauc), Test: 0.736369 (rocauc)
+1900-01-01 18:16:34,394 - INFO - epoch: 558, sampling_ratio: 0.928, mt_flag: False, train_total_len: 28756
+1900-01-01 18:16:36,448 - INFO - Dataset ogbg-molhiv, Epoch: 558, Train: 0.925152 (rocauc), Valid: 0.776302 (rocauc), Test: 0.764800 (rocauc)
+1900-01-01 18:16:37,962 - INFO - epoch: 559, sampling_ratio: 0.928, mt_flag: True, train_total_len: 30533
+1900-01-01 18:16:40,281 - INFO - Dataset ogbg-molhiv, Epoch: 559, Train: 0.911664 (rocauc), Valid: 0.778770 (rocauc), Test: 0.772225 (rocauc)
+1900-01-01 18:16:40,281 - INFO - epoch: 560, sampling_ratio: 0.928, mt_flag: False, train_total_len: 30533
+1900-01-01 18:16:42,456 - INFO - Dataset ogbg-molhiv, Epoch: 560, Train: 0.917332 (rocauc), Valid: 0.771473 (rocauc), Test: 0.761919 (rocauc)
+1900-01-01 18:16:42,457 - INFO - epoch: 561, sampling_ratio: 0.928, mt_flag: False, train_total_len: 30533
+1900-01-01 18:16:44,808 - INFO - Dataset ogbg-molhiv, Epoch: 561, Train: 0.916658 (rocauc), Valid: 0.775601 (rocauc), Test: 0.750922 (rocauc)
+1900-01-01 18:16:44,808 - INFO - epoch: 562, sampling_ratio: 0.928, mt_flag: False, train_total_len: 30533
+1900-01-01 18:16:47,152 - INFO - Dataset ogbg-molhiv, Epoch: 562, Train: 0.918226 (rocauc), Valid: 0.780699 (rocauc), Test: 0.763997 (rocauc)
+1900-01-01 18:16:47,153 - INFO - epoch: 563, sampling_ratio: 0.928, mt_flag: False, train_total_len: 30533
+1900-01-01 18:16:49,328 - INFO - Dataset ogbg-molhiv, Epoch: 563, Train: 0.918053 (rocauc), Valid: 0.772860 (rocauc), Test: 0.773271 (rocauc)
+1900-01-01 18:16:49,328 - INFO - epoch: 564, sampling_ratio: 0.9460000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:16:51,668 - INFO - Dataset ogbg-molhiv, Epoch: 564, Train: 0.916093 (rocauc), Valid: 0.788467 (rocauc), Test: 0.766272 (rocauc)
+1900-01-01 18:16:51,668 - INFO - epoch: 565, sampling_ratio: 0.9460000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:16:54,092 - INFO - Dataset ogbg-molhiv, Epoch: 565, Train: 0.920104 (rocauc), Valid: 0.786576 (rocauc), Test: 0.762854 (rocauc)
+1900-01-01 18:16:54,092 - INFO - epoch: 566, sampling_ratio: 0.9460000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:16:56,246 - INFO - Dataset ogbg-molhiv, Epoch: 566, Train: 0.913193 (rocauc), Valid: 0.772827 (rocauc), Test: 0.764754 (rocauc)
+1900-01-01 18:16:56,246 - INFO - epoch: 567, sampling_ratio: 0.9460000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:16:58,603 - INFO - Dataset ogbg-molhiv, Epoch: 567, Train: 0.920729 (rocauc), Valid: 0.776164 (rocauc), Test: 0.750188 (rocauc)
+1900-01-01 18:16:58,603 - INFO - epoch: 568, sampling_ratio: 0.9460000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:17:00,947 - INFO - Dataset ogbg-molhiv, Epoch: 568, Train: 0.917820 (rocauc), Valid: 0.781862 (rocauc), Test: 0.761635 (rocauc)
+1900-01-01 18:17:00,948 - INFO - epoch: 569, sampling_ratio: 0.9460000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:17:03,118 - INFO - Dataset ogbg-molhiv, Epoch: 569, Train: 0.914281 (rocauc), Valid: 0.775714 (rocauc), Test: 0.746312 (rocauc)
+1900-01-01 18:17:03,118 - INFO - epoch: 570, sampling_ratio: 0.9460000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:17:05,467 - INFO - Dataset ogbg-molhiv, Epoch: 570, Train: 0.915366 (rocauc), Valid: 0.789901 (rocauc), Test: 0.753390 (rocauc)
+1900-01-01 18:17:05,467 - INFO - epoch: 571, sampling_ratio: 0.9460000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:17:07,828 - INFO - Dataset ogbg-molhiv, Epoch: 571, Train: 0.911790 (rocauc), Valid: 0.767416 (rocauc), Test: 0.758721 (rocauc)
+1900-01-01 18:17:07,828 - INFO - epoch: 572, sampling_ratio: 0.9460000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:17:10,026 - INFO - Dataset ogbg-molhiv, Epoch: 572, Train: 0.915393 (rocauc), Valid: 0.782355 (rocauc), Test: 0.752004 (rocauc)
+1900-01-01 18:17:10,026 - INFO - epoch: 573, sampling_ratio: 0.9460000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:17:12,374 - INFO - Dataset ogbg-molhiv, Epoch: 573, Train: 0.914527 (rocauc), Valid: 0.770059 (rocauc), Test: 0.750584 (rocauc)
+1900-01-01 18:17:12,374 - INFO - epoch: 574, sampling_ratio: 0.9460000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:17:14,793 - INFO - Dataset ogbg-molhiv, Epoch: 574, Train: 0.916284 (rocauc), Valid: 0.772908 (rocauc), Test: 0.755003 (rocauc)
+1900-01-01 18:17:14,793 - INFO - epoch: 575, sampling_ratio: 0.9460000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:17:16,995 - INFO - Dataset ogbg-molhiv, Epoch: 575, Train: 0.916710 (rocauc), Valid: 0.770631 (rocauc), Test: 0.761247 (rocauc)
+1900-01-01 18:17:16,995 - INFO - epoch: 576, sampling_ratio: 0.9640000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:17:19,361 - INFO - Dataset ogbg-molhiv, Epoch: 576, Train: 0.918844 (rocauc), Valid: 0.774866 (rocauc), Test: 0.763290 (rocauc)
+1900-01-01 18:17:19,361 - INFO - epoch: 577, sampling_ratio: 0.9640000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:17:21,715 - INFO - Dataset ogbg-molhiv, Epoch: 577, Train: 0.921068 (rocauc), Valid: 0.760809 (rocauc), Test: 0.769716 (rocauc)
+1900-01-01 18:17:21,715 - INFO - epoch: 578, sampling_ratio: 0.9640000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:17:23,894 - INFO - Dataset ogbg-molhiv, Epoch: 578, Train: 0.924989 (rocauc), Valid: 0.774229 (rocauc), Test: 0.753668 (rocauc)
+1900-01-01 18:17:23,894 - INFO - epoch: 579, sampling_ratio: 0.9640000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:17:26,253 - INFO - Dataset ogbg-molhiv, Epoch: 579, Train: 0.923232 (rocauc), Valid: 0.780252 (rocauc), Test: 0.763547 (rocauc)
+1900-01-01 18:17:26,253 - INFO - epoch: 580, sampling_ratio: 0.9640000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:17:28,591 - INFO - Dataset ogbg-molhiv, Epoch: 580, Train: 0.920408 (rocauc), Valid: 0.773883 (rocauc), Test: 0.756954 (rocauc)
+1900-01-01 18:17:28,591 - INFO - epoch: 581, sampling_ratio: 0.9640000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:17:30,947 - INFO - Dataset ogbg-molhiv, Epoch: 581, Train: 0.921329 (rocauc), Valid: 0.772652 (rocauc), Test: 0.764470 (rocauc)
+1900-01-01 18:17:30,947 - INFO - epoch: 582, sampling_ratio: 0.9640000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:17:33,147 - INFO - Dataset ogbg-molhiv, Epoch: 582, Train: 0.919482 (rocauc), Valid: 0.771456 (rocauc), Test: 0.773711 (rocauc)
+1900-01-01 18:17:33,147 - INFO - epoch: 583, sampling_ratio: 0.9640000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:17:35,550 - INFO - Dataset ogbg-molhiv, Epoch: 583, Train: 0.923291 (rocauc), Valid: 0.770578 (rocauc), Test: 0.770044 (rocauc)
+1900-01-01 18:17:35,550 - INFO - epoch: 584, sampling_ratio: 0.9640000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:17:37,932 - INFO - Dataset ogbg-molhiv, Epoch: 584, Train: 0.924034 (rocauc), Valid: 0.767012 (rocauc), Test: 0.775009 (rocauc)
+1900-01-01 18:17:37,932 - INFO - epoch: 585, sampling_ratio: 0.9640000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:17:40,121 - INFO - Dataset ogbg-molhiv, Epoch: 585, Train: 0.916657 (rocauc), Valid: 0.773352 (rocauc), Test: 0.763764 (rocauc)
+1900-01-01 18:17:40,121 - INFO - epoch: 586, sampling_ratio: 0.9640000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:17:42,472 - INFO - Dataset ogbg-molhiv, Epoch: 586, Train: 0.923455 (rocauc), Valid: 0.775624 (rocauc), Test: 0.765208 (rocauc)
+1900-01-01 18:17:42,472 - INFO - epoch: 587, sampling_ratio: 0.9640000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:17:44,831 - INFO - Dataset ogbg-molhiv, Epoch: 587, Train: 0.922983 (rocauc), Valid: 0.779269 (rocauc), Test: 0.753960 (rocauc)
+1900-01-01 18:17:44,831 - INFO - epoch: 588, sampling_ratio: 0.9820000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:17:47,023 - INFO - Dataset ogbg-molhiv, Epoch: 588, Train: 0.923900 (rocauc), Valid: 0.771884 (rocauc), Test: 0.757660 (rocauc)
+1900-01-01 18:17:47,023 - INFO - epoch: 589, sampling_ratio: 0.9820000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:17:49,373 - INFO - Dataset ogbg-molhiv, Epoch: 589, Train: 0.924467 (rocauc), Valid: 0.768232 (rocauc), Test: 0.761065 (rocauc)
+1900-01-01 18:17:49,373 - INFO - epoch: 590, sampling_ratio: 0.9820000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:17:51,730 - INFO - Dataset ogbg-molhiv, Epoch: 590, Train: 0.920571 (rocauc), Valid: 0.776917 (rocauc), Test: 0.757902 (rocauc)
+1900-01-01 18:17:51,731 - INFO - epoch: 591, sampling_ratio: 0.9820000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:17:53,926 - INFO - Dataset ogbg-molhiv, Epoch: 591, Train: 0.920277 (rocauc), Valid: 0.773176 (rocauc), Test: 0.752429 (rocauc)
+1900-01-01 18:17:53,927 - INFO - epoch: 592, sampling_ratio: 0.9820000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:17:56,307 - INFO - Dataset ogbg-molhiv, Epoch: 592, Train: 0.922373 (rocauc), Valid: 0.764835 (rocauc), Test: 0.768278 (rocauc)
+1900-01-01 18:17:56,307 - INFO - epoch: 593, sampling_ratio: 0.9820000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:17:58,683 - INFO - Dataset ogbg-molhiv, Epoch: 593, Train: 0.923527 (rocauc), Valid: 0.782300 (rocauc), Test: 0.743068 (rocauc)
+1900-01-01 18:17:58,684 - INFO - epoch: 594, sampling_ratio: 0.9820000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:18:00,896 - INFO - Dataset ogbg-molhiv, Epoch: 594, Train: 0.922163 (rocauc), Valid: 0.797420 (rocauc), Test: 0.768688 (rocauc)
+1900-01-01 18:18:00,896 - INFO - epoch: 595, sampling_ratio: 0.9820000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:18:03,235 - INFO - Dataset ogbg-molhiv, Epoch: 595, Train: 0.922098 (rocauc), Valid: 0.783938 (rocauc), Test: 0.757116 (rocauc)
+1900-01-01 18:18:03,235 - INFO - epoch: 596, sampling_ratio: 0.9820000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:18:05,573 - INFO - Dataset ogbg-molhiv, Epoch: 596, Train: 0.922812 (rocauc), Valid: 0.783136 (rocauc), Test: 0.765319 (rocauc)
+1900-01-01 18:18:05,573 - INFO - epoch: 597, sampling_ratio: 0.9820000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:18:07,742 - INFO - Dataset ogbg-molhiv, Epoch: 597, Train: 0.922962 (rocauc), Valid: 0.761378 (rocauc), Test: 0.761293 (rocauc)
+1900-01-01 18:18:07,742 - INFO - epoch: 598, sampling_ratio: 0.9820000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:18:10,080 - INFO - Dataset ogbg-molhiv, Epoch: 598, Train: 0.920375 (rocauc), Valid: 0.782113 (rocauc), Test: 0.765463 (rocauc)
+1900-01-01 18:18:10,080 - INFO - epoch: 599, sampling_ratio: 0.9820000000000001, mt_flag: False, train_total_len: 30533
+1900-01-01 18:18:12,419 - INFO - Dataset ogbg-molhiv, Epoch: 599, Train: 0.923632 (rocauc), Valid: 0.767949 (rocauc), Test: 0.770152 (rocauc)
+1900-01-01 18:18:12,419 - INFO - epoch: 600, sampling_ratio: 1.0, mt_flag: False, train_total_len: 32901
+1900-01-01 18:18:14,919 - INFO - Dataset ogbg-molhiv, Epoch: 600, Train: 0.925377 (rocauc), Valid: 0.797647 (rocauc), Test: 0.764038 (rocauc)
+1900-01-01 18:18:14,919 - INFO - total_time: 965.3676972389221
+1900-01-01 18:18:16,062 - INFO - Best model for ogbg-molhiv (eval metric rocauc): Train: 0.917483, Valid: 0.809211, Test: 0.770532
+1900-01-01 18:18:16,063 - INFO - parameter count: 32385

@@ -1,0 +1,4 @@
+**/__pycache__/
+**/*.pt
+**/*.npz
+al/selection_methods_cpp.py

@@ -1,0 +1,1004 @@
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:06<00:00, 44.55it/s]
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 64.36it/s]
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 50.14it/s]
+1900-00-00 12:06:05,801 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0001, loss_item: 0.771837, metric_item: {'mae_train': 0.007138899447520574, 'mape_train': 9.316005269368489}, only_train_time: 5.9846s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 67.97it/s]
+1900-00-00 12:06:07,273 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0001, loss_item: 0.358805, metric_item: {'mae_val': 0.004794247981905937, 'mape_val': 6.710048608398438}, time: 1.4719s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 50.24it/s]
+1900-00-00 12:06:13,246 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0002, loss_item: 0.752629, metric_item: {'mae_train': 0.0070519047856330876, 'mape_train': 9.254204012044271}, only_train_time: 5.9728s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 68.98it/s]
+1900-00-00 12:06:14,697 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0002, loss_item: 0.352231, metric_item: {'mae_val': 0.004744639140367508, 'mape_val': 6.664374108886719}, time: 1.4502s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 50.24it/s]
+1900-00-00 12:06:20,671 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0003, loss_item: 0.732896, metric_item: {'mae_train': 0.006957455788056056, 'mape_train': 9.130274169921876}, only_train_time: 5.9737s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 67.92it/s]
+1900-00-00 12:06:22,144 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0003, loss_item: 0.346085, metric_item: {'mae_val': 0.004698303750157356, 'mape_val': 6.620111462402344}, time: 1.4729s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 50.38it/s]
+1900-00-00 12:06:28,101 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0004, loss_item: 0.714974, metric_item: {'mae_train': 0.006872444254159928, 'mape_train': 9.043620432535807}, only_train_time: 5.9565s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 66.80it/s]
+1900-00-00 12:06:29,599 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0004, loss_item: 0.340304, metric_item: {'mae_val': 0.004654853892326355, 'mape_val': 6.576617889404297}, time: 1.4977s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 50.14it/s]
+1900-00-00 12:06:35,585 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0005, loss_item: 0.698306, metric_item: {'mae_train': 0.006791185740629832, 'mape_train': 8.935157102457682}, only_train_time: 5.9850s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 67.85it/s]
+1900-00-00 12:06:37,059 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0005, loss_item: 0.334819, metric_item: {'mae_val': 0.0046138800203800205, 'mape_val': 6.533364489746094}, time: 1.4744s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 50.66it/s]
+1900-00-00 12:06:42,984 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0006, loss_item: 0.681919, metric_item: {'mae_train': 0.00670791384379069, 'mape_train': 8.862802252197266}, only_train_time: 5.9238s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 67.86it/s]
+1900-00-00 12:06:44,458 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0006, loss_item: 0.329563, metric_item: {'mae_val': 0.004574932301044464, 'mape_val': 6.489807867431641}, time: 1.4742s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 50.54it/s]
+1900-00-00 12:06:50,397 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0007, loss_item: 0.665462, metric_item: {'mae_train': 0.0066241990486780805, 'mape_train': 8.752139093017577}, only_train_time: 5.9382s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 68.50it/s]
+1900-00-00 12:06:51,857 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0007, loss_item: 0.324476, metric_item: {'mae_val': 0.004537538829445839, 'mape_val': 6.4454459350585935}, time: 1.4604s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 50.52it/s]
+1900-00-00 12:06:57,798 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0008, loss_item: 0.648747, metric_item: {'mae_train': 0.00653616544008255, 'mape_train': 8.638099873860677}, only_train_time: 5.9405s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 68.33it/s]
+1900-00-00 12:06:59,263 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0008, loss_item: 0.319510, metric_item: {'mae_val': 0.004501342812180519, 'mape_val': 6.399979974365235}, time: 1.4642s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 51.79it/s]
+1900-00-00 12:07:05,057 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0009, loss_item: 0.634474, metric_item: {'mae_train': 0.006462101233005523, 'mape_train': 8.566642020670573}, only_train_time: 5.7939s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 69.04it/s]
+1900-00-00 12:07:06,507 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0009, loss_item: 0.314628, metric_item: {'mae_val': 0.004465991967916489, 'mape_val': 6.353247766113281}, time: 1.4489s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 52.60it/s]
+1900-00-00 12:07:12,211 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0010, loss_item: 0.619449, metric_item: {'mae_train': 0.006382335235675176, 'mape_train': 8.475447794596354}, only_train_time: 5.7043s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 67.50it/s]
+1900-00-00 12:07:13,693 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0010, loss_item: 0.309807, metric_item: {'mae_val': 0.004431249338388443, 'mape_val': 6.305197802734375}, time: 1.4819s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 50.50it/s]
+1900-00-00 12:07:19,636 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0011, loss_item: 0.604631, metric_item: {'mae_train': 0.00630048261086146, 'mape_train': 8.378543139648437}, only_train_time: 5.9424s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 68.27it/s]
+1900-00-00 12:07:21,102 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0011, loss_item: 0.305029, metric_item: {'mae_val': 0.004396948623657227, 'mape_val': 6.2558589416503905}, time: 1.4654s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 52.25it/s]
+1900-00-00 12:07:26,846 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0012, loss_item: 0.590772, metric_item: {'mae_train': 0.006224246829748154, 'mape_train': 8.279667537434896}, only_train_time: 5.7430s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 67.89it/s]
+1900-00-00 12:07:28,319 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0012, loss_item: 0.300288, metric_item: {'mae_val': 0.004362963461875915, 'mape_val': 6.20537021484375}, time: 1.4734s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 50.56it/s]
+1900-00-00 12:07:34,255 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0013, loss_item: 0.576822, metric_item: {'mae_train': 0.006144643038511277, 'mape_train': 8.151749615478515}, only_train_time: 5.9352s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 67.33it/s]
+1900-00-00 12:07:35,741 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0013, loss_item: 0.295580, metric_item: {'mae_val': 0.004329233825206756, 'mape_val': 6.153852807617188}, time: 1.4858s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 52.82it/s]
+1900-00-00 12:07:41,423 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0014, loss_item: 0.562838, metric_item: {'mae_train': 0.0060653941611448926, 'mape_train': 8.066980959065756}, only_train_time: 5.6809s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 68.86it/s]
+1900-00-00 12:07:42,876 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0014, loss_item: 0.290908, metric_item: {'mae_val': 0.004295735132694245, 'mape_val': 6.101496954345703}, time: 1.4527s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 50.96it/s]
+1900-00-00 12:07:48,765 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0015, loss_item: 0.549982, metric_item: {'mae_train': 0.005990938220421473, 'mape_train': 7.959579919433594}, only_train_time: 5.8884s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 67.91it/s]
+1900-00-00 12:07:50,238 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0015, loss_item: 0.286274, metric_item: {'mae_val': 0.004262437602877617, 'mape_val': 6.048520202636719}, time: 1.4732s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 54.62it/s]
+1900-00-00 12:07:55,733 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0016, loss_item: 0.536906, metric_item: {'mae_train': 0.005916980588436127, 'mape_train': 7.854760036214192}, only_train_time: 5.4946s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 68.86it/s]
+1900-00-00 12:07:57,186 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0016, loss_item: 0.281682, metric_item: {'mae_val': 0.004229327902197838, 'mape_val': 5.995145574951172}, time: 1.4527s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 57.10it/s]
+1900-00-00 12:08:02,443 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0017, loss_item: 0.524112, metric_item: {'mae_train': 0.005840218758583069, 'mape_train': 7.748636875406901}, only_train_time: 5.2560s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 68.40it/s]
+1900-00-00 12:08:03,906 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0017, loss_item: 0.277131, metric_item: {'mae_val': 0.004196368265151977, 'mape_val': 5.941571105957031}, time: 1.4625s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 51.84it/s]
+1900-00-00 12:08:09,694 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0018, loss_item: 0.510967, metric_item: {'mae_train': 0.005761871697505315, 'mape_train': 7.667456034342448}, only_train_time: 5.7880s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 69.28it/s]
+1900-00-00 12:08:11,138 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0018, loss_item: 0.272623, metric_item: {'mae_val': 0.0041635429680347445, 'mape_val': 5.887959777832031}, time: 1.4438s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 57.48it/s]
+1900-00-00 12:08:16,359 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0019, loss_item: 0.499629, metric_item: {'mae_train': 0.005693717902898789, 'mape_train': 7.561564636230469}, only_train_time: 5.2206s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 67.95it/s]
+1900-00-00 12:08:17,832 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0019, loss_item: 0.268157, metric_item: {'mae_val': 0.004130793696641922, 'mape_val': 5.834478894042968}, time: 1.4721s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 56.57it/s]
+1900-00-00 12:08:23,136 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0020, loss_item: 0.487646, metric_item: {'mae_train': 0.0056214621802171075, 'mape_train': 7.481212512207032}, only_train_time: 5.3042s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 68.69it/s]
+1900-00-00 12:08:24,593 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0020, loss_item: 0.263733, metric_item: {'mae_val': 0.004098070946335792, 'mape_val': 5.781199694824219}, time: 1.4562s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 58.57it/s]
+1900-00-00 12:08:29,717 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0021, loss_item: 0.475927, metric_item: {'mae_train': 0.005550251603126526, 'mape_train': 7.373616914876302}, only_train_time: 5.1238s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 68.18it/s]
+1900-00-00 12:08:31,184 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0021, loss_item: 0.259348, metric_item: {'mae_val': 0.004065327903628349, 'mape_val': 5.728217932128906}, time: 1.4672s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 55.60it/s]
+1900-00-00 12:08:36,582 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0022, loss_item: 0.464981, metric_item: {'mae_train': 0.00548123417297999, 'mape_train': 7.30574692179362}, only_train_time: 5.3971s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 67.61it/s]
+1900-00-00 12:08:38,062 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0022, loss_item: 0.254996, metric_item: {'mae_val': 0.00403251320719719, 'mape_val': 5.675581988525391}, time: 1.4796s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 52.44it/s]
+1900-00-00 12:08:43,785 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0023, loss_item: 0.453099, metric_item: {'mae_train': 0.005407880445321401, 'mape_train': 7.200651784261067}, only_train_time: 5.7226s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 68.64it/s]
+1900-00-00 12:08:45,243 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0023, loss_item: 0.250674, metric_item: {'mae_val': 0.003999539875984192, 'mape_val': 5.623290533447266}, time: 1.4575s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 55.68it/s]
+1900-00-00 12:08:50,632 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0024, loss_item: 0.442796, metric_item: {'mae_train': 0.005340718746185303, 'mape_train': 7.10606982421875}, only_train_time: 5.3889s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 68.80it/s]
+1900-00-00 12:08:52,086 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0024, loss_item: 0.246375, metric_item: {'mae_val': 0.003966344964504242, 'mape_val': 5.57133969116211}, time: 1.4539s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 51.92it/s]
+1900-00-00 12:08:57,866 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0025, loss_item: 0.432313, metric_item: {'mae_train': 0.005273811044295629, 'mape_train': 7.0206683776855465}, only_train_time: 5.7795s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 68.56it/s]
+1900-00-00 12:08:59,325 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0025, loss_item: 0.242094, metric_item: {'mae_val': 0.003932864907383919, 'mape_val': 5.519684216308594}, time: 1.4592s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 55.16it/s]
+1900-00-00 12:09:04,766 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0026, loss_item: 0.422213, metric_item: {'mae_train': 0.005207448693116506, 'mape_train': 6.93328740234375}, only_train_time: 5.4404s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 69.03it/s]
+1900-00-00 12:09:06,216 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0026, loss_item: 0.237831, metric_item: {'mae_val': 0.00389905298948288, 'mape_val': 5.468311187744141}, time: 1.4492s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 51.60it/s]
+1900-00-00 12:09:12,031 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0027, loss_item: 0.412091, metric_item: {'mae_train': 0.005139003783464432, 'mape_train': 6.839993341064453}, only_train_time: 5.8152s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 69.04it/s]
+1900-00-00 12:09:13,480 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0027, loss_item: 0.233582, metric_item: {'mae_val': 0.0038648749709129333, 'mape_val': 5.417138296508789}, time: 1.4489s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 50.77it/s]
+1900-00-00 12:09:19,391 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0028, loss_item: 0.401796, metric_item: {'mae_train': 0.00507056044737498, 'mape_train': 6.746206526692708}, only_train_time: 5.9102s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 68.44it/s]
+1900-00-00 12:09:20,853 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0028, loss_item: 0.229345, metric_item: {'mae_val': 0.0038302842050790785, 'mape_val': 5.366112606811523}, time: 1.4616s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 55.47it/s]
+1900-00-00 12:09:26,263 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0029, loss_item: 0.392425, metric_item: {'mae_train': 0.005005829870700836, 'mape_train': 6.673070882161459}, only_train_time: 5.4095s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 69.22it/s]
+1900-00-00 12:09:27,708 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0029, loss_item: 0.225120, metric_item: {'mae_val': 0.003795269665122032, 'mape_val': 5.315162200927734}, time: 1.4452s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 50.99it/s]
+1900-00-00 12:09:33,593 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0030, loss_item: 0.383195, metric_item: {'mae_train': 0.004941488018631935, 'mape_train': 6.590878971354167}, only_train_time: 5.8845s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 68.85it/s]
+1900-00-00 12:09:35,047 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0030, loss_item: 0.220910, metric_item: {'mae_val': 0.0037598475337028503, 'mape_val': 5.2642395935058595}, time: 1.4530s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 52.88it/s]
+1900-00-00 12:09:40,722 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0031, loss_item: 0.373816, metric_item: {'mae_train': 0.004875543408592542, 'mape_train': 6.510841849772135}, only_train_time: 5.6748s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 68.62it/s]
+1900-00-00 12:09:42,180 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0031, loss_item: 0.216714, metric_item: {'mae_val': 0.0037239994794130327, 'mape_val': 5.213267010498047}, time: 1.4578s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 52.93it/s]
+1900-00-00 12:09:47,850 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0032, loss_item: 0.364290, metric_item: {'mae_train': 0.004806813371181488, 'mape_train': 6.415731595865886}, only_train_time: 5.6695s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 69.23it/s]
+1900-00-00 12:09:49,295 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0032, loss_item: 0.212534, metric_item: {'mae_val': 0.0036877028048038483, 'mape_val': 5.162166220092773}, time: 1.4450s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 56.61it/s]
+1900-00-00 12:09:54,597 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0033, loss_item: 0.355493, metric_item: {'mae_train': 0.004741500303149224, 'mape_train': 6.323042346191406}, only_train_time: 5.3017s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 68.55it/s]
+1900-00-00 12:09:56,057 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0033, loss_item: 0.208369, metric_item: {'mae_val': 0.003650950837135315, 'mape_val': 5.110872909545899}, time: 1.4594s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 53.26it/s]
+1900-00-00 12:10:01,691 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0034, loss_item: 0.346517, metric_item: {'mae_train': 0.004674506689111391, 'mape_train': 6.255962030029297}, only_train_time: 5.6339s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 68.94it/s]
+1900-00-00 12:10:03,143 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0034, loss_item: 0.204221, metric_item: {'mae_val': 0.0036137345790863036, 'mape_val': 5.059362539672851}, time: 1.4512s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 51.16it/s]
+1900-00-00 12:10:09,009 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0035, loss_item: 0.337938, metric_item: {'mae_train': 0.004610284264882406, 'mape_train': 6.159760915120443}, only_train_time: 5.8659s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 68.74it/s]
+1900-00-00 12:10:10,465 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0035, loss_item: 0.200091, metric_item: {'mae_val': 0.0035760388374328615, 'mape_val': 5.007571151733399}, time: 1.4553s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 54.45it/s]
+1900-00-00 12:10:15,976 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0036, loss_item: 0.329524, metric_item: {'mae_train': 0.004543469619750977, 'mape_train': 6.081822692871094}, only_train_time: 5.5109s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 69.18it/s]
+1900-00-00 12:10:17,422 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0036, loss_item: 0.195979, metric_item: {'mae_val': 0.003537855812907219, 'mape_val': 4.9554690093994145}, time: 1.4460s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 52.89it/s]
+1900-00-00 12:10:23,096 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0037, loss_item: 0.321477, metric_item: {'mae_train': 0.004481936164697011, 'mape_train': 6.012319303385417}, only_train_time: 5.6738s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 68.70it/s]
+1900-00-00 12:10:24,553 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0037, loss_item: 0.191886, metric_item: {'mae_val': 0.0034991642981767653, 'mape_val': 4.902989761352539}, time: 1.4561s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 54.07it/s]
+1900-00-00 12:10:30,102 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0038, loss_item: 0.313187, metric_item: {'mae_train': 0.00441635634303093, 'mape_train': 5.928102117919922}, only_train_time: 5.5492s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 68.79it/s]
+1900-00-00 12:10:31,557 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0038, loss_item: 0.187813, metric_item: {'mae_val': 0.0034599324882030485, 'mape_val': 4.850078344726563}, time: 1.4543s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 52.41it/s]
+1900-00-00 12:10:37,283 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0039, loss_item: 0.305544, metric_item: {'mae_train': 0.004353516972064972, 'mape_train': 5.835302958170573}, only_train_time: 5.7256s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 69.09it/s]
+1900-00-00 12:10:38,731 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0039, loss_item: 0.183759, metric_item: {'mae_val': 0.0034201402217149735, 'mape_val': 4.7967085266113285}, time: 1.4480s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 51.62it/s]
+1900-00-00 12:10:44,545 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0040, loss_item: 0.297420, metric_item: {'mae_train': 0.004288225769003232, 'mape_train': 5.757392517089844}, only_train_time: 5.8135s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 69.23it/s]
+1900-00-00 12:10:45,990 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0040, loss_item: 0.179726, metric_item: {'mae_val': 0.0033797663062810897, 'mape_val': 4.742839703369141}, time: 1.4450s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 52.28it/s]
+1900-00-00 12:10:51,730 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0041, loss_item: 0.289490, metric_item: {'mae_train': 0.00422036469578743, 'mape_train': 5.670305210367839}, only_train_time: 5.7391s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 68.89it/s]
+1900-00-00 12:10:53,182 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0041, loss_item: 0.175715, metric_item: {'mae_val': 0.003338770267367363, 'mape_val': 4.688420391845703}, time: 1.4521s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 52.97it/s]
+1900-00-00 12:10:58,847 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0042, loss_item: 0.282462, metric_item: {'mae_train': 0.004159949990113577, 'mape_train': 5.593020644124349}, only_train_time: 5.6648s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 68.96it/s]
+1900-00-00 12:11:00,298 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0042, loss_item: 0.171728, metric_item: {'mae_val': 0.003297136238217354, 'mape_val': 4.633469100952149}, time: 1.4508s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 55.14it/s]
+1900-00-00 12:11:05,740 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0043, loss_item: 0.275302, metric_item: {'mae_train': 0.00409819285372893, 'mape_train': 5.541523087565104}, only_train_time: 5.4415s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 69.01it/s]
+1900-00-00 12:11:07,190 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0043, loss_item: 0.167767, metric_item: {'mae_val': 0.0032548334777355195, 'mape_val': 4.577964245605469}, time: 1.4495s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 50.88it/s]
+1900-00-00 12:11:13,088 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0044, loss_item: 0.267780, metric_item: {'mae_train': 0.004031882714231809, 'mape_train': 5.455541034952799}, only_train_time: 5.8979s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 69.31it/s]
+1900-00-00 12:11:14,532 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0044, loss_item: 0.163832, metric_item: {'mae_val': 0.0032118245661258695, 'mape_val': 4.521876336669922}, time: 1.4434s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 51.10it/s]
+1900-00-00 12:11:20,404 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0045, loss_item: 0.260730, metric_item: {'mae_train': 0.003968356922268867, 'mape_train': 5.3646060353597}, only_train_time: 5.8720s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 68.72it/s]
+1900-00-00 12:11:21,860 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0045, loss_item: 0.159926, metric_item: {'mae_val': 0.003168092566728592, 'mape_val': 4.465180728149414}, time: 1.4557s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 51.17it/s]
+1900-00-00 12:11:27,725 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0046, loss_item: 0.254239, metric_item: {'mae_train': 0.003907674303650856, 'mape_train': 5.303446228027344}, only_train_time: 5.8643s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 68.92it/s]
+1900-00-00 12:11:29,177 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0046, loss_item: 0.156053, metric_item: {'mae_val': 0.003123640528321266, 'mape_val': 4.407862957763672}, time: 1.4515s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 57.85it/s]
+1900-00-00 12:11:34,364 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0047, loss_item: 0.247353, metric_item: {'mae_train': 0.0038429484377304713, 'mape_train': 5.220179936726888}, only_train_time: 5.1867s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 68.93it/s]
+1900-00-00 12:11:35,815 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0047, loss_item: 0.152216, metric_item: {'mae_val': 0.0030785362005233763, 'mape_val': 4.349932028198242}, time: 1.4512s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 52.50it/s]
+1900-00-00 12:11:41,532 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0048, loss_item: 0.240849, metric_item: {'mae_train': 0.0037812243968248366, 'mape_train': 5.142103392537435}, only_train_time: 5.7160s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 68.52it/s]
+1900-00-00 12:11:42,992 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0048, loss_item: 0.148418, metric_item: {'mae_val': 0.0030329133898019793, 'mape_val': 4.291357525634766}, time: 1.4600s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 51.35it/s]
+1900-00-00 12:11:48,836 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0049, loss_item: 0.234312, metric_item: {'mae_train': 0.003718118960658709, 'mape_train': 5.058056022135417}, only_train_time: 5.8439s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 68.69it/s]
+1900-00-00 12:11:50,293 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0049, loss_item: 0.144661, metric_item: {'mae_val': 0.0029869978904724123, 'mape_val': 4.232154495239258}, time: 1.4563s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 52.32it/s]
+1900-00-00 12:11:56,029 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0050, loss_item: 0.227910, metric_item: {'mae_train': 0.003655677580833435, 'mape_train': 4.9681653350830075}, only_train_time: 5.7357s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 69.21it/s]
+1900-00-00 12:11:57,475 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0050, loss_item: 0.140945, metric_item: {'mae_val': 0.0029411454647779466, 'mape_val': 4.17230849609375}, time: 1.4454s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 55.60it/s]
+1900-00-00 12:12:02,872 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0051, loss_item: 0.221904, metric_item: {'mae_train': 0.003596393768986066, 'mape_train': 4.919612395222981}, only_train_time: 5.3974s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 68.80it/s]
+1900-00-00 12:12:04,327 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0051, loss_item: 0.137267, metric_item: {'mae_val': 0.002895700776576996, 'mape_val': 4.11186891784668}, time: 1.4541s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 54.28it/s]
+1900-00-00 12:12:09,855 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0052, loss_item: 0.216017, metric_item: {'mae_train': 0.00353773190677166, 'mape_train': 4.833407915242513}, only_train_time: 5.5284s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 68.72it/s]
+1900-00-00 12:12:11,311 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0052, loss_item: 0.133626, metric_item: {'mae_val': 0.0028509200900793076, 'mape_val': 4.050922137451172}, time: 1.4558s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 57.11it/s]
+1900-00-00 12:12:16,566 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0053, loss_item: 0.210059, metric_item: {'mae_train': 0.00347975306113561, 'mape_train': 4.738570543416341}, only_train_time: 5.2546s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 69.14it/s]
+1900-00-00 12:12:18,014 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0053, loss_item: 0.130029, metric_item: {'mae_val': 0.00280689797103405, 'mape_val': 3.989745867919922}, time: 1.4468s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 54.62it/s]
+1900-00-00 12:12:23,508 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0054, loss_item: 0.204372, metric_item: {'mae_train': 0.0034256752838691075, 'mape_train': 4.673598455810547}, only_train_time: 5.4936s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 69.05it/s]
+1900-00-00 12:12:24,957 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0054, loss_item: 0.126487, metric_item: {'mae_val': 0.0027636742025613785, 'mape_val': 3.9286152130126952}, time: 1.4487s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 54.35it/s]
+1900-00-00 12:12:30,478 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0055, loss_item: 0.198485, metric_item: {'mae_train': 0.0033686227609713874, 'mape_train': 4.621795611572265}, only_train_time: 5.5207s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 68.83it/s]
+1900-00-00 12:12:31,931 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0055, loss_item: 0.123013, metric_item: {'mae_val': 0.0027211586624383928, 'mape_val': 3.8678378509521485}, time: 1.4533s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:05<00:00, 53.33it/s]
+1900-00-00 12:12:37,559 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0056, loss_item: 0.193157, metric_item: {'mae_train': 0.003316812527179718, 'mape_train': 4.546545099894206}, only_train_time: 5.6271s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 46.24it/s]
+1900-00-00 12:12:39,723 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0056, loss_item: 0.119613, metric_item: {'mae_val': 0.002679130008816719, 'mape_val': 3.8075705963134765}, time: 2.1632s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:07<00:00, 39.21it/s]
+1900-00-00 12:12:47,375 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0057, loss_item: 0.187952, metric_item: {'mae_train': 0.003266045927007993, 'mape_train': 4.487976458740234}, only_train_time: 7.6520s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 47.02it/s]
+1900-00-00 12:12:49,502 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0057, loss_item: 0.116291, metric_item: {'mae_val': 0.002637323975563049, 'mape_val': 3.7478831329345703}, time: 2.1270s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:07<00:00, 38.48it/s]
+1900-00-00 12:12:57,300 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0058, loss_item: 0.182721, metric_item: {'mae_train': 0.0032137077629566194, 'mape_train': 4.408927773030599}, only_train_time: 7.7973s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 47.96it/s]
+1900-00-00 12:12:59,385 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0058, loss_item: 0.113047, metric_item: {'mae_val': 0.0025954560756683348, 'mape_val': 3.6887857330322267}, time: 2.0854s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:08<00:00, 37.16it/s]
+1900-00-00 12:13:07,461 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0059, loss_item: 0.177715, metric_item: {'mae_train': 0.0031645012438297274, 'mape_train': 4.345820299275716}, only_train_time: 8.0752s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:01<00:00, 56.94it/s]
+1900-00-00 12:13:09,218 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0059, loss_item: 0.109876, metric_item: {'mae_val': 0.0025531329587101938, 'mape_val': 3.6301555908203125}, time: 1.7569s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:07<00:00, 38.24it/s]
+1900-00-00 12:13:17,066 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0060, loss_item: 0.172808, metric_item: {'mae_train': 0.0031140248815218607, 'mape_train': 4.278028230794271}, only_train_time: 7.8475s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 42.29it/s]
+1900-00-00 12:13:19,431 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0060, loss_item: 0.106776, metric_item: {'mae_val': 0.00251016413718462, 'mape_val': 3.5718959869384768}, time: 2.3652s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:08<00:00, 35.71it/s]
+1900-00-00 12:13:27,834 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0061, loss_item: 0.168045, metric_item: {'mae_train': 0.0030629846533139545, 'mape_train': 4.210484369913737}, only_train_time: 8.4026s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 49.15it/s]
+1900-00-00 12:13:29,870 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0061, loss_item: 0.103748, metric_item: {'mae_val': 0.0024664128258824348, 'mape_val': 3.5139423889160155}, time: 2.0350s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:08<00:00, 37.12it/s]
+1900-00-00 12:13:37,955 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0062, loss_item: 0.163441, metric_item: {'mae_train': 0.0030129571318626403, 'mape_train': 4.153507341512045}, only_train_time: 8.0843s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 48.80it/s]
+1900-00-00 12:13:40,005 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0062, loss_item: 0.100793, metric_item: {'mae_val': 0.002422033965587616, 'mape_val': 3.4562929504394533}, time: 2.0499s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:08<00:00, 35.03it/s]
+1900-00-00 12:13:48,570 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0063, loss_item: 0.159098, metric_item: {'mae_train': 0.0029636439323425293, 'mape_train': 4.08721598815918}, only_train_time: 8.5651s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 34.19it/s]
+1900-00-00 12:13:51,496 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0063, loss_item: 0.097916, metric_item: {'mae_val': 0.002377258390188217, 'mape_val': 3.399062466430664}, time: 2.9254s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:10<00:00, 28.36it/s]
+1900-00-00 12:14:02,075 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0064, loss_item: 0.154631, metric_item: {'mae_train': 0.002911515972018242, 'mape_train': 4.028589580281576}, only_train_time: 10.5789s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 33.58it/s]
+1900-00-00 12:14:05,054 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0064, loss_item: 0.095122, metric_item: {'mae_val': 0.002332611767947674, 'mape_val': 3.3424532806396483}, time: 2.9786s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:10<00:00, 27.35it/s]
+1900-00-00 12:14:16,025 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0065, loss_item: 0.150469, metric_item: {'mae_train': 0.0028616019149621326, 'mape_train': 3.960675393676758}, only_train_time: 10.9703s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.96it/s]
+1900-00-00 12:14:19,060 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0065, loss_item: 0.092415, metric_item: {'mae_val': 0.002288726146519184, 'mape_val': 3.2866970336914063}, time: 3.0346s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:10<00:00, 29.75it/s]
+1900-00-00 12:14:29,144 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0066, loss_item: 0.146340, metric_item: {'mae_train': 0.0028129896730184553, 'mape_train': 3.8919569295247394}, only_train_time: 10.0844s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 36.04it/s]
+1900-00-00 12:14:31,920 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0066, loss_item: 0.089792, metric_item: {'mae_val': 0.0022460748210549357, 'mape_val': 3.2319566528320314}, time: 2.7756s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:10<00:00, 28.10it/s]
+1900-00-00 12:14:42,597 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0067, loss_item: 0.142524, metric_item: {'mae_train': 0.0027675335894028347, 'mape_train': 3.838826436360677}, only_train_time: 10.6761s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 41.88it/s]
+1900-00-00 12:14:44,986 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0067, loss_item: 0.087251, metric_item: {'mae_val': 0.002205020308494568, 'mape_val': 3.1783706451416016}, time: 2.3884s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:09<00:00, 31.83it/s]
+1900-00-00 12:14:54,413 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0068, loss_item: 0.138843, metric_item: {'mae_train': 0.0027239565223455427, 'mape_train': 3.789537659708659}, only_train_time: 9.4253s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 42.35it/s]
+1900-00-00 12:14:56,775 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0068, loss_item: 0.084789, metric_item: {'mae_val': 0.002165692974627018, 'mape_val': 3.1260026519775392}, time: 2.3617s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:09<00:00, 32.49it/s]
+1900-00-00 12:15:06,011 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0069, loss_item: 0.134968, metric_item: {'mae_train': 0.002678305702408155, 'mape_train': 3.717968790690104}, only_train_time: 9.2365s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 39.98it/s]
+1900-00-00 12:15:08,514 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0069, loss_item: 0.082405, metric_item: {'mae_val': 0.002128004299104214, 'mape_val': 3.0748705932617186}, time: 2.5021s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:10<00:00, 28.40it/s]
+1900-00-00 12:15:19,079 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0070, loss_item: 0.131449, metric_item: {'mae_train': 0.002636464202404022, 'mape_train': 3.678163838704427}, only_train_time: 10.5652s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 42.52it/s]
+1900-00-00 12:15:21,432 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0070, loss_item: 0.080099, metric_item: {'mae_val': 0.0020918116986751558, 'mape_val': 3.025014703369141}, time: 2.3525s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:09<00:00, 31.07it/s]
+1900-00-00 12:15:31,090 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0071, loss_item: 0.128044, metric_item: {'mae_train': 0.0025972769796848297, 'mape_train': 3.6057917114257814}, only_train_time: 9.6571s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 43.03it/s]
+1900-00-00 12:15:33,415 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0071, loss_item: 0.077871, metric_item: {'mae_val': 0.0020567954659461976, 'mape_val': 2.9763454132080076}, time: 2.3251s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:09<00:00, 31.13it/s]
+1900-00-00 12:15:43,055 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0072, loss_item: 0.124658, metric_item: {'mae_train': 0.0025577356720964113, 'mape_train': 3.5715837361653646}, only_train_time: 9.6385s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 43.77it/s]
+1900-00-00 12:15:45,340 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0072, loss_item: 0.075719, metric_item: {'mae_val': 0.002022571051120758, 'mape_val': 2.928767135620117}, time: 2.2852s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:10<00:00, 28.32it/s]
+1900-00-00 12:15:55,936 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0073, loss_item: 0.121503, metric_item: {'mae_train': 0.0025188753798604012, 'mape_train': 3.512297603352865}, only_train_time: 10.5954s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 44.36it/s]
+1900-00-00 12:15:58,191 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0073, loss_item: 0.073642, metric_item: {'mae_val': 0.001988839919865131, 'mape_val': 2.8821831115722656}, time: 2.2547s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:09<00:00, 32.12it/s]
+1900-00-00 12:16:07,533 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0074, loss_item: 0.118261, metric_item: {'mae_train': 0.002481149968504906, 'mape_train': 3.454182915242513}, only_train_time: 9.3418s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 41.81it/s]
+1900-00-00 12:16:09,926 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0074, loss_item: 0.071636, metric_item: {'mae_val': 0.0019553183645009994, 'mape_val': 2.8364865661621095}, time: 2.3927s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:09<00:00, 30.55it/s]
+1900-00-00 12:16:19,749 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0075, loss_item: 0.115268, metric_item: {'mae_train': 0.0024440484553575515, 'mape_train': 3.415572823079427}, only_train_time: 9.8223s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 42.53it/s]
+1900-00-00 12:16:22,101 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0075, loss_item: 0.069699, metric_item: {'mae_val': 0.0019218958199024201, 'mape_val': 2.791604623413086}, time: 2.3519s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:10<00:00, 27.93it/s]
+1900-00-00 12:16:32,844 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0076, loss_item: 0.112405, metric_item: {'mae_train': 0.0024081952517231307, 'mape_train': 3.3685747853597006}, only_train_time: 10.7426s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 43.48it/s]
+1900-00-00 12:16:35,145 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0076, loss_item: 0.067829, metric_item: {'mae_val': 0.0018885850846767425, 'mape_val': 2.7475295989990234}, time: 2.3007s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:09<00:00, 30.64it/s]
+1900-00-00 12:16:44,938 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0077, loss_item: 0.109662, metric_item: {'mae_train': 0.002371919870376587, 'mape_train': 3.324899089558919}, only_train_time: 9.7919s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 43.17it/s]
+1900-00-00 12:16:47,255 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0077, loss_item: 0.066024, metric_item: {'mae_val': 0.0018554530784487724, 'mape_val': 2.7042882400512696}, time: 2.3169s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:09<00:00, 31.82it/s]
+1900-00-00 12:16:56,686 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0078, loss_item: 0.107037, metric_item: {'mae_train': 0.0023370059460401534, 'mape_train': 3.2761876759847004}, only_train_time: 9.4305s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 44.23it/s]
+1900-00-00 12:16:58,947 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0078, loss_item: 0.064285, metric_item: {'mae_val': 0.0018227106422185897, 'mape_val': 2.661963737487793}, time: 2.2615s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:10<00:00, 27.68it/s]
+1900-00-00 12:17:09,789 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0079, loss_item: 0.104220, metric_item: {'mae_train': 0.002300677662094434, 'mape_train': 3.233249427286784}, only_train_time: 10.8415s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 43.78it/s]
+1900-00-00 12:17:12,074 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0079, loss_item: 0.062611, metric_item: {'mae_val': 0.001790469953417778, 'mape_val': 2.620609997558594}, time: 2.2846s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:09<00:00, 31.69it/s]
+1900-00-00 12:17:21,541 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0080, loss_item: 0.101644, metric_item: {'mae_train': 0.0022646173447370527, 'mape_train': 3.1817853658040365}, only_train_time: 9.4670s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 42.87it/s]
+1900-00-00 12:17:23,875 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0080, loss_item: 0.060999, metric_item: {'mae_val': 0.001759024304151535, 'mape_val': 2.580337600708008}, time: 2.3332s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:09<00:00, 31.40it/s]
+1900-00-00 12:17:33,430 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0081, loss_item: 0.099242, metric_item: {'mae_train': 0.002231792285044988, 'mape_train': 3.1441173502604167}, only_train_time: 9.5548s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 42.70it/s]
+1900-00-00 12:17:35,773 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0081, loss_item: 0.059448, metric_item: {'mae_val': 0.0017287014916539192, 'mape_val': 2.5412819015502928}, time: 2.3424s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:10<00:00, 27.73it/s]
+1900-00-00 12:17:46,592 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0082, loss_item: 0.096888, metric_item: {'mae_train': 0.00219820207208395, 'mape_train': 3.0972801534016927}, only_train_time: 10.8186s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 42.56it/s]
+1900-00-00 12:17:48,942 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0082, loss_item: 0.057954, metric_item: {'mae_val': 0.0017001858115196229, 'mape_val': 2.5036225997924806}, time: 2.3502s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:09<00:00, 31.33it/s]
+1900-00-00 12:17:58,520 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0083, loss_item: 0.094691, metric_item: {'mae_train': 0.0021673109884063403, 'mape_train': 3.0666222157796224}, only_train_time: 9.5772s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 43.26it/s]
+1900-00-00 12:18:00,832 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0083, loss_item: 0.056512, metric_item: {'mae_val': 0.0016740244597196578, 'mape_val': 2.4674933517456057}, time: 2.3122s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:09<00:00, 31.23it/s]
+1900-00-00 12:18:10,439 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0084, loss_item: 0.092541, metric_item: {'mae_train': 0.00213841478874286, 'mape_train': 3.0329536244710287}, only_train_time: 9.6066s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 43.17it/s]
+1900-00-00 12:18:12,757 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0084, loss_item: 0.055123, metric_item: {'mae_val': 0.001649727788567543, 'mape_val': 2.432744331359863}, time: 2.3170s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:10<00:00, 28.22it/s]
+1900-00-00 12:18:23,389 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0085, loss_item: 0.090578, metric_item: {'mae_train': 0.0021122019042571385, 'mape_train': 2.97689994913737}, only_train_time: 10.6321s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 42.12it/s]
+1900-00-00 12:18:25,764 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0085, loss_item: 0.053786, metric_item: {'mae_val': 0.0016265199393033982, 'mape_val': 2.3991222900390623}, time: 2.3745s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:09<00:00, 31.38it/s]
+1900-00-00 12:18:35,325 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0086, loss_item: 0.088233, metric_item: {'mae_train': 0.002082697515686353, 'mape_train': 2.946741510009766}, only_train_time: 9.5609s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 42.43it/s]
+1900-00-00 12:18:37,683 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0086, loss_item: 0.052501, metric_item: {'mae_val': 0.0016036940529942513, 'mape_val': 2.3663656875610353}, time: 2.3573s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:09<00:00, 31.35it/s]
+1900-00-00 12:18:47,254 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0087, loss_item: 0.086285, metric_item: {'mae_train': 0.0020562796572844186, 'mape_train': 2.9076768900553387}, only_train_time: 9.5706s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 42.25it/s]
+1900-00-00 12:18:49,622 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0087, loss_item: 0.051264, metric_item: {'mae_val': 0.0015808744177222252, 'mape_val': 2.3343265090942382}, time: 2.3678s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:10<00:00, 29.44it/s]
+1900-00-00 12:18:59,816 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0088, loss_item: 0.084467, metric_item: {'mae_train': 0.0020314417034387588, 'mape_train': 2.873733652750651}, only_train_time: 10.1934s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 40.75it/s]
+1900-00-00 12:19:02,271 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0088, loss_item: 0.050072, metric_item: {'mae_val': 0.0015578488990664482, 'mape_val': 2.3028873626708983}, time: 2.4548s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:09<00:00, 31.77it/s]
+1900-00-00 12:19:11,716 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0089, loss_item: 0.082584, metric_item: {'mae_train': 0.0020037968665361405, 'mape_train': 2.844507689412435}, only_train_time: 9.4444s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 42.59it/s]
+1900-00-00 12:19:14,065 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0089, loss_item: 0.048923, metric_item: {'mae_val': 0.001534749510884285, 'mape_val': 2.2720943359375}, time: 2.3487s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:09<00:00, 31.53it/s]
+1900-00-00 12:19:23,582 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0090, loss_item: 0.081009, metric_item: {'mae_train': 0.001979867378870646, 'mape_train': 2.8115894775390626}, only_train_time: 9.5171s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 42.35it/s]
+1900-00-00 12:19:25,944 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0090, loss_item: 0.047819, metric_item: {'mae_val': 0.0015119705334305763, 'mape_val': 2.242091859436035}, time: 2.3618s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:09<00:00, 31.81it/s]
+1900-00-00 12:19:35,377 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0091, loss_item: 0.079102, metric_item: {'mae_train': 0.0019529910455147426, 'mape_train': 2.774644194539388}, only_train_time: 9.4323s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 36.54it/s]
+1900-00-00 12:19:38,115 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0091, loss_item: 0.046756, metric_item: {'mae_val': 0.0014903361439704895, 'mape_val': 2.213164115905762}, time: 2.7373s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:10<00:00, 29.12it/s]
+1900-00-00 12:19:48,419 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0092, loss_item: 0.077470, metric_item: {'mae_train': 0.0019286853531996408, 'mape_train': 2.7320696095784505}, only_train_time: 10.3044s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 43.98it/s]
+1900-00-00 12:19:50,694 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0092, loss_item: 0.045734, metric_item: {'mae_val': 0.0014703303962945939, 'mape_val': 2.1854287887573243}, time: 2.2744s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:09<00:00, 31.66it/s]
+1900-00-00 12:20:00,172 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0093, loss_item: 0.076010, metric_item: {'mae_train': 0.0019065021554629008, 'mape_train': 2.7183732559204103}, only_train_time: 9.4777s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 42.68it/s]
+1900-00-00 12:20:02,516 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0093, loss_item: 0.044750, metric_item: {'mae_val': 0.0014518159240484237, 'mape_val': 2.158782539367676}, time: 2.3435s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:09<00:00, 31.40it/s]
+1900-00-00 12:20:12,071 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0094, loss_item: 0.074373, metric_item: {'mae_train': 0.0018831808189551035, 'mape_train': 2.687604505411784}, only_train_time: 9.5550s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 41.08it/s]
+1900-00-00 12:20:14,506 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0094, loss_item: 0.043802, metric_item: {'mae_val': 0.0014344005942344665, 'mape_val': 2.1331071701049806}, time: 2.4347s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:10<00:00, 28.50it/s]
+1900-00-00 12:20:25,034 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0095, loss_item: 0.072891, metric_item: {'mae_train': 0.0018616726418336233, 'mape_train': 2.635688919576009}, only_train_time: 10.5275s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 43.27it/s]
+1900-00-00 12:20:27,346 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0095, loss_item: 0.042891, metric_item: {'mae_val': 0.0014174448862671852, 'mape_val': 2.108181651306152}, time: 2.3115s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:09<00:00, 31.80it/s]
+1900-00-00 12:20:36,782 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0096, loss_item: 0.071355, metric_item: {'mae_train': 0.0018405894622206688, 'mape_train': 2.6262268366495767}, only_train_time: 9.4359s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 41.97it/s]
+1900-00-00 12:20:39,166 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0096, loss_item: 0.042013, metric_item: {'mae_val': 0.0014005393162369727, 'mape_val': 2.0838423049926758}, time: 2.3832s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:09<00:00, 31.94it/s]
+1900-00-00 12:20:48,559 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0097, loss_item: 0.069931, metric_item: {'mae_train': 0.0018192686115701994, 'mape_train': 2.5912064025878907}, only_train_time: 9.3932s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 43.14it/s]
+1900-00-00 12:20:50,878 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0097, loss_item: 0.041166, metric_item: {'mae_val': 0.0013836455404758453, 'mape_val': 2.0600556167602537}, time: 2.3188s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:10<00:00, 27.93it/s]
+1900-00-00 12:21:01,621 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0098, loss_item: 0.068767, metric_item: {'mae_train': 0.0018002972826361655, 'mape_train': 2.5646521525065102}, only_train_time: 10.7419s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 43.21it/s]
+1900-00-00 12:21:03,941 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0098, loss_item: 0.040349, metric_item: {'mae_val': 0.0013669154211878776, 'mape_val': 2.036848620605469}, time: 2.3151s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:09<00:00, 32.01it/s]
+1900-00-00 12:21:13,316 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0099, loss_item: 0.067373, metric_item: {'mae_train': 0.001779687478641669, 'mape_train': 2.5561858322143554}, only_train_time: 9.3746s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 45.34it/s]
+1900-00-00 12:21:15,523 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0099, loss_item: 0.039561, metric_item: {'mae_val': 0.0013505330368876456, 'mape_val': 2.014285388183594}, time: 2.2060s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:09<00:00, 31.29it/s]
+1900-00-00 12:21:25,113 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0100, loss_item: 0.066243, metric_item: {'mae_train': 0.001761511009434859, 'mape_train': 2.5187001495361327}, only_train_time: 9.5905s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 43.02it/s]
+1900-00-00 12:21:27,439 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0100, loss_item: 0.038801, metric_item: {'mae_val': 0.0013347297489643096, 'mape_val': 1.9924073364257813}, time: 2.3252s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:10<00:00, 28.29it/s]
+1900-00-00 12:21:38,045 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0101, loss_item: 0.065157, metric_item: {'mae_train': 0.0017435168787837028, 'mape_train': 2.499555930074056}, only_train_time: 10.6059s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 41.32it/s]
+1900-00-00 12:21:40,466 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0101, loss_item: 0.038067, metric_item: {'mae_val': 0.0013196246057748794, 'mape_val': 1.9711881301879883}, time: 2.4206s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:09<00:00, 31.61it/s]
+1900-00-00 12:21:49,959 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0102, loss_item: 0.063891, metric_item: {'mae_train': 0.0017243946596980095, 'mape_train': 2.474756776936849}, only_train_time: 9.4924s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 43.56it/s]
+1900-00-00 12:21:52,255 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0102, loss_item: 0.037359, metric_item: {'mae_val': 0.0013052584618330001, 'mape_val': 1.9506206085205078}, time: 2.2964s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:09<00:00, 31.75it/s]
+1900-00-00 12:22:01,708 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0103, loss_item: 0.062638, metric_item: {'mae_train': 0.0017048879459500312, 'mape_train': 2.4453311330159506}, only_train_time: 9.4521s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 43.02it/s]
+1900-00-00 12:22:04,033 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0103, loss_item: 0.036674, metric_item: {'mae_val': 0.0012914914563298225, 'mape_val': 1.930643180847168}, time: 2.3253s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 27.19it/s]
+1900-00-00 12:22:15,069 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0104, loss_item: 0.061585, metric_item: {'mae_train': 0.0016878587772448858, 'mape_train': 2.423940419006348}, only_train_time: 11.0356s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 40.71it/s]
+1900-00-00 12:22:17,527 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0104, loss_item: 0.036011, metric_item: {'mae_val': 0.001278230680525303, 'mape_val': 1.911224690246582}, time: 2.4575s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 25.91it/s]
+1900-00-00 12:22:29,106 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0105, loss_item: 0.060488, metric_item: {'mae_train': 0.0016712372437119483, 'mape_train': 2.404959395345052}, only_train_time: 11.5785s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 41.14it/s]
+1900-00-00 12:22:31,538 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0105, loss_item: 0.035370, metric_item: {'mae_val': 0.0012652752004563808, 'mape_val': 1.8922961181640625}, time: 2.4313s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:10<00:00, 29.41it/s]
+1900-00-00 12:22:41,739 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0106, loss_item: 0.059506, metric_item: {'mae_train': 0.0016545262520511945, 'mape_train': 2.377609678649902}, only_train_time: 10.2004s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 42.05it/s]
+1900-00-00 12:22:44,117 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0106, loss_item: 0.034749, metric_item: {'mae_val': 0.0012526167891919614, 'mape_val': 1.8738295303344727}, time: 2.3783s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:10<00:00, 29.91it/s]
+1900-00-00 12:22:54,149 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0107, loss_item: 0.058481, metric_item: {'mae_train': 0.0016383846943577131, 'mape_train': 2.346094975280762}, only_train_time: 10.0308s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 42.40it/s]
+1900-00-00 12:22:56,508 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0107, loss_item: 0.034147, metric_item: {'mae_val': 0.0012401288650929927, 'mape_val': 1.8557835205078126}, time: 2.3593s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:09<00:00, 31.57it/s]
+1900-00-00 12:23:06,012 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0108, loss_item: 0.057513, metric_item: {'mae_train': 0.0016226872940858204, 'mape_train': 2.334573821004232}, only_train_time: 9.5032s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 41.94it/s]
+1900-00-00 12:23:08,397 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0108, loss_item: 0.033564, metric_item: {'mae_val': 0.0012278208583593369, 'mape_val': 1.838156637573242}, time: 2.3850s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 26.53it/s]
+1900-00-00 12:23:19,709 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0109, loss_item: 0.056518, metric_item: {'mae_train': 0.0016065868347883224, 'mape_train': 2.313123643493652}, only_train_time: 11.3119s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 33.67it/s]
+1900-00-00 12:23:22,681 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0109, loss_item: 0.033000, metric_item: {'mae_val': 0.0012157061859965324, 'mape_val': 1.8209429244995117}, time: 2.9711s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 25.88it/s]
+1900-00-00 12:23:34,277 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0110, loss_item: 0.055625, metric_item: {'mae_train': 0.0015912158563733101, 'mape_train': 2.3014308787027993}, only_train_time: 11.5954s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 40.04it/s]
+1900-00-00 12:23:36,775 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0110, loss_item: 0.032452, metric_item: {'mae_val': 0.0012038292579352856, 'mape_val': 1.8041547149658204}, time: 2.4981s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:10<00:00, 29.83it/s]
+1900-00-00 12:23:46,836 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0111, loss_item: 0.054792, metric_item: {'mae_train': 0.001577468233803908, 'mape_train': 2.275538383992513}, only_train_time: 10.0601s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 43.79it/s]
+1900-00-00 12:23:49,120 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0111, loss_item: 0.031920, metric_item: {'mae_val': 0.0011922134578227998, 'mape_val': 1.7877814483642578}, time: 2.2839s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:10<00:00, 27.89it/s]
+1900-00-00 12:23:59,877 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0112, loss_item: 0.053894, metric_item: {'mae_train': 0.0015614895741144815, 'mape_train': 2.2508090037027997}, only_train_time: 10.7563s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 39.27it/s]
+1900-00-00 12:24:02,424 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0112, loss_item: 0.031405, metric_item: {'mae_val': 0.0011808731272816657, 'mape_val': 1.7717990768432617}, time: 2.5467s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 25.41it/s]
+1900-00-00 12:24:14,231 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0113, loss_item: 0.053017, metric_item: {'mae_train': 0.0015464851553241411, 'mape_train': 2.2302649251302085}, only_train_time: 11.8065s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 35.34it/s]
+1900-00-00 12:24:17,061 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0113, loss_item: 0.030903, metric_item: {'mae_val': 0.0011698066286742687, 'mape_val': 1.7562019302368164}, time: 2.8304s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 25.49it/s]
+1900-00-00 12:24:28,836 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0114, loss_item: 0.052117, metric_item: {'mae_train': 0.0015316239302357038, 'mape_train': 2.2111571868896482}, only_train_time: 11.7741s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 37.12it/s]
+1900-00-00 12:24:31,531 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0114, loss_item: 0.030417, metric_item: {'mae_val': 0.0011589969471096993, 'mape_val': 1.740975456237793}, time: 2.6950s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 25.56it/s]
+1900-00-00 12:24:43,273 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0115, loss_item: 0.051369, metric_item: {'mae_train': 0.0015183495019872983, 'mape_train': 2.1967567082722983}, only_train_time: 11.7409s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 39.69it/s]
+1900-00-00 12:24:45,793 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0115, loss_item: 0.029944, metric_item: {'mae_val': 0.0011484370671212673, 'mape_val': 1.7260960189819337}, time: 2.5199s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 25.39it/s]
+1900-00-00 12:24:57,610 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0116, loss_item: 0.050740, metric_item: {'mae_train': 0.0015063766568899155, 'mape_train': 2.1727374974568683}, only_train_time: 11.8166s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 39.25it/s]
+1900-00-00 12:25:00,159 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0116, loss_item: 0.029484, metric_item: {'mae_val': 0.0011381178691983224, 'mape_val': 1.7115673873901367}, time: 2.5483s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 26.65it/s]
+1900-00-00 12:25:11,417 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0117, loss_item: 0.049946, metric_item: {'mae_train': 0.0014921968509753545, 'mape_train': 2.160878251139323}, only_train_time: 11.2583s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 40.60it/s]
+1900-00-00 12:25:13,882 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0117, loss_item: 0.029037, metric_item: {'mae_val': 0.001128032350540161, 'mape_val': 1.6973941604614258}, time: 2.4641s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:10<00:00, 27.59it/s]
+1900-00-00 12:25:24,758 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0118, loss_item: 0.049137, metric_item: {'mae_train': 0.0014787003368139267, 'mape_train': 2.138801921081543}, only_train_time: 10.8757s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 37.13it/s]
+1900-00-00 12:25:27,452 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0118, loss_item: 0.028602, metric_item: {'mae_val': 0.001118190459907055, 'mape_val': 1.6835674926757813}, time: 2.6942s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 25.42it/s]
+1900-00-00 12:25:39,258 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0119, loss_item: 0.048465, metric_item: {'mae_train': 0.0014661358917752903, 'mape_train': 2.1293873036702475}, only_train_time: 11.8051s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 38.17it/s]
+1900-00-00 12:25:41,879 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0119, loss_item: 0.028180, metric_item: {'mae_val': 0.001108573517203331, 'mape_val': 1.6700664733886719}, time: 2.6210s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 25.08it/s]
+1900-00-00 12:25:53,841 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0120, loss_item: 0.047736, metric_item: {'mae_train': 0.0014535294463237126, 'mape_train': 2.1004470662434898}, only_train_time: 11.9612s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 33.48it/s]
+1900-00-00 12:25:56,828 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0120, loss_item: 0.027768, metric_item: {'mae_val': 0.0010991964444518089, 'mape_val': 1.6568883499145508}, time: 2.9871s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.17it/s]
+1900-00-00 12:26:09,242 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0121, loss_item: 0.047118, metric_item: {'mae_train': 0.001441632134715716, 'mape_train': 2.0946314442952474}, only_train_time: 12.4134s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 31.25it/s]
+1900-00-00 12:26:12,443 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0121, loss_item: 0.027368, metric_item: {'mae_val': 0.0010900537461042404, 'mape_val': 1.644021224975586}, time: 3.2008s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.53it/s]
+1900-00-00 12:26:25,196 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0122, loss_item: 0.046473, metric_item: {'mae_train': 0.001430063602825006, 'mape_train': 2.081544162495931}, only_train_time: 12.7525s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 40.53it/s]
+1900-00-00 12:26:27,664 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0122, loss_item: 0.026978, metric_item: {'mae_val': 0.0010811421997845173, 'mape_val': 1.6314493240356445}, time: 2.4677s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 27.14it/s]
+1900-00-00 12:26:38,719 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0123, loss_item: 0.045774, metric_item: {'mae_train': 0.001417934090892474, 'mape_train': 2.054288247680664}, only_train_time: 11.0545s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 44.86it/s]
+1900-00-00 12:26:40,949 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0123, loss_item: 0.026598, metric_item: {'mae_val': 0.0010724667973816395, 'mape_val': 1.619155731201172}, time: 2.2298s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:09<00:00, 31.84it/s]
+1900-00-00 12:26:50,372 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0124, loss_item: 0.045190, metric_item: {'mae_train': 0.0014073273832599321, 'mape_train': 2.0480252268473307}, only_train_time: 9.4230s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 45.50it/s]
+1900-00-00 12:26:52,571 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0124, loss_item: 0.026227, metric_item: {'mae_val': 0.0010640173427760601, 'mape_val': 1.6071245315551759}, time: 2.1983s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:09<00:00, 30.08it/s]
+1900-00-00 12:27:02,549 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0125, loss_item: 0.044570, metric_item: {'mae_train': 0.0013961958477894465, 'mape_train': 2.0326697357177737}, only_train_time: 9.9777s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 39.60it/s]
+1900-00-00 12:27:05,076 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0125, loss_item: 0.025865, metric_item: {'mae_val': 0.0010557832077145576, 'mape_val': 1.5953322494506836}, time: 2.5263s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.81it/s]
+1900-00-00 12:27:17,168 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0126, loss_item: 0.043984, metric_item: {'mae_train': 0.0013852959523598352, 'mape_train': 2.0159386576334635}, only_train_time: 12.0921s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 34.58it/s]
+1900-00-00 12:27:20,062 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0126, loss_item: 0.025512, metric_item: {'mae_val': 0.0010477601177990438, 'mape_val': 1.5837744705200196}, time: 2.8930s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.91it/s]
+1900-00-00 12:27:32,107 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0127, loss_item: 0.043420, metric_item: {'mae_train': 0.001375404293835163, 'mape_train': 2.004919129943848}, only_train_time: 12.0449s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 35.51it/s]
+1900-00-00 12:27:34,924 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0127, loss_item: 0.025166, metric_item: {'mae_val': 0.0010399315245449544, 'mape_val': 1.5724217117309571}, time: 2.8164s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:13<00:00, 22.84it/s]
+1900-00-00 12:27:48,058 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0128, loss_item: 0.042716, metric_item: {'mae_train': 0.0013634284451603889, 'mape_train': 1.987202518717448}, only_train_time: 13.1343s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 40.01it/s]
+1900-00-00 12:27:50,558 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0128, loss_item: 0.024828, metric_item: {'mae_val': 0.0010322860032320022, 'mape_val': 1.561266014099121}, time: 2.4997s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.00it/s]
+1900-00-00 12:28:03,060 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0129, loss_item: 0.042194, metric_item: {'mae_train': 0.0013540525088707605, 'mape_train': 1.9777633646647135}, only_train_time: 12.5018s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.89it/s]
+1900-00-00 12:28:06,102 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0129, loss_item: 0.024497, metric_item: {'mae_val': 0.0010248169876635074, 'mape_val': 1.550300991821289}, time: 3.0412s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 25.02it/s]
+1900-00-00 12:28:18,093 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0130, loss_item: 0.041687, metric_item: {'mae_train': 0.00134409405340751, 'mape_train': 1.9652321456909179}, only_train_time: 11.9905s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 40.40it/s]
+1900-00-00 12:28:20,569 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0130, loss_item: 0.024173, metric_item: {'mae_val': 0.0010175183787941933, 'mape_val': 1.5395189590454101}, time: 2.4758s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:09<00:00, 31.67it/s]
+1900-00-00 12:28:30,043 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0131, loss_item: 0.041235, metric_item: {'mae_train': 0.0013360246151685716, 'mape_train': 1.948486242167155}, only_train_time: 9.4739s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 44.61it/s]
+1900-00-00 12:28:32,286 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0131, loss_item: 0.023855, metric_item: {'mae_val': 0.0010103786326944829, 'mape_val': 1.528910075378418}, time: 2.2425s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:09<00:00, 32.23it/s]
+1900-00-00 12:28:41,598 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0132, loss_item: 0.040726, metric_item: {'mae_train': 0.0013273611317078271, 'mape_train': 1.9401789184570313}, only_train_time: 9.3115s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 45.60it/s]
+1900-00-00 12:28:43,792 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0132, loss_item: 0.023545, metric_item: {'mae_val': 0.0010033955425024033, 'mape_val': 1.5184747924804687}, time: 2.1936s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:10<00:00, 28.54it/s]
+1900-00-00 12:28:54,305 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0133, loss_item: 0.040199, metric_item: {'mae_train': 0.0013173879355192185, 'mape_train': 1.9268855280558268}, only_train_time: 10.5128s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 33.49it/s]
+1900-00-00 12:28:57,292 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0133, loss_item: 0.023240, metric_item: {'mae_val': 0.000996564205735922, 'mape_val': 1.5082089828491212}, time: 2.9867s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.83it/s]
+1900-00-00 12:29:09,883 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0134, loss_item: 0.039745, metric_item: {'mae_train': 0.001309341000020504, 'mape_train': 1.9207795237223306}, only_train_time: 12.5903s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 35.35it/s]
+1900-00-00 12:29:12,712 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0134, loss_item: 0.022942, metric_item: {'mae_val': 0.000989881133288145, 'mape_val': 1.4981109817504883}, time: 2.8292s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.98it/s]
+1900-00-00 12:29:24,724 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0135, loss_item: 0.039299, metric_item: {'mae_train': 0.0013012661804755528, 'mape_train': 1.9023114120483398}, only_train_time: 12.0114s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 39.06it/s]
+1900-00-00 12:29:27,285 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0135, loss_item: 0.022650, metric_item: {'mae_val': 0.0009833391025662421, 'mape_val': 1.4881742477416993}, time: 2.5608s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.29it/s]
+1900-00-00 12:29:40,172 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0136, loss_item: 0.038836, metric_item: {'mae_train': 0.0012926180576284727, 'mape_train': 1.8944960611979167}, only_train_time: 12.8831s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 31.93it/s]
+1900-00-00 12:29:43,305 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0136, loss_item: 0.022364, metric_item: {'mae_val': 0.0009769300200045108, 'mape_val': 1.4783919235229492}, time: 3.1328s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.84it/s]
+1900-00-00 12:29:55,383 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0137, loss_item: 0.038306, metric_item: {'mae_train': 0.0012839736538628737, 'mape_train': 1.8778653879801432}, only_train_time: 12.0778s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 31.88it/s]
+1900-00-00 12:29:58,521 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0137, loss_item: 0.022083, metric_item: {'mae_val': 0.000970649579912424, 'mape_val': 1.4687658416748046}, time: 3.1374s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.06it/s]
+1900-00-00 12:30:10,994 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0138, loss_item: 0.037911, metric_item: {'mae_train': 0.0012769229566057523, 'mape_train': 1.8673518040974935}, only_train_time: 12.4725s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 39.07it/s]
+1900-00-00 12:30:13,554 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0138, loss_item: 0.021808, metric_item: {'mae_val': 0.0009644953280687332, 'mape_val': 1.45929990234375}, time: 2.5605s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 26.68it/s]
+1900-00-00 12:30:24,799 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0139, loss_item: 0.037572, metric_item: {'mae_train': 0.001269413092235724, 'mape_train': 1.856210915629069}, only_train_time: 11.2440s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 39.05it/s]
+1900-00-00 12:30:27,361 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0139, loss_item: 0.021539, metric_item: {'mae_val': 0.0009584602922201157, 'mape_val': 1.4499889602661133}, time: 2.5615s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 27.25it/s]
+1900-00-00 12:30:38,372 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0140, loss_item: 0.037192, metric_item: {'mae_train': 0.001262500099092722, 'mape_train': 1.8488512583414713}, only_train_time: 11.0111s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 36.30it/s]
+1900-00-00 12:30:41,128 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0140, loss_item: 0.021275, metric_item: {'mae_val': 0.0009525384917855263, 'mape_val': 1.4408265228271484}, time: 2.7553s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 26.57it/s]
+1900-00-00 12:30:52,422 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0141, loss_item: 0.036760, metric_item: {'mae_train': 0.0012553300134837627, 'mape_train': 1.8311948562622071}, only_train_time: 11.2935s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 38.69it/s]
+1900-00-00 12:30:55,007 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0141, loss_item: 0.021017, metric_item: {'mae_val': 0.0009467302143573762, 'mape_val': 1.431815348815918}, time: 2.5849s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 26.81it/s]
+1900-00-00 12:31:06,197 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0142, loss_item: 0.036172, metric_item: {'mae_train': 0.0012454774032036463, 'mape_train': 1.8277632181803385}, only_train_time: 11.1897s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.94it/s]
+1900-00-00 12:31:09,234 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0142, loss_item: 0.020764, metric_item: {'mae_val': 0.0009410342916846275, 'mape_val': 1.4229635177612305}, time: 3.0362s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.84it/s]
+1900-00-00 12:31:21,819 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0143, loss_item: 0.035904, metric_item: {'mae_train': 0.0012396626941859723, 'mape_train': 1.8138531280517578}, only_train_time: 12.5847s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.79it/s]
+1900-00-00 12:31:24,869 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0143, loss_item: 0.020516, metric_item: {'mae_val': 0.0009354454413056374, 'mape_val': 1.4142695251464843}, time: 3.0502s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.94it/s]
+1900-00-00 12:31:37,402 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0144, loss_item: 0.035584, metric_item: {'mae_train': 0.0012335641115903855, 'mape_train': 1.7983347183227538}, only_train_time: 12.5322s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.47it/s]
+1900-00-00 12:31:40,483 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0144, loss_item: 0.020273, metric_item: {'mae_val': 0.0009299574002623558, 'mape_val': 1.4057222763061523}, time: 3.0805s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.64it/s]
+1900-00-00 12:31:53,173 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0145, loss_item: 0.035183, metric_item: {'mae_train': 0.0012263678424060344, 'mape_train': 1.7974708618164061}, only_train_time: 12.6900s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 34.82it/s]
+1900-00-00 12:31:56,046 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0145, loss_item: 0.020036, metric_item: {'mae_val': 0.0009245705999433994, 'mape_val': 1.3973243698120117}, time: 2.8721s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.20it/s]
+1900-00-00 12:32:08,445 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0146, loss_item: 0.034737, metric_item: {'mae_train': 0.0012185819536447524, 'mape_train': 1.7839246765136718}, only_train_time: 12.3989s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 31.17it/s]
+1900-00-00 12:32:11,653 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0146, loss_item: 0.019803, metric_item: {'mae_val': 0.0009192822463810444, 'mape_val': 1.3890716964721679}, time: 3.2082s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.58it/s]
+1900-00-00 12:32:24,378 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0147, loss_item: 0.034423, metric_item: {'mae_train': 0.0012132934421300889, 'mape_train': 1.7769428064982096}, only_train_time: 12.7245s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 39.55it/s]
+1900-00-00 12:32:26,908 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0147, loss_item: 0.019576, metric_item: {'mae_val': 0.0009140866734087467, 'mape_val': 1.3809581909179687}, time: 2.5291s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:10<00:00, 27.44it/s]
+1900-00-00 12:32:37,841 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0148, loss_item: 0.034115, metric_item: {'mae_train': 0.001207111242910226, 'mape_train': 1.7675676671346028}, only_train_time: 10.9334s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 39.55it/s]
+1900-00-00 12:32:40,371 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0148, loss_item: 0.019353, metric_item: {'mae_val': 0.0009089812755584717, 'mape_val': 1.3729798873901367}, time: 2.5293s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:10<00:00, 28.01it/s]
+1900-00-00 12:32:51,083 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0149, loss_item: 0.033714, metric_item: {'mae_train': 0.0012001435654858748, 'mape_train': 1.7606772364298502}, only_train_time: 10.7110s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 40.13it/s]
+1900-00-00 12:32:53,575 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0149, loss_item: 0.019135, metric_item: {'mae_val': 0.0009039669036865235, 'mape_val': 1.36514310836792}, time: 2.4923s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.11it/s]
+1900-00-00 12:33:06,561 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0150, loss_item: 0.033393, metric_item: {'mae_train': 0.0011939602422217528, 'mape_train': 1.7499738911946614}, only_train_time: 12.9848s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 39.34it/s]
+1900-00-00 12:33:09,104 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0150, loss_item: 0.018921, metric_item: {'mae_val': 0.0008990411005914211, 'mape_val': 1.357440802001953}, time: 2.5426s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.21it/s]
+1900-00-00 12:33:21,496 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0151, loss_item: 0.033089, metric_item: {'mae_train': 0.001187726970265309, 'mape_train': 1.733283115641276}, only_train_time: 12.3914s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 39.73it/s]
+1900-00-00 12:33:24,013 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0151, loss_item: 0.018712, metric_item: {'mae_val': 0.0008941981226205825, 'mape_val': 1.3498683670043945}, time: 2.5175s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 26.95it/s]
+1900-00-00 12:33:35,145 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0152, loss_item: 0.032712, metric_item: {'mae_train': 0.0011814773904780546, 'mape_train': 1.7387203465779622}, only_train_time: 11.1315s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 38.28it/s]
+1900-00-00 12:33:37,759 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0152, loss_item: 0.018508, metric_item: {'mae_val': 0.0008894393987953663, 'mape_val': 1.3424311645507812}, time: 2.6134s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 26.90it/s]
+1900-00-00 12:33:48,914 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0153, loss_item: 0.032456, metric_item: {'mae_train': 0.0011761855666836104, 'mape_train': 1.728602192179362}, only_train_time: 11.1547s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 34.02it/s]
+1900-00-00 12:33:51,855 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0153, loss_item: 0.018307, metric_item: {'mae_val': 0.0008847614459693432, 'mape_val': 1.3351259826660156}, time: 2.9404s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.91it/s]
+1900-00-00 12:34:04,402 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0154, loss_item: 0.032112, metric_item: {'mae_train': 0.0011699095740914346, 'mape_train': 1.7208580637613933}, only_train_time: 12.5469s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.63it/s]
+1900-00-00 12:34:07,468 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0154, loss_item: 0.018111, metric_item: {'mae_val': 0.0008801603294909, 'mape_val': 1.3279440734863281}, time: 3.0653s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 25.02it/s]
+1900-00-00 12:34:19,462 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0155, loss_item: 0.031785, metric_item: {'mae_train': 0.001163997927804788, 'mape_train': 1.7042138020833333}, only_train_time: 11.9934s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 31.64it/s]
+1900-00-00 12:34:22,623 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0155, loss_item: 0.017919, metric_item: {'mae_val': 0.000875632894039154, 'mape_val': 1.3208805755615234}, time: 3.1613s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.36it/s]
+1900-00-00 12:34:35,467 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0156, loss_item: 0.031484, metric_item: {'mae_train': 0.0011584798914690813, 'mape_train': 1.701312201944987}, only_train_time: 12.8434s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 33.18it/s]
+1900-00-00 12:34:38,481 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0156, loss_item: 0.017732, metric_item: {'mae_val': 0.0008711758457124233, 'mape_val': 1.313933248901367}, time: 3.0142s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.06it/s]
+1900-00-00 12:34:50,952 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0157, loss_item: 0.031202, metric_item: {'mae_train': 0.0011525189772248268, 'mape_train': 1.6849667292277017}, only_train_time: 12.4705s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 31.96it/s]
+1900-00-00 12:34:54,083 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0157, loss_item: 0.017548, metric_item: {'mae_val': 0.0008667863555252552, 'mape_val': 1.3070960777282714}, time: 3.1298s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.63it/s]
+1900-00-00 12:35:06,780 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0158, loss_item: 0.030862, metric_item: {'mae_train': 0.0011467417349418005, 'mape_train': 1.6768213429768881}, only_train_time: 12.6971s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 33.59it/s]
+1900-00-00 12:35:09,758 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0158, loss_item: 0.017368, metric_item: {'mae_val': 0.0008624595701694489, 'mape_val': 1.3003637847900391}, time: 2.9776s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 26.10it/s]
+1900-00-00 12:35:21,254 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0159, loss_item: 0.030558, metric_item: {'mae_train': 0.0011408558962245781, 'mape_train': 1.66213205464681}, only_train_time: 11.4956s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 40.41it/s]
+1900-00-00 12:35:23,730 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0159, loss_item: 0.017191, metric_item: {'mae_val': 0.0008581941410899163, 'mape_val': 1.2937288688659667}, time: 2.4753s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:10<00:00, 27.41it/s]
+1900-00-00 12:35:34,678 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0160, loss_item: 0.030329, metric_item: {'mae_train': 0.0011352770706017812, 'mape_train': 1.6669392130533853}, only_train_time: 10.9479s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 39.37it/s]
+1900-00-00 12:35:37,219 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0160, loss_item: 0.017019, metric_item: {'mae_val': 0.0008539914928376675, 'mape_val': 1.2872029808044434}, time: 2.5410s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 26.21it/s]
+1900-00-00 12:35:48,666 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0161, loss_item: 0.030088, metric_item: {'mae_train': 0.0011310011481245358, 'mape_train': 1.6614670623779297}, only_train_time: 11.4458s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.85it/s]
+1900-00-00 12:35:51,710 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0161, loss_item: 0.016849, metric_item: {'mae_val': 0.0008498473823070526, 'mape_val': 1.2807767433166504}, time: 3.0444s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 25.60it/s]
+1900-00-00 12:36:03,429 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0162, loss_item: 0.029866, metric_item: {'mae_train': 0.0011256680612762768, 'mape_train': 1.6553981033325196}, only_train_time: 11.7186s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.92it/s]
+1900-00-00 12:36:06,468 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0162, loss_item: 0.016684, metric_item: {'mae_val': 0.0008457618124783039, 'mape_val': 1.2744521537780762}, time: 3.0382s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.47it/s]
+1900-00-00 12:36:18,729 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0163, loss_item: 0.029565, metric_item: {'mae_train': 0.0011210696438948313, 'mape_train': 1.6393812459309896}, only_train_time: 12.2604s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 31.87it/s]
+1900-00-00 12:36:21,867 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0163, loss_item: 0.016521, metric_item: {'mae_val': 0.0008417315885424614, 'mape_val': 1.268226001739502}, time: 3.1387s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 25.02it/s]
+1900-00-00 12:36:33,859 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0164, loss_item: 0.029327, metric_item: {'mae_train': 0.0011155392279227575, 'mape_train': 1.6352517349243163}, only_train_time: 11.9915s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 33.83it/s]
+1900-00-00 12:36:36,816 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0164, loss_item: 0.016362, metric_item: {'mae_val': 0.0008377557642757893, 'mape_val': 1.2620993812561034}, time: 2.9566s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:13<00:00, 22.89it/s]
+1900-00-00 12:36:49,924 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0165, loss_item: 0.029065, metric_item: {'mae_train': 0.0011104186246792475, 'mape_train': 1.6314574020385741}, only_train_time: 13.1077s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 31.16it/s]
+1900-00-00 12:36:53,134 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0165, loss_item: 0.016206, metric_item: {'mae_val': 0.0008338345758616924, 'mape_val': 1.256067024230957}, time: 3.2097s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.22it/s]
+1900-00-00 12:37:05,525 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0166, loss_item: 0.028747, metric_item: {'mae_train': 0.0011044570185244084, 'mape_train': 1.6153617970784506}, only_train_time: 12.3897s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 36.83it/s]
+1900-00-00 12:37:08,240 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0166, loss_item: 0.016054, metric_item: {'mae_val': 0.0008299653820693492, 'mape_val': 1.250124114227295}, time: 2.7155s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 26.94it/s]
+1900-00-00 12:37:19,378 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0167, loss_item: 0.028626, metric_item: {'mae_train': 0.0011009703526894251, 'mape_train': 1.6125563669840495}, only_train_time: 11.1372s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 39.95it/s]
+1900-00-00 12:37:21,882 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0167, loss_item: 0.015904, metric_item: {'mae_val': 0.0008261439666152001, 'mape_val': 1.2442607711791993}, time: 2.5039s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 26.40it/s]
+1900-00-00 12:37:33,247 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0168, loss_item: 0.028330, metric_item: {'mae_train': 0.001095398235321045, 'mape_train': 1.6044541376749675}, only_train_time: 11.3646s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.83it/s]
+1900-00-00 12:37:36,294 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0168, loss_item: 0.015757, metric_item: {'mae_val': 0.000822373004257679, 'mape_val': 1.2384834899902344}, time: 3.0466s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 25.19it/s]
+1900-00-00 12:37:48,206 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0169, loss_item: 0.028075, metric_item: {'mae_train': 0.0010906352405746778, 'mape_train': 1.6000611587524414}, only_train_time: 11.9110s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.79it/s]
+1900-00-00 12:37:51,256 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0169, loss_item: 0.015613, metric_item: {'mae_val': 0.0008186487175524235, 'mape_val': 1.2327883308410645}, time: 3.0500s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.84it/s]
+1900-00-00 12:38:03,338 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0170, loss_item: 0.027861, metric_item: {'mae_train': 0.0010861263754467169, 'mape_train': 1.5964793039957683}, only_train_time: 12.0812s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 33.14it/s]
+1900-00-00 12:38:06,356 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0170, loss_item: 0.015472, metric_item: {'mae_val': 0.0008149700596928596, 'mape_val': 1.2271721237182618}, time: 3.0179s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.80it/s]
+1900-00-00 12:38:18,964 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0171, loss_item: 0.027615, metric_item: {'mae_train': 0.0010810467374821504, 'mape_train': 1.5929979695638021}, only_train_time: 12.6080s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.86it/s]
+1900-00-00 12:38:22,008 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0171, loss_item: 0.015334, metric_item: {'mae_val': 0.0008113346934318543, 'mape_val': 1.2216272071838379}, time: 3.0441s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:13<00:00, 22.97it/s]
+1900-00-00 12:38:35,071 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0172, loss_item: 0.027343, metric_item: {'mae_train': 0.0010758325909574827, 'mape_train': 1.5752202713012695}, only_train_time: 13.0622s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 40.98it/s]
+1900-00-00 12:38:37,513 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0172, loss_item: 0.015198, metric_item: {'mae_val': 0.0008077441215515136, 'mape_val': 1.2161601638793946}, time: 2.4413s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.48it/s]
+1900-00-00 12:38:49,769 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0173, loss_item: 0.027201, metric_item: {'mae_train': 0.0010719530115524927, 'mape_train': 1.5753709737141928}, only_train_time: 12.2553s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.19it/s]
+1900-00-00 12:38:52,876 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0173, loss_item: 0.015065, metric_item: {'mae_val': 0.0008041949510574341, 'mape_val': 1.210761008453369}, time: 3.1070s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 26.21it/s]
+1900-00-00 12:39:04,326 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0174, loss_item: 0.026915, metric_item: {'mae_train': 0.0010663473057250183, 'mape_train': 1.562317839050293}, only_train_time: 11.4495s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 35.72it/s]
+1900-00-00 12:39:07,127 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0174, loss_item: 0.014934, metric_item: {'mae_val': 0.0008006869830191136, 'mape_val': 1.205431386566162}, time: 2.8003s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:10<00:00, 27.54it/s]
+1900-00-00 12:39:18,022 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0175, loss_item: 0.026756, metric_item: {'mae_train': 0.001062271683414777, 'mape_train': 1.5646040883382162}, only_train_time: 10.8953s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 40.91it/s]
+1900-00-00 12:39:20,468 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0175, loss_item: 0.014806, metric_item: {'mae_val': 0.0007972205087542534, 'mape_val': 1.2001704780578613}, time: 2.4450s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 25.10it/s]
+1900-00-00 12:39:32,423 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0176, loss_item: 0.026543, metric_item: {'mae_train': 0.0010579821204145749, 'mape_train': 1.5526515263875325}, only_train_time: 11.9549s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 33.06it/s]
+1900-00-00 12:39:35,448 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0176, loss_item: 0.014680, metric_item: {'mae_val': 0.0007937946766614914, 'mape_val': 1.1949777214050292}, time: 3.0249s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.91it/s]
+1900-00-00 12:39:47,999 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0177, loss_item: 0.026317, metric_item: {'mae_train': 0.0010535767706731955, 'mape_train': 1.5497562423706055}, only_train_time: 12.5500s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.61it/s]
+1900-00-00 12:39:51,066 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0177, loss_item: 0.014556, metric_item: {'mae_val': 0.000790408480167389, 'mape_val': 1.1898533363342285}, time: 3.0670s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.48it/s]
+1900-00-00 12:40:03,322 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0178, loss_item: 0.026120, metric_item: {'mae_train': 0.0010482452025016148, 'mape_train': 1.539611041768392}, only_train_time: 12.2554s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 31.52it/s]
+1900-00-00 12:40:06,495 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0178, loss_item: 0.014435, metric_item: {'mae_val': 0.0007870613284409046, 'mape_val': 1.1847936264038086}, time: 3.1728s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.15it/s]
+1900-00-00 12:40:19,459 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0179, loss_item: 0.025911, metric_item: {'mae_train': 0.0010439831984539827, 'mape_train': 1.5366443806966146}, only_train_time: 12.9631s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.97it/s]
+1900-00-00 12:40:22,493 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0179, loss_item: 0.014316, metric_item: {'mae_val': 0.0007837530627846718, 'mape_val': 1.179796167755127}, time: 3.0338s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.96it/s]
+1900-00-00 12:40:35,015 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0180, loss_item: 0.025633, metric_item: {'mae_train': 0.0010390311074753601, 'mape_train': 1.5253042297363282}, only_train_time: 12.5217s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 34.00it/s]
+1900-00-00 12:40:37,957 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0180, loss_item: 0.014198, metric_item: {'mae_val': 0.0007804820224642753, 'mape_val': 1.1748636116027833}, time: 2.9418s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.14it/s]
+1900-00-00 12:40:50,386 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0181, loss_item: 0.025476, metric_item: {'mae_train': 0.0010352032440404098, 'mape_train': 1.5230166432698569}, only_train_time: 12.4285s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.89it/s]
+1900-00-00 12:40:53,427 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0181, loss_item: 0.014083, metric_item: {'mae_val': 0.0007772482320666313, 'mape_val': 1.1700010292053222}, time: 3.0406s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.13it/s]
+1900-00-00 12:41:06,399 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0182, loss_item: 0.025371, metric_item: {'mae_train': 0.0010319358686606088, 'mape_train': 1.5170350509643555}, only_train_time: 12.9710s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 33.22it/s]
+1900-00-00 12:41:09,410 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0182, loss_item: 0.013970, metric_item: {'mae_val': 0.0007740524895489216, 'mape_val': 1.165204217529297}, time: 3.0110s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.81it/s]
+1900-00-00 12:41:22,013 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0183, loss_item: 0.025161, metric_item: {'mae_train': 0.0010273295171558856, 'mape_train': 1.5147470169067383}, only_train_time: 12.6026s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 33.26it/s]
+1900-00-00 12:41:25,021 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0183, loss_item: 0.013859, metric_item: {'mae_val': 0.0007708930008113384, 'mape_val': 1.1604669227600097}, time: 3.0072s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.41it/s]
+1900-00-00 12:41:37,314 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0184, loss_item: 0.024949, metric_item: {'mae_train': 0.0010223892708619436, 'mape_train': 1.510925397237142}, only_train_time: 12.2934s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.91it/s]
+1900-00-00 12:41:40,353 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0184, loss_item: 0.013750, metric_item: {'mae_val': 0.0007677690558135509, 'mape_val': 1.1557897659301757}, time: 3.0388s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 26.17it/s]
+1900-00-00 12:41:51,821 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0185, loss_item: 0.024778, metric_item: {'mae_train': 0.0010188013203442097, 'mape_train': 1.5006688563028971}, only_train_time: 11.4675s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 38.77it/s]
+1900-00-00 12:41:54,402 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0185, loss_item: 0.013643, metric_item: {'mae_val': 0.0007646812066435814, 'mape_val': 1.1511726600646972}, time: 2.5803s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 26.46it/s]
+1900-00-00 12:42:05,741 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0186, loss_item: 0.024602, metric_item: {'mae_train': 0.0010146682605147361, 'mape_train': 1.4987864013671874}, only_train_time: 11.3386s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 37.34it/s]
+1900-00-00 12:42:08,420 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0186, loss_item: 0.013537, metric_item: {'mae_val': 0.0007616285942494869, 'mape_val': 1.1466120658874512}, time: 2.6787s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 25.42it/s]
+1900-00-00 12:42:20,222 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0187, loss_item: 0.024387, metric_item: {'mae_train': 0.0010098775632679463, 'mape_train': 1.4849220631917317}, only_train_time: 11.8010s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 38.94it/s]
+1900-00-00 12:42:22,790 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0187, loss_item: 0.013433, metric_item: {'mae_val': 0.0007586098268628121, 'mape_val': 1.1421106651306152}, time: 2.5684s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:13<00:00, 22.94it/s]
+1900-00-00 12:42:35,872 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0188, loss_item: 0.024257, metric_item: {'mae_train': 0.0010071612988909085, 'mape_train': 1.4876777760823567}, only_train_time: 13.0817s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 33.52it/s]
+1900-00-00 12:42:38,857 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0188, loss_item: 0.013331, metric_item: {'mae_val': 0.0007556232482194901, 'mape_val': 1.1376638397216796}, time: 2.9842s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.25it/s]
+1900-00-00 12:42:51,764 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0189, loss_item: 0.024100, metric_item: {'mae_train': 0.0010029390307764211, 'mape_train': 1.4808717936197917}, only_train_time: 12.9068s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 31.60it/s]
+1900-00-00 12:42:54,930 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0189, loss_item: 0.013231, metric_item: {'mae_val': 0.0007526683993637562, 'mape_val': 1.13327152633667}, time: 3.1653s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:13<00:00, 22.42it/s]
+1900-00-00 12:43:08,313 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0190, loss_item: 0.023871, metric_item: {'mae_train': 0.0009981521365543206, 'mape_train': 1.4701257349650065}, only_train_time: 13.3826s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.41it/s]
+1900-00-00 12:43:11,399 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0190, loss_item: 0.013132, metric_item: {'mae_val': 0.0007497431248426437, 'mape_val': 1.128923850250244}, time: 3.0859s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.76it/s]
+1900-00-00 12:43:24,025 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0191, loss_item: 0.023738, metric_item: {'mae_train': 0.0009943470048407713, 'mape_train': 1.4661730255126952}, only_train_time: 12.6256s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 31.23it/s]
+1900-00-00 12:43:27,228 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0191, loss_item: 0.013035, metric_item: {'mae_val': 0.0007468475557863713, 'mape_val': 1.1246255599975585}, time: 3.2028s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.81it/s]
+1900-00-00 12:43:39,827 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0192, loss_item: 0.023553, metric_item: {'mae_train': 0.000990285802135865, 'mape_train': 1.4582347508748372}, only_train_time: 12.5988s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 40.25it/s]
+1900-00-00 12:43:42,313 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0192, loss_item: 0.012940, metric_item: {'mae_val': 0.0007439833097159863, 'mape_val': 1.1203803504943848}, time: 2.4852s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 26.99it/s]
+1900-00-00 12:43:53,431 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0193, loss_item: 0.023369, metric_item: {'mae_train': 0.0009862522972126802, 'mape_train': 1.4592272827148438}, only_train_time: 11.1177s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 35.74it/s]
+1900-00-00 12:43:56,230 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0193, loss_item: 0.012845, metric_item: {'mae_val': 0.0007411509603261947, 'mape_val': 1.116186483001709}, time: 2.7987s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:10<00:00, 27.50it/s]
+1900-00-00 12:44:07,141 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0194, loss_item: 0.023246, metric_item: {'mae_train': 0.0009825388863682746, 'mape_train': 1.4522859629313152}, only_train_time: 10.9103s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.84it/s]
+1900-00-00 12:44:10,187 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0194, loss_item: 0.012753, metric_item: {'mae_val': 0.0007383486993610859, 'mape_val': 1.112045484161377}, time: 3.0461s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.63it/s]
+1900-00-00 12:44:22,369 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0195, loss_item: 0.023068, metric_item: {'mae_train': 0.0009789933977027733, 'mape_train': 1.445540619913737}, only_train_time: 12.1810s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.24it/s]
+1900-00-00 12:44:25,472 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0195, loss_item: 0.012662, metric_item: {'mae_val': 0.0007355751387774944, 'mape_val': 1.1079481246948242}, time: 3.1028s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 25.11it/s]
+1900-00-00 12:44:37,419 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0196, loss_item: 0.022942, metric_item: {'mae_train': 0.0009754090661803881, 'mape_train': 1.4338462458292642}, only_train_time: 11.9470s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.67it/s]
+1900-00-00 12:44:40,481 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0196, loss_item: 0.012572, metric_item: {'mae_val': 0.0007328295275568962, 'mape_val': 1.1038957298278809}, time: 3.0616s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.26it/s]
+1900-00-00 12:44:52,847 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0197, loss_item: 0.022709, metric_item: {'mae_train': 0.0009708799622952938, 'mape_train': 1.431111838277181}, only_train_time: 12.3659s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.89it/s]
+1900-00-00 12:44:55,889 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0197, loss_item: 0.012483, metric_item: {'mae_val': 0.0007301140055060387, 'mape_val': 1.099888094329834}, time: 3.0409s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.56it/s]
+1900-00-00 12:45:08,622 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0198, loss_item: 0.022631, metric_item: {'mae_train': 0.0009682093940675258, 'mape_train': 1.429655606587728}, only_train_time: 12.7328s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 31.71it/s]
+1900-00-00 12:45:11,776 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0198, loss_item: 0.012396, metric_item: {'mae_val': 0.0007274265840649604, 'mape_val': 1.0959247375488281}, time: 3.1539s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.43it/s]
+1900-00-00 12:45:24,056 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0199, loss_item: 0.022489, metric_item: {'mae_train': 0.0009647379147509733, 'mape_train': 1.4247163253784179}, only_train_time: 12.2799s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.92it/s]
+1900-00-00 12:45:27,095 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0199, loss_item: 0.012310, metric_item: {'mae_val': 0.0007247679553925991, 'mape_val': 1.0920058807373048}, time: 3.0382s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.25it/s]
+1900-00-00 12:45:40,002 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0200, loss_item: 0.022299, metric_item: {'mae_train': 0.0009604423637191455, 'mape_train': 1.412386422220866}, only_train_time: 12.9068s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 31.79it/s]
+1900-00-00 12:45:43,148 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0200, loss_item: 0.012225, metric_item: {'mae_val': 0.000722134505957365, 'mape_val': 1.0881269775390625}, time: 3.1458s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.79it/s]
+1900-00-00 12:45:55,762 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0201, loss_item: 0.022163, metric_item: {'mae_train': 0.0009570842276016871, 'mape_train': 1.4174852442423502}, only_train_time: 12.6137s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.14it/s]
+1900-00-00 12:45:58,874 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0201, loss_item: 0.012142, metric_item: {'mae_val': 0.0007195269897580147, 'mape_val': 1.0842887420654297}, time: 3.1116s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.60it/s]
+1900-00-00 12:46:11,073 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0202, loss_item: 0.022033, metric_item: {'mae_train': 0.0009532789297401905, 'mape_train': 1.4118962727864584}, only_train_time: 12.1983s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 31.76it/s]
+1900-00-00 12:46:14,222 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0202, loss_item: 0.012060, metric_item: {'mae_val': 0.0007169457770884037, 'mape_val': 1.0804932487487793}, time: 3.1487s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 25.69it/s]
+1900-00-00 12:46:25,900 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0203, loss_item: 0.021830, metric_item: {'mae_train': 0.0009485789823035399, 'mape_train': 1.4053513249715168}, only_train_time: 11.6775s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 33.20it/s]
+1900-00-00 12:46:28,912 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0203, loss_item: 0.011979, metric_item: {'mae_val': 0.0007143904149532318, 'mape_val': 1.0767382530212402}, time: 3.0126s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.18it/s]
+1900-00-00 12:46:41,323 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0204, loss_item: 0.021737, metric_item: {'mae_train': 0.0009459948470195135, 'mape_train': 1.3925843256632486}, only_train_time: 12.4096s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.66it/s]
+1900-00-00 12:46:44,385 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0204, loss_item: 0.011899, metric_item: {'mae_val': 0.0007118600882589818, 'mape_val': 1.0730198150634767}, time: 3.0622s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.71it/s]
+1900-00-00 12:46:57,040 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0205, loss_item: 0.021647, metric_item: {'mae_train': 0.000943050629645586, 'mape_train': 1.3924318801879882}, only_train_time: 12.6542s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.43it/s]
+1900-00-00 12:47:00,124 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0205, loss_item: 0.011820, metric_item: {'mae_val': 0.0007093543015420437, 'mape_val': 1.0693401420593263}, time: 3.0841s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 25.38it/s]
+1900-00-00 12:47:11,944 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0206, loss_item: 0.021437, metric_item: {'mae_train': 0.0009389300905168057, 'mape_train': 1.3816407956441243}, only_train_time: 11.8195s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.08it/s]
+1900-00-00 12:47:15,062 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0206, loss_item: 0.011742, metric_item: {'mae_val': 0.0007068738631904125, 'mape_val': 1.065701456451416}, time: 3.1180s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.44it/s]
+1900-00-00 12:47:27,864 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0207, loss_item: 0.021291, metric_item: {'mae_train': 0.0009350215914348761, 'mape_train': 1.381991068013509}, only_train_time: 12.8012s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 31.91it/s]
+1900-00-00 12:47:30,999 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0207, loss_item: 0.011666, metric_item: {'mae_val': 0.0007044184796512127, 'mape_val': 1.0621040061950684}, time: 3.1344s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.62it/s]
+1900-00-00 12:47:43,705 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0208, loss_item: 0.021170, metric_item: {'mae_train': 0.000932024817665418, 'mape_train': 1.3799122296651205}, only_train_time: 12.7056s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.93it/s]
+1900-00-00 12:47:46,742 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0208, loss_item: 0.011590, metric_item: {'mae_val': 0.0007019879572093487, 'mape_val': 1.058546942138672}, time: 3.0371s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.05it/s]
+1900-00-00 12:47:59,216 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0209, loss_item: 0.021018, metric_item: {'mae_train': 0.0009283380088706811, 'mape_train': 1.3733264559427898}, only_train_time: 12.4733s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.51it/s]
+1900-00-00 12:48:02,293 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0209, loss_item: 0.011516, metric_item: {'mae_val': 0.0006995824046432972, 'mape_val': 1.0550291786193848}, time: 3.0769s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 27.08it/s]
+1900-00-00 12:48:13,374 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0210, loss_item: 0.020957, metric_item: {'mae_train': 0.0009259073853492737, 'mape_train': 1.3674694315592448}, only_train_time: 11.0806s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 40.64it/s]
+1900-00-00 12:48:15,836 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0210, loss_item: 0.011443, metric_item: {'mae_val': 0.0006972007110714912, 'mape_val': 1.051550978088379}, time: 2.4616s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:10<00:00, 27.31it/s]
+1900-00-00 12:48:26,825 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0211, loss_item: 0.020782, metric_item: {'mae_train': 0.0009219269327819347, 'mape_train': 1.3675841740926107}, only_train_time: 10.9881s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 35.66it/s]
+1900-00-00 12:48:29,630 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0211, loss_item: 0.011370, metric_item: {'mae_val': 0.0006948419950902462, 'mape_val': 1.0481038902282716}, time: 2.8048s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.64it/s]
+1900-00-00 12:48:41,806 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0212, loss_item: 0.020679, metric_item: {'mae_train': 0.0009188912304739157, 'mape_train': 1.36192679977417}, only_train_time: 12.1762s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 36.58it/s]
+1900-00-00 12:48:44,541 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0212, loss_item: 0.011299, metric_item: {'mae_val': 0.0006925041027367115, 'mape_val': 1.0446872413635253}, time: 2.7343s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.36it/s]
+1900-00-00 12:48:57,385 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0213, loss_item: 0.020524, metric_item: {'mae_train': 0.0009155604287981987, 'mape_train': 1.355265468088786}, only_train_time: 12.8432s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 33.79it/s]
+1900-00-00 12:49:00,345 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0213, loss_item: 0.011228, metric_item: {'mae_val': 0.0006901871919631958, 'mape_val': 1.0413035232543946}, time: 2.9597s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 26.24it/s]
+1900-00-00 12:49:11,780 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0214, loss_item: 0.020406, metric_item: {'mae_train': 0.0009124301843345165, 'mape_train': 1.3488568923950195}, only_train_time: 11.4352s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.81it/s]
+1900-00-00 12:49:14,829 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0214, loss_item: 0.011158, metric_item: {'mae_val': 0.0006878918245434761, 'mape_val': 1.0379540649414063}, time: 3.0481s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.48it/s]
+1900-00-00 12:49:27,086 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0215, loss_item: 0.020275, metric_item: {'mae_train': 0.0009093489284316699, 'mape_train': 1.3466652389526368}, only_train_time: 12.2571s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.09it/s]
+1900-00-00 12:49:30,203 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0215, loss_item: 0.011090, metric_item: {'mae_val': 0.0006856168702244758, 'mape_val': 1.0346326004028321}, time: 3.1164s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.59it/s]
+1900-00-00 12:49:42,924 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0216, loss_item: 0.020143, metric_item: {'mae_train': 0.0009057275235652924, 'mape_train': 1.3454051157633464}, only_train_time: 12.7208s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 31.82it/s]
+1900-00-00 12:49:46,068 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0216, loss_item: 0.011022, metric_item: {'mae_val': 0.0006833631806075573, 'mape_val': 1.0313395431518555}, time: 3.1431s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 26.01it/s]
+1900-00-00 12:49:57,603 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0217, loss_item: 0.020052, metric_item: {'mae_train': 0.0009032325814167659, 'mape_train': 1.3390859230041503}, only_train_time: 11.5345s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 40.34it/s]
+1900-00-00 12:50:00,082 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0217, loss_item: 0.010955, metric_item: {'mae_val': 0.0006811312682926655, 'mape_val': 1.0280796661376954}, time: 2.4793s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:10<00:00, 27.53it/s]
+1900-00-00 12:50:10,982 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0218, loss_item: 0.019930, metric_item: {'mae_train': 0.0008998455094794433, 'mape_train': 1.3372045272827149}, only_train_time: 10.8987s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 36.32it/s]
+1900-00-00 12:50:13,736 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0218, loss_item: 0.010888, metric_item: {'mae_val': 0.0006789196573197842, 'mape_val': 1.0248497550964355}, time: 2.7542s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 27.03it/s]
+1900-00-00 12:50:24,836 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0219, loss_item: 0.019817, metric_item: {'mae_train': 0.0008968544845779737, 'mape_train': 1.3288861661275229}, only_train_time: 11.0999s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.19it/s]
+1900-00-00 12:50:27,944 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0219, loss_item: 0.010823, metric_item: {'mae_val': 0.0006767285630106926, 'mape_val': 1.0216506774902343}, time: 3.1075s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:13<00:00, 22.86it/s]
+1900-00-00 12:50:41,069 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0220, loss_item: 0.019709, metric_item: {'mae_train': 0.0008937195330858231, 'mape_train': 1.3260528765360515}, only_train_time: 13.1246s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 30.55it/s]
+1900-00-00 12:50:44,343 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0220, loss_item: 0.010758, metric_item: {'mae_val': 0.000674557539075613, 'mape_val': 1.0184789726257324}, time: 3.2743s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.36it/s]
+1900-00-00 12:50:57,191 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0221, loss_item: 0.019517, metric_item: {'mae_train': 0.0008899141897757848, 'mape_train': 1.3200463406880696}, only_train_time: 12.8471s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.71it/s]
+1900-00-00 12:51:00,249 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0221, loss_item: 0.010694, metric_item: {'mae_val': 0.0006724055953323841, 'mape_val': 1.0153356735229493}, time: 3.0576s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.98it/s]
+1900-00-00 12:51:12,761 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0222, loss_item: 0.019437, metric_item: {'mae_train': 0.0008873473107814789, 'mape_train': 1.3128731458028158}, only_train_time: 12.5114s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.17it/s]
+1900-00-00 12:51:15,870 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0222, loss_item: 0.010631, metric_item: {'mae_val': 0.0006702724061906337, 'mape_val': 1.0122216339111327}, time: 3.1090s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.96it/s]
+1900-00-00 12:51:27,892 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0223, loss_item: 0.019350, metric_item: {'mae_train': 0.00088483931645751, 'mape_train': 1.3076089380900064}, only_train_time: 12.0217s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.11it/s]
+1900-00-00 12:51:31,007 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0223, loss_item: 0.010569, metric_item: {'mae_val': 0.0006681583851575852, 'mape_val': 1.0091367820739745}, time: 3.1147s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:13<00:00, 22.93it/s]
+1900-00-00 12:51:44,089 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0224, loss_item: 0.019186, metric_item: {'mae_train': 0.0008806463085114955, 'mape_train': 1.3048470797220866}, only_train_time: 13.0819s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.94it/s]
+1900-00-00 12:51:47,126 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0224, loss_item: 0.010507, metric_item: {'mae_val': 0.0006660632140934467, 'mape_val': 1.0060805152893066}, time: 3.0360s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.47it/s]
+1900-00-00 12:51:59,911 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0225, loss_item: 0.019175, metric_item: {'mae_train': 0.0008789457363386949, 'mape_train': 1.3004237408955892}, only_train_time: 12.7847s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 33.46it/s]
+1900-00-00 12:52:02,900 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0225, loss_item: 0.010446, metric_item: {'mae_val': 0.0006639855600893498, 'mape_val': 1.003047265625}, time: 2.9894s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.31it/s]
+1900-00-00 12:52:15,244 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0226, loss_item: 0.019027, metric_item: {'mae_train': 0.0008755711336930592, 'mape_train': 1.2949830190022786}, only_train_time: 12.3435s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.62it/s]
+1900-00-00 12:52:18,311 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0226, loss_item: 0.010386, metric_item: {'mae_val': 0.0006619254827499389, 'mape_val': 1.0000395553588868}, time: 3.0662s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:13<00:00, 22.63it/s]
+1900-00-00 12:52:31,568 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0227, loss_item: 0.018874, metric_item: {'mae_train': 0.0008721744013329347, 'mape_train': 1.297712089284261}, only_train_time: 13.2563s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 30.76it/s]
+1900-00-00 12:52:34,819 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0227, loss_item: 0.010326, metric_item: {'mae_val': 0.0006598842442035675, 'mape_val': 0.9970583656311035}, time: 3.2510s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 25.51it/s]
+1900-00-00 12:52:46,584 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0228, loss_item: 0.018806, metric_item: {'mae_train': 0.000869796400765578, 'mape_train': 1.2906292747497559}, only_train_time: 11.7647s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.16it/s]
+1900-00-00 12:52:49,695 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0228, loss_item: 0.010267, metric_item: {'mae_val': 0.0006578606836497784, 'mape_val': 0.9941019676208496}, time: 3.1106s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.57it/s]
+1900-00-00 12:53:02,426 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0229, loss_item: 0.018677, metric_item: {'mae_train': 0.0008666650156180064, 'mape_train': 1.2885585596720377}, only_train_time: 12.7307s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 31.78it/s]
+1900-00-00 12:53:05,575 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0229, loss_item: 0.010209, metric_item: {'mae_val': 0.0006558530151844024, 'mape_val': 0.9911658332824707}, time: 3.1479s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.59it/s]
+1900-00-00 12:53:18,294 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0230, loss_item: 0.018583, metric_item: {'mae_train': 0.0008636529751121998, 'mape_train': 1.2821105056762696}, only_train_time: 12.7185s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 31.27it/s]
+1900-00-00 12:53:21,492 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0230, loss_item: 0.010151, metric_item: {'mae_val': 0.0006538619942963123, 'mape_val': 0.9882541320800782}, time: 3.1982s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.59it/s]
+1900-00-00 12:53:33,693 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0231, loss_item: 0.018487, metric_item: {'mae_train': 0.0008611280930538972, 'mape_train': 1.2798135231018066}, only_train_time: 12.2007s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 31.72it/s]
+1900-00-00 12:53:36,847 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0231, loss_item: 0.010094, metric_item: {'mae_val': 0.00065188799649477, 'mape_val': 0.9853682670593261}, time: 3.1529s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.25it/s]
+1900-00-00 12:53:49,218 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0232, loss_item: 0.018427, metric_item: {'mae_train': 0.0008589872322976589, 'mape_train': 1.2762859179178874}, only_train_time: 12.3709s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.38it/s]
+1900-00-00 12:53:52,307 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0232, loss_item: 0.010038, metric_item: {'mae_val': 0.0006499289080500603, 'mape_val': 0.9825036018371582}, time: 3.0892s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.97it/s]
+1900-00-00 12:54:04,828 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0233, loss_item: 0.018239, metric_item: {'mae_train': 0.0008546902529895305, 'mape_train': 1.2660926391601564}, only_train_time: 12.5198s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 31.91it/s]
+1900-00-00 12:54:07,963 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0233, loss_item: 0.009982, metric_item: {'mae_val': 0.0006479861110448837, 'mape_val': 0.9796630279541015}, time: 3.1349s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.46it/s]
+1900-00-00 12:54:20,230 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0234, loss_item: 0.018203, metric_item: {'mae_train': 0.0008530500205854574, 'mape_train': 1.2670082598368326}, only_train_time: 12.2672s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.33it/s]
+1900-00-00 12:54:23,325 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0234, loss_item: 0.009927, metric_item: {'mae_val': 0.0006460591200739145, 'mape_val': 0.9768435371398926}, time: 3.0937s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.21it/s]
+1900-00-00 12:54:36,253 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0235, loss_item: 0.018114, metric_item: {'mae_train': 0.0008503252014517784, 'mape_train': 1.26549083887736}, only_train_time: 12.9282s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 31.76it/s]
+1900-00-00 12:54:39,403 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0235, loss_item: 0.009872, metric_item: {'mae_val': 0.0006441463459283113, 'mape_val': 0.9740437759399414}, time: 3.1496s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.06it/s]
+1900-00-00 12:54:51,873 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0236, loss_item: 0.017990, metric_item: {'mae_train': 0.0008469773332277934, 'mape_train': 1.2532359196980793}, only_train_time: 12.4700s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.27it/s]
+1900-00-00 12:54:54,973 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0236, loss_item: 0.009818, metric_item: {'mae_val': 0.0006422481946647167, 'mape_val': 0.9712666847229003}, time: 3.0993s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.19it/s]
+1900-00-00 12:55:07,376 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0237, loss_item: 0.017883, metric_item: {'mae_train': 0.0008442365874846776, 'mape_train': 1.2509571197509766}, only_train_time: 12.4024s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 31.91it/s]
+1900-00-00 12:55:10,510 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0237, loss_item: 0.009765, metric_item: {'mae_val': 0.0006403654806315899, 'mape_val': 0.9685133659362793}, time: 3.1343s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 25.06it/s]
+1900-00-00 12:55:22,484 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0238, loss_item: 0.017778, metric_item: {'mae_train': 0.0008414313770830631, 'mape_train': 1.2517433316548665}, only_train_time: 11.9735s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.32it/s]
+1900-00-00 12:55:25,579 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0238, loss_item: 0.009712, metric_item: {'mae_val': 0.0006384977787733078, 'mape_val': 0.9657827728271484}, time: 3.0948s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 23.89it/s]
+1900-00-00 12:55:38,137 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0239, loss_item: 0.017659, metric_item: {'mae_train': 0.0008388835261265437, 'mape_train': 1.247664459991455}, only_train_time: 12.5572s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 31.08it/s]
+1900-00-00 12:55:41,356 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0239, loss_item: 0.009660, metric_item: {'mae_val': 0.0006366444658488036, 'mape_val': 0.9630703903198242}, time: 3.2185s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.15it/s]
+1900-00-00 12:55:53,782 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0240, loss_item: 0.017586, metric_item: {'mae_train': 0.0008366039514541626, 'mape_train': 1.2397911532084147}, only_train_time: 12.4255s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.60it/s]
+1900-00-00 12:55:56,850 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0240, loss_item: 0.009608, metric_item: {'mae_val': 0.0006348042566329241, 'mape_val': 0.9603789451599121}, time: 3.0678s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.21it/s]
+1900-00-00 12:56:09,241 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0241, loss_item: 0.017484, metric_item: {'mae_train': 0.000833636553088824, 'mape_train': 1.2426438260396322}, only_train_time: 12.3915s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 31.15it/s]
+1900-00-00 12:56:12,452 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0241, loss_item: 0.009557, metric_item: {'mae_val': 0.0006329794988036156, 'mape_val': 0.9577119049072266}, time: 3.2103s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 25.42it/s]
+1900-00-00 12:56:24,256 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0242, loss_item: 0.017371, metric_item: {'mae_train': 0.0008307850537200769, 'mape_train': 1.2335332005818684}, only_train_time: 11.8033s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 36.90it/s]
+1900-00-00 12:56:26,967 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0242, loss_item: 0.009506, metric_item: {'mae_val': 0.000631169306486845, 'mape_val': 0.9550650321960449}, time: 2.7108s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:10<00:00, 28.00it/s]
+1900-00-00 12:56:37,683 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0243, loss_item: 0.017300, metric_item: {'mae_train': 0.0008288964760800203, 'mape_train': 1.2293168195088704}, only_train_time: 10.7163s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 38.88it/s]
+1900-00-00 12:56:40,257 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0243, loss_item: 0.009456, metric_item: {'mae_val': 0.000629373548552394, 'mape_val': 0.9524397735595703}, time: 2.5729s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:11<00:00, 25.36it/s]
+1900-00-00 12:56:52,088 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0244, loss_item: 0.017233, metric_item: {'mae_train': 0.0008261404352883498, 'mape_train': 1.2264079467773437}, only_train_time: 11.8312s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.09it/s]
+1900-00-00 12:56:55,205 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0244, loss_item: 0.009407, metric_item: {'mae_val': 0.0006275909192860127, 'mape_val': 0.9498339958190918}, time: 3.1164s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.77it/s]
+1900-00-00 12:57:07,320 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0245, loss_item: 0.017149, metric_item: {'mae_train': 0.0008232839005688827, 'mape_train': 1.2231197817484538}, only_train_time: 12.1143s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 33.42it/s]
+1900-00-00 12:57:10,312 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0245, loss_item: 0.009358, metric_item: {'mae_val': 0.0006258223854005337, 'mape_val': 0.9472491691589355}, time: 2.9924s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.13it/s]
+1900-00-00 12:57:22,748 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0246, loss_item: 0.017076, metric_item: {'mae_train': 0.0008211051205794016, 'mape_train': 1.2200598002115886}, only_train_time: 12.4354s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 31.53it/s]
+1900-00-00 12:57:25,921 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0246, loss_item: 0.009309, metric_item: {'mae_val': 0.0006240674067288638, 'mape_val': 0.9446864540100097}, time: 3.1720s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.29it/s]
+1900-00-00 12:57:38,276 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0247, loss_item: 0.016938, metric_item: {'mae_train': 0.0008180672245721022, 'mape_train': 1.2133863960266114}, only_train_time: 12.3550s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.18it/s]
+1900-00-00 12:57:41,385 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0247, loss_item: 0.009261, metric_item: {'mae_val': 0.0006223253700882197, 'mape_val': 0.9421439483642579}, time: 3.1082s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:12<00:00, 24.84it/s]
+1900-00-00 12:57:53,465 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0248, loss_item: 0.016877, metric_item: {'mae_train': 0.0008160786271095276, 'mape_train': 1.2119936213175455}, only_train_time: 12.0799s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 41.44it/s]
+1900-00-00 12:57:55,879 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0248, loss_item: 0.009214, metric_item: {'mae_val': 0.0006205958891659975, 'mape_val': 0.9396190887451172}, time: 2.4136s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:10<00:00, 28.62it/s]
+1900-00-00 12:58:06,364 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0249, loss_item: 0.016794, metric_item: {'mae_train': 0.0008136469922959804, 'mape_train': 1.2152624351501464}, only_train_time: 10.4850s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 38.03it/s]
+1900-00-00 12:58:08,995 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0249, loss_item: 0.009166, metric_item: {'mae_val': 0.0006188794955611229, 'mape_val': 0.9371114234924316}, time: 2.6302s
+Processing train_loader batches: 100%|████████████████████████████████████████████████| 300/300 [00:10<00:00, 28.13it/s]
+1900-00-00 12:58:19,660 - INFO - [train]task_type: [node_regression], sampling_type: [4], epoch: 0250, loss_item: 0.016637, metric_item: {'mae_train': 0.0008100144945085049, 'mape_train': 1.20816920115153}, only_train_time: 10.6651s
+Processing val_loader batches: 100%|██████████████████████████████████████████████████| 100/100 [00:02<00:00, 36.01it/s]
+1900-00-00 12:58:22,438 - INFO - [validate]task_type: [node_regression], sampling_type: [4], epoch: 0250, loss_item: 0.009120, metric_item: {'mae_val': 0.0006171756599098444, 'mape_val': 0.9346225891113281}, time: 2.7775s
+Processing test_loader batches: 100%|█████████████████████████████████████████████████| 100/100 [00:03<00:00, 30.92it/s]
+1900-00-00 12:58:25,673 - INFO - [test]task_type: [node_regression], sampling_type: [4], loss_item: 0.009274, metric_item: {'mae_test': 0.000620443869009614, 'mape_test': 0.9122157241821289}, time: 3.2343s

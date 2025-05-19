@@ -1,0 +1,48 @@
+QM9:
+  seed: 42
+  epochs: 750
+  lr: 0.00005
+  weight_decay: 5e-4
+  n_layers: 2
+  k_list:
+    - 3
+    - 2
+  mlp_dims:
+    - [33, 19]
+  out_dim: 19
+  sparse: true
+  batch_size: 256
+  device_id: 0
+  target_index: 0
+  clip_max: 1000
+  start_ratio: 0.05
+  scheduler_type: step
+  strategy_type: simple_curriculum
+  sampling_flag: true  # true, false
+  sampling_type: 1  # 1, 2
+  task_type: graph_regression
+  log_file: QM9-amd.log
+gen-cls:
+  seed: 42
+  epochs: 200
+  lr: 0.02
+  weight_decay: 5e-4
+  n_layers: 2
+  k_list:
+    - 4
+    - 3
+  mlp_dims:
+    - [40, 10]
+  out_dim: 10
+  sparse: true
+  batch_size: 200
+  device_id: 2
+  target_index: -1
+  clip_max: 1000
+  start_ratio: 0.05
+  scheduler_type: step
+  strategy_type: simple_curriculum
+  sampling_flag: true  # true, false
+  sampling_type: 3  # 3, 4
+  task_type: node_classification
+  log_file: gen-cls-amd.log

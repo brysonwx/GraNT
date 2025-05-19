@@ -1,0 +1,160 @@
+QM9:
+  seed: 42
+  epochs: 750
+  lr: 0.00005
+  weight_decay: 5e-4
+  n_layers: 2
+  k_list:
+    - 3
+    - 2
+  mlp_dims:
+    - [33, 19]
+  out_dim: 19
+  sparse: true
+  batch_size: 256
+  device_id: 0
+  target_index: 0
+  clip_max: 1000
+  start_ratio: 0.05
+  scheduler_type: step
+  strategy_type: simple_curriculum
+  sampling_flag: true # true, false
+  sampling_type: 1 # 1, 2
+  task_type: graph_regression
+  log_file: QM9.log
+ZINC:
+  seed: 42
+  epochs: 1000
+  lr: 0.0004
+  weight_decay: 5e-4
+  n_layers: 4
+  k_list:
+    - 5
+    - 4
+    - 2
+    - 2
+  mlp_dims:
+    - [5, 4]
+    - [4, 2]
+    - [2, 2]
+  out_dim: 1
+  sparse: true
+  batch_size: 256
+  device_id: 0
+  target_index: -1
+  clip_max: 1000
+  start_ratio: 0.05
+  scheduler_type: step
+  strategy_type: simple_curriculum
+  sampling_flag: true  # true, false
+  sampling_type: 1  # 1, 2
+  task_type: graph_regression
+  log_file: ZINC.log
+gen-reg:
+  seed: 42
+  epochs: 250
+  lr: 0.0002
+  weight_decay: 5e-4
+  n_layers: 2
+  k_list:
+    - 3
+    - 2
+  mlp_dims:
+    - [40, 10]
+  out_dim: 10
+  sparse: true
+  batch_size: 100
+  device_id: 0
+  target_index: -1
+  clip_max: 1000
+  start_ratio: 0.05
+  scheduler_type: step
+  strategy_type: simple_curriculum
+  sampling_flag: true  # true, false
+  sampling_type: 3  # 3, 4
+  task_type: node_regression
+  log_file: gen-reg.log
+gen-cls:
+  seed: 42
+  epochs: 500
+  lr: 0.0002
+  weight_decay: 5e-4
+  n_layers: 2
+  k_list:
+    - 4
+    - 3
+  mlp_dims:
+    - [40, 10]
+  out_dim: 10
+  sparse: true
+  batch_size: 200
+  device_id: 0
+  target_index: -1
+  clip_max: 1000
+  start_ratio: 0.05
+  scheduler_type: step
+  strategy_type: simple_curriculum
+  sampling_flag: true  # true, false
+  sampling_type: 3  # 3, 4
+  task_type: node_classification
+  log_file: gen-cls.log
+ogbg-molhiv:
+  seed: 3407
+  epochs: 600
+  lr: 0.01
+  weight_decay: 5e-4
+  n_layers: 4
+  k_list:
+    - 4
+    - 3
+    - 2
+    - 2
+  mlp_dims:
+    - [36, 27]
+    - [27, 18]
+    - [18, 18]
+  out_dim: 9
+  sparse: true
+  batch_size: 500
+  device_id: 0
+  target_index: -1
+  clip_max: 1000
+  start_ratio: 0.1
+  scheduler_type: step
+  strategy_type: simple_curriculum
+  sampling_flag: true  # true, false
+  sampling_type: 1  # 1, 2
+  scheduler_lr_threshold: 0.007
+  task_type: graph_classification
+  log_file: ogbg-molhiv.log
+ogbg-molpcba:
+  seed: 3407
+  epochs: 800
+  lr: 0.015
+  weight_decay: 5e-4
+  n_layers: 5
+  k_list:
+    - 5
+    - 4
+    - 3
+    - 2
+    - 2
+  mlp_dims:
+    - [45, 36]
+    - [36, 27]
+    - [27, 18]
+    - [18, 18]
+  out_dim: 9
+  sparse: true
+  batch_size: 128
+  device_id: 0
+  target_index: -1
+  clip_max: 1000
+  start_ratio: 0.1
+  scheduler_type: step
+  strategy_type: simple_curriculum
+  sampling_flag: true  # true, false
+  sampling_type: 1  # 1, 2
+  scheduler_lr_threshold: 0.01
+  task_type: graph_classification
+  log_file: ogbg-molpcba.log
