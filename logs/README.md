@@ -1,1 +1,1 @@
-### The log files is from once wandb running log
+### The log files are from once wandb running log
