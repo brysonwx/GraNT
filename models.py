@@ -74,6 +74,7 @@ class GrantGCN(nn.Module):
         super(GrantGCN, self).__init__()
         self.convs = nn.ModuleList()
         self.batch_norms = nn.ModuleList()
+        self.dropout = torch.nn.Dropout(p=0.27)
         # ogbg-molhiv
         self.atom_enc_flag = atom_enc_flag
         if self.atom_enc_flag:
@@ -134,6 +135,8 @@ class GrantGCN(nn.Module):
                     linear_out = self.batch_norms[cnt - 1](linear_out)
             elif isinstance(conv, nn.ReLU):
                 x = conv(linear_out)
+                if cnt == 1:
+                    x = self.dropout(x)
 
         if self.n_layers == 1:
             in_x = x
