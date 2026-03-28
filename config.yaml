@@ -99,7 +99,7 @@ gen-cls:
   task_type: node_classification
   log_file: gen-cls.log
 ogbg-molhiv:
-  seed: 3407
+  seed: 42
   epochs: 600
   lr: 0.01
   weight_decay: 5e-4
@@ -124,7 +124,7 @@ ogbg-molhiv:
   strategy_type: simple_curriculum
   sampling_flag: true  # true, false
   sampling_type: 1  # 1, 2
-  scheduler_lr_threshold: 0.007
+  scheduler_lr_threshold: 0.005
   task_type: graph_classification
   log_file: ogbg-molhiv.log
 ogbg-molpcba:

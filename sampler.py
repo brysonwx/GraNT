@@ -52,15 +52,11 @@ def grant_sampler(model, data_loader, batch_size, k_list, transform, target_inde
 
             if sampling_type == 1:  # graph regression / classification
                 # 1. sample some [batches] of graphs according to batch abs_diff
-                if task_type == 'graph_classification':
-                    output = F.softmax(output, dim=0)
                 sub_diffs = torch.abs(target_y - output).squeeze()
                 diffs.append(torch.mean(sub_diffs))
             elif sampling_type == 2:  # graph regression / classification
                 # 2. sample some [graphs] in each batch according to single graph abs_diff
                 one_batch_diffs = []
-                if task_type == 'graph_classification':
-                    output = F.softmax(output, dim=0)
 
                 if rows_filtered is not None:  # i.e., for ogbg-molpcba
                     for i in range(num_graphs):
